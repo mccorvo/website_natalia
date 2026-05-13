@@ -1,0 +1,183 @@
+name: Weekly Trend Article Publisher
+
+on:
+  schedule:
+    # GitHub schedules are UTC. The publisher writes only during the
+    # Tuesday 09:00 Europe/Dublin hour, so these cover IST and GMT.
+    - cron: "30 8 * * 2"
+    - cron: "30 9 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-trend-article-publisher-main
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Configure git author
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Start from latest origin/main
+        run: |
+          git fetch origin main --prune
+          git checkout -B codex/weekly-trend-article-publisher-run origin/main
+
+      - name: Publish weekly trend article
+        id: publish
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node tools/publish_weekly_trend_article.mjs --publish
+
+      - name: Stop if there is nothing to publish
+        id: diff
+        run: |
+          if git diff --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No weekly trend article was published by this run."
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Verify weekly publisher diff scope
+        if: steps.diff.outputs.has_changes == 'true'
+        env:
+          PUBLISHED_SLUG: ${{ steps.publish.outputs.published_slug }}
+        run: |
+          node - <<'NODE'
+          const { execFileSync } = require("node:child_process");
+          const slug = process.env.PUBLISHED_SLUG;
+          if (!slug) {
+            console.error("PUBLISHED_SLUG is missing.");
+            process.exit(1);
+          }
+          const tracked = execFileSync("git", ["diff", "--name-only"], { encoding: "utf8" })
+            .trim()
+            .split("\n")
+            .filter(Boolean);
+          const untracked = execFileSync("git", ["ls-files", "--others", "--exclude-standard"], { encoding: "utf8" })
+            .trim()
+            .split("\n")
+            .filter(Boolean);
+          const changed = [...new Set([...tracked, ...untracked])];
+          const allowed = new Set([
+            `articles/${slug}.html`,
+            ...changed.filter((file) => file.startsWith(`assets/images/blog/${slug}-cover.`)),
+            "blog.html",
+            "sitemap.xml",
+            "data/weekly-trend-publishing/state.json",
+            `data/weekly-trend-publishing/research/${slug}.json`,
+          ]);
+          const unexpected = changed.filter((file) => !allowed.has(file));
+          if (unexpected.length > 0) {
+            console.error(`Unexpected files changed:\n${unexpected.join("\n")}`);
+            process.exit(1);
+          }
+          for (const file of allowed) {
+            if (!changed.includes(file)) {
+              console.error(`Expected changed file is missing from diff: ${file}`);
+              process.exit(1);
+            }
+          }
+          const coverFiles = changed.filter((file) => file.startsWith(`assets/images/blog/${slug}-cover.`));
+          if (coverFiles.length !== 1) {
+            console.error(`Expected exactly one SEO-named cover image for ${slug}; found ${coverFiles.length}.`);
+            process.exit(1);
+          }
+          console.log(`Weekly publisher diff is limited to ${changed.join(", ")}.`);
+          NODE
+
+      - name: Run typecheck
+        if: steps.diff.outputs.has_changes == 'true'
+        run: npm run typecheck
+
+      - name: Run lint
+        if: steps.diff.outputs.has_changes == 'true'
+        run: npm run lint
+
+      - name: Run build
+        if: steps.diff.outputs.has_changes == 'true'
+        run: npm run build
+
+      - name: Commit weekly article
+        if: steps.diff.outputs.has_changes == 'true'
+        env:
+          PUBLISHED_SLUG: ${{ steps.publish.outputs.published_slug }}
+        run: |
+          git add "articles/${PUBLISHED_SLUG}.html" "assets/images/blog/${PUBLISHED_SLUG}-cover."* blog.html sitemap.xml data/weekly-trend-publishing/state.json "data/weekly-trend-publishing/research/${PUBLISHED_SLUG}.json"
+          git commit -m "Publish weekly trend article: ${PUBLISHED_SLUG}"
+
+      - name: Run prepublish check
+        if: steps.diff.outputs.has_changes == 'true'
+        run: npm run prepublish-check
+
+      - name: Push to main
+        if: steps.diff.outputs.has_changes == 'true'
+        run: git push origin HEAD:main
+
+      - name: Verify live weekly article and blog
+        if: steps.diff.outputs.has_changes == 'true'
+        env:
+          PUBLISHED_SLUG: ${{ steps.publish.outputs.published_slug }}
+          ARTICLE_URL: ${{ steps.publish.outputs.article_url }}
+        run: |
+          node - <<'NODE'
+          const slug = process.env.PUBLISHED_SLUG;
+          const articleUrl = process.env.ARTICLE_URL;
+          const blogUrl = "https://nataliacorvo.com/blog.html";
+          const italianMarker = /(?:lang=["']it["']|data-set-lang=["']it["']|lang-it|\/it(?:\/|["'#?])|Italiano|italiano)/u;
+
+          async function getText(url) {
+            try {
+              const response = await fetch(url, { redirect: "follow" });
+              if (!response.ok) return "";
+              return await response.text();
+            } catch {
+              return "";
+            }
+          }
+
+          for (let attempt = 1; attempt <= 30; attempt += 1) {
+            const [articleHtml, blogHtml] = await Promise.all([getText(articleUrl), getText(blogUrl)]);
+            const articleReady =
+              articleHtml.includes(`https://nataliacorvo.com/articles/${slug}`) &&
+              /Nota bezpieczeństwa/u.test(articleHtml) &&
+              /Safety note/u.test(articleHtml) &&
+              /lang-en-content/u.test(articleHtml) &&
+              articleHtml.includes("source-box") &&
+              articleHtml.includes(`assets/images/blog/${slug}-cover.`);
+            const blogReady = (blogHtml.includes(`articles/${slug}.html`) || blogHtml.includes(`articles/${slug}`)) &&
+              /lang-en-content/u.test(blogHtml);
+            const noItalian = !italianMarker.test(`${articleHtml}\n${blogHtml}`);
+
+            if (articleReady && blogReady && noItalian) {
+              console.log(`Live verification passed for ${articleUrl} and ${blogUrl}.`);
+              process.exit(0);
+            }
+            console.log(`Live verification not ready yet, attempt ${attempt}/30.`);
+            await new Promise((resolve) => setTimeout(resolve, 20000));
+          }
+          console.error(`Live verification failed for ${articleUrl} or ${blogUrl}.`);
+          process.exit(1);
+          NODE

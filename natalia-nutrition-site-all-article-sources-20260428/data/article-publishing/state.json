@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "last_published_order": 0,
+  "last_published_slug": null,
+  "last_published_local_date": null,
+  "published": [],
+  "source_roots": [
+    "data/article-publishing/nataliacorvo_codex_new_articles_sources",
+    "data/article-publishing/nataliacorvo_codex_articles_25_34",
+    "data/article-publishing/nataliacorvo_codex_articles_35_44_deep_v2"
+  ],
+  "queue_total": 44
+}

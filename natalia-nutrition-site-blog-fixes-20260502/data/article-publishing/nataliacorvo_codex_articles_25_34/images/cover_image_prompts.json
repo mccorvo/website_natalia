@@ -1,0 +1,102 @@
+[
+  {
+    "order": 25,
+    "slug": "dieta-sibo-co-jesc",
+    "recommended_file": "/images/blog/dieta-sibo-co-jesc-cover.webp",
+    "alt_pl": "Prosty lekkostrawny posiłek z ryżem, cukinią i źródłem białka jako ilustracja diety przy SIBO",
+    "alt_en": "Simple low-fermentation meal with rice, courgette and protein illustrating a SIBO diet",
+    "ai_prompt": "Photorealistic editorial food photography, 16:9 horizontal, clean Polish kitchen table, simple low-fermentation meal with rice, baked chicken or tofu, cooked courgette and carrots, herbal tea, soft natural daylight, calm clinical nutrition mood, no text, no labels, no people.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottles, no medical devices, no people unless explicitly needed",
+    "stock_fallback_url": "https://www.pexels.com/photo/dinner-dish-with-rice-chicken-and-vegetables-6066052/"
+  },
+  {
+    "order": 26,
+    "slug": "dieta-helicobacter-pylori-zapalenie-zoladka",
+    "recommended_file": "/images/blog/dieta-helicobacter-pylori-zapalenie-zoladka-cover.webp",
+    "alt_pl": "Łagodny posiłek z owsianką, bananem i zupą warzywną jako ilustracja diety przy H pylori",
+    "alt_en": "Gentle meal with oats, banana and vegetable soup illustrating H pylori and gastritis nutrition",
+    "ai_prompt": "Photorealistic editorial food photography, 16:9 horizontal, calm bright kitchen, gentle stomach-friendly foods: bowl of oatmeal, banana slices, mild vegetable soup, chamomile tea, soft natural light, neutral colors, no text, no labels, no people.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottles, no medical devices, no people unless explicitly needed",
+    "stock_fallback_url": "https://www.pexels.com/photo/delicious-banana-cinnamon-oatmeal-breakfast-bowl-28792769/"
+  },
+  {
+    "order": 27,
+    "slug": "dieta-lekkostrawna-kiedy-ma-sens",
+    "recommended_file": "/images/blog/dieta-lekkostrawna-kiedy-ma-sens-cover.webp",
+    "alt_pl": "Talerz lekkostrawnego posiłku z gotowanymi ziemniakami, marchewką i delikatną rybą",
+    "alt_en": "Plate of an easy-to-digest meal with boiled potatoes, carrot and mild fish",
+    "ai_prompt": "Photorealistic editorial food photography, 16:9 horizontal, light digestible Polish meal: boiled potatoes, steamed carrots, baked white fish, mild vegetable soup, clean white plate, soft daylight, no text, no labels, no people.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottles, no medical devices, no people unless explicitly needed",
+    "stock_fallback_url": "https://www.pexels.com/photo/healthy-meal-with-carrots-brussels-and-meat-4929721/"
+  },
+  {
+    "order": 28,
+    "slug": "dieta-przy-biegunce-nawodnienie",
+    "recommended_file": "/images/blog/dieta-przy-biegunce-nawodnienie-cover.webp",
+    "alt_pl": "Woda, doustny płyn nawadniający, ryż i banan jako ilustracja diety przy biegunce",
+    "alt_en": "Water, oral rehydration drink, rice and banana illustrating diet during diarrhoea",
+    "ai_prompt": "Photorealistic editorial food photography, 16:9 horizontal, minimal clean table with glass of water, oral rehydration drink in clear glass, small bowl of rice, banana, plain toast, soft natural light, no text, no labels, no people, no medicine packaging.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottles, no medical devices, no people unless explicitly needed",
+    "stock_fallback_url": "https://www.pexels.com/photo/delicious-banana-oatmeal-breakfast-bowl-35578518/"
+  },
+  {
+    "order": 29,
+    "slug": "dieta-po-antybiotyku-jelita",
+    "recommended_file": "/images/blog/dieta-po-antybiotyku-jelita-cover.webp",
+    "alt_pl": "Fermentowane produkty, kefir, owies i warzywa jako ilustracja diety wspierającej jelita po antybiotyku",
+    "alt_en": "Fermented foods, kefir, oats and vegetables illustrating gut-supportive eating after antibiotics",
+    "ai_prompt": "Photorealistic editorial food photography, 16:9 horizontal, natural Polish kitchen table with kefir, plain yoghurt, sauerkraut, oats, berries, wholegrain bread and vegetables, warm daylight, clean wellness editorial style, no text, no labels, no people, no supplement bottles.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottles, no medical devices, no people unless explicitly needed",
+    "stock_fallback_url": "https://www.pexels.com/search/fermented%20food%20kefir/"
+  },
+  {
+    "order": 30,
+    "slug": "dieta-przy-tradziku",
+    "recommended_file": "/images/blog/dieta-przy-tradziku-cover.webp",
+    "alt_pl": "Posiłek o niskim ładunku glikemicznym z owsianką, owocami jagodowymi, orzechami i jogurtem jako ilustracja diety przy trądziku",
+    "alt_en": "Low glycaemic meal with oats, berries, nuts and yoghurt illustrating acne nutrition",
+    "ai_prompt": "Photorealistic editorial food photography, 16:9 horizontal, low glycaemic skin-friendly meal flat lay: oats, berries, nuts, leafy greens, salmon or tofu bowl, natural daylight, clean modern style, no text, no labels, no faces, no people.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottles, no medical devices, no people unless explicitly needed",
+    "stock_fallback_url": "https://www.pexels.com/photo/healthy-breakfast-in-bowl-7656614/"
+  },
+  {
+    "order": 31,
+    "slug": "dieta-na-odpornosc-bez-mitow",
+    "recommended_file": "/images/blog/dieta-na-odpornosc-bez-mitow-cover.webp",
+    "alt_pl": "Kolorowy talerz z warzywami, rybą, kefirem i produktami pełnoziarnistymi jako ilustracja diety wspierającej odporność",
+    "alt_en": "Colourful plate with vegetables, fish, kefir and whole grains illustrating immune-supportive nutrition",
+    "ai_prompt": "Photorealistic editorial food photography, 16:9 horizontal, colourful immune-supportive meal: vegetables, citrus fruit, legumes, oily fish, kefir, wholegrain bread, nuts, natural daylight, clean healthy editorial style, no text, no labels, no pills, no people.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottles, no medical devices, no people unless explicitly needed",
+    "stock_fallback_url": "https://www.pexels.com/photo/food-ingredients-on-the-table-4051649/"
+  },
+  {
+    "order": 32,
+    "slug": "dieta-nadczynnosc-tarczycy",
+    "recommended_file": "/images/blog/dieta-nadczynnosc-tarczycy-cover.webp",
+    "alt_pl": "Odżywczy posiłek z jajkami, jogurtem, orzechami i owocami jako ilustracja diety przy nadczynności tarczycy",
+    "alt_en": "Nourishing meal with eggs, yoghurt, nuts and fruit illustrating hyperthyroidism nutrition",
+    "ai_prompt": "Photorealistic editorial food photography, 16:9 horizontal, nourishing high-energy small meals: eggs, yoghurt bowl, nuts, avocado, wholegrain toast, fruit, soft daylight, clean table, no text, no labels, no people, no supplement bottles.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottles, no medical devices, no people unless explicitly needed",
+    "stock_fallback_url": "https://www.pexels.com/photo/healthy-breakfast-flat-lay-with-fruits-and-toast-34305253/"
+  },
+  {
+    "order": 33,
+    "slug": "dieta-na-plodnosc-przygotowanie-do-ciazy",
+    "recommended_file": "/images/blog/dieta-na-plodnosc-przygotowanie-do-ciazy-cover.webp",
+    "alt_pl": "Talerz przedkoncepcyjny z zielonymi warzywami, jajkami, strączkami i produktami pełnoziarnistymi",
+    "alt_en": "Preconception meal with leafy greens, eggs, pulses and whole grains",
+    "ai_prompt": "Photorealistic editorial food photography, 16:9 horizontal, preconception nutrition flat lay: leafy greens, lentils, eggs, wholegrain bread, citrus fruit, nuts, olive oil, calm bright kitchen, no text, no labels, no pregnancy test, no people.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottles, no medical devices, no people unless explicitly needed",
+    "stock_fallback_url": "https://www.pexels.com/photo/egg-and-vegetable-dish-2067473/"
+  },
+  {
+    "order": 34,
+    "slug": "zdrowe-drugie-sniadanie-do-szkoly",
+    "recommended_file": "/images/blog/zdrowe-drugie-sniadanie-do-szkoly-cover.webp",
+    "alt_pl": "Kolorowy lunchbox szkolny z pełnoziarnistą kanapką, warzywami, owocem, jogurtem i wodą",
+    "alt_en": "Colourful school lunchbox with wholegrain sandwich, vegetables, fruit, yoghurt and water",
+    "ai_prompt": "Photorealistic editorial food photography, 16:9 horizontal, healthy Polish school lunchbox on kitchen table: wholegrain sandwich, cucumber and carrot sticks, apple slices, berries, plain yoghurt, water bottle, bright natural daylight, no text, no logos, no children, no faces.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottles, no medical devices, no people unless explicitly needed",
+    "stock_fallback_url": "https://www.pexels.com/photo/healthy-lunchbox-with-fruits-and-vege-5852329/"
+  }
+]

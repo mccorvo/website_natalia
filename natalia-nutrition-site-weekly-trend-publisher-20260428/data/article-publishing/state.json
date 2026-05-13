@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "last_published_order": 1,
+  "last_published_slug": "dieta-hashimoto-niedoczynnosc-tarczycy",
+  "last_published_local_date": "2026-04-29",
+  "published": [
+    {
+      "order": 1,
+      "slug": "dieta-hashimoto-niedoczynnosc-tarczycy",
+      "source_root": "data/article-publishing/nataliacorvo_codex_new_articles_sources",
+      "source_file": "articles/01_dieta-hashimoto-niedoczynnosc-tarczycy.md",
+      "cover_image": "dieta-hashimoto-niedoczynnosc-tarczycy-cover.jpg",
+      "cover_source_url": "https://commons.wikimedia.org/wiki/File:Berries_n_oatmeal_mod.jpg",
+      "cover_license": "CC BY 2.0",
+      "cover_attribution": "Ted O-Rama from Southern California, USA, CC BY 2.0, Wikimedia Commons",
+      "published_local_date": "2026-04-29",
+      "published_at_utc": "2026-04-29T09:47:26.252Z"
+    }
+  ],
+  "source_roots": [
+    "data/article-publishing/nataliacorvo_codex_new_articles_sources",
+    "data/article-publishing/nataliacorvo_codex_articles_25_34",
+    "data/article-publishing/nataliacorvo_codex_articles_35_44_deep_v2"
+  ],
+  "queue_total": 44
+}

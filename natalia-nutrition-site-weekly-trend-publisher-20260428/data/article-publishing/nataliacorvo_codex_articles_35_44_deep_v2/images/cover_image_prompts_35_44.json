@@ -1,0 +1,102 @@
+[
+  {
+    "order": 35,
+    "slug": "dieta-przed-kolonoskopia-przygotowanie",
+    "file": "/images/blog/dieta-przed-kolonoskopia-przygotowanie-cover.webp",
+    "alt_pl": "Proste produkty i płyny klarowne używane podczas przygotowania do kolonoskopii",
+    "alt_en": "Simple foods and clear fluids used during colonoscopy preparation",
+    "ai_prompt": "Photorealistic editorial image of a calm kitchen counter before colonoscopy preparation: clear water, herbal tea, white rice, a simple low-residue meal, printed checklist, soft daylight, no medical devices, no text overlays.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottle focus, no dramatic hospital imagery",
+    "stock_fallback_url": "https://www.pexels.com/search/clear%20liquid%20tea%20water/"
+  },
+  {
+    "order": 36,
+    "slug": "dieta-choroba-uchylkowa-jelita",
+    "file": "/images/blog/dieta-choroba-uchylkowa-jelita-cover.webp",
+    "alt_pl": "Posiłek bogaty w błonnik przy chorobie uchyłkowej jelita w okresie stabilnym",
+    "alt_en": "A high-fibre meal for stable diverticular disease",
+    "ai_prompt": "Photorealistic editorial image of a high-fibre gut-friendly meal: oats, apple slices, barley, lentils, cooked vegetables and water on a bright kitchen table, calm clinical nutrition style, no text.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottle focus, no dramatic hospital imagery",
+    "stock_fallback_url": "https://www.pexels.com/search/high%20fiber%20food/"
+  },
+  {
+    "order": 37,
+    "slug": "dieta-po-usunieciu-pecherzyka-zolciowego",
+    "file": "/images/blog/dieta-po-usunieciu-pecherzyka-zolciowego-cover.webp",
+    "alt_pl": "Lekkostrawny posiłek po usunięciu pęcherzyka żółciowego",
+    "alt_en": "A gentle low-fat meal after gallbladder removal",
+    "ai_prompt": "Photorealistic editorial image of a gentle post-gallbladder surgery meal: baked chicken, rice, cooked carrots, a small spoon of olive oil, water, soft daylight, clean table, no hospital scene.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottle focus, no dramatic hospital imagery",
+    "stock_fallback_url": "https://www.pexels.com/search/rice%20chicken%20vegetables/"
+  },
+  {
+    "order": 38,
+    "slug": "dieta-przy-zapaleniu-trzustki",
+    "file": "/images/blog/dieta-przy-zapaleniu-trzustki-cover.webp",
+    "alt_pl": "Delikatny posiłek po zapaleniu trzustki z ryżem, rybą i gotowanymi warzywami",
+    "alt_en": "A gentle pancreatitis recovery meal with rice, fish and cooked vegetables",
+    "ai_prompt": "Photorealistic editorial image of a gentle pancreatic recovery meal: small portion of rice, steamed carrots, lean fish, water, nutrition notebook, clean soft light, no dramatic medical scene.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottle focus, no dramatic hospital imagery",
+    "stock_fallback_url": "https://www.pexels.com/search/steamed%20fish%20rice/"
+  },
+  {
+    "order": 39,
+    "slug": "dieta-antyhistaminowa-nietolerancja-histaminy",
+    "file": "/images/blog/dieta-antyhistaminowa-nietolerancja-histaminy-cover.webp",
+    "alt_pl": "Świeżo przygotowany prosty posiłek w diecie antyhistaminowej",
+    "alt_en": "A freshly prepared simple meal for a low-histamine diet",
+    "ai_prompt": "Photorealistic editorial low-histamine fresh meal preparation: freshly cooked chicken, rice, zucchini, blueberries, glass containers labelled blank, bright kitchen, no text, no supplement bottles.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottle focus, no dramatic hospital imagery",
+    "stock_fallback_url": "https://www.pexels.com/search/fresh%20meal%20prep/"
+  },
+  {
+    "order": 40,
+    "slug": "dieta-w-migrenie-regularne-posilki",
+    "file": "/images/blog/dieta-w-migrenie-regularne-posilki-cover.webp",
+    "alt_pl": "Regularne posiłki i nawodnienie jako element diety w migrenie",
+    "alt_en": "Regular meals and hydration as part of a migraine diet",
+    "ai_prompt": "Photorealistic editorial image of migraine-friendly meal planning: oatmeal, banana, water bottle, simple lunch container, notebook for headache diary, soft calm light, no text.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottle focus, no dramatic hospital imagery",
+    "stock_fallback_url": "https://www.pexels.com/search/meal%20planning%20water%20notebook/"
+  },
+  {
+    "order": 41,
+    "slug": "dieta-przy-luszczycy",
+    "file": "/images/blog/dieta-przy-luszczycy-cover.webp",
+    "alt_pl": "Śródziemnomorski posiłek wspierający dietę przeciwzapalną przy łuszczycy",
+    "alt_en": "A Mediterranean-style meal supporting anti-inflammatory eating in psoriasis",
+    "ai_prompt": "Photorealistic editorial Mediterranean-style anti-inflammatory meal for psoriasis: salmon or beans, leafy vegetables, olive oil, berries, walnuts, clean modern table, no skin closeups, no text.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottle focus, no dramatic hospital imagery",
+    "stock_fallback_url": "https://www.pexels.com/search/mediterranean%20salmon%20salad/"
+  },
+  {
+    "order": 42,
+    "slug": "niedobor-witaminy-d-dieta-suplementacja",
+    "file": "/images/blog/niedobor-witaminy-d-dieta-suplementacja-cover.webp",
+    "alt_pl": "Źródła witaminy D w diecie: tłuste ryby, jaja i produkty wzbogacane",
+    "alt_en": "Dietary vitamin D sources: oily fish, eggs and fortified foods",
+    "ai_prompt": "Photorealistic editorial image of vitamin D food sources in Poland: salmon, herring, eggs, fortified margarine, mushrooms and sunlight through window, no supplement bottle focus, no text.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottle focus, no dramatic hospital imagery",
+    "stock_fallback_url": "https://www.pexels.com/search/salmon%20eggs%20breakfast/"
+  },
+  {
+    "order": 43,
+    "slug": "niedobor-witaminy-b12-dieta",
+    "file": "/images/blog/niedobor-witaminy-b12-dieta-cover.webp",
+    "alt_pl": "Źródła witaminy B12 w diecie i produkty fortyfikowane",
+    "alt_en": "Dietary vitamin B12 sources and fortified foods",
+    "ai_prompt": "Photorealistic editorial image of vitamin B12 food sources and fortified alternatives: eggs, fish, dairy, fortified plant drink, nutritional yeast-style flakes in neutral bowl, clean table, no supplement bottle focus.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottle focus, no dramatic hospital imagery",
+    "stock_fallback_url": "https://www.pexels.com/search/eggs%20fish%20dairy/"
+  },
+  {
+    "order": 44,
+    "slug": "dieta-przy-hemoroidach",
+    "file": "/images/blog/dieta-przy-hemoroidach-cover.webp",
+    "alt_pl": "Śniadanie bogate w błonnik i wodę jako wsparcie przy hemoroidach",
+    "alt_en": "A high-fibre breakfast and water as support for haemorrhoids",
+    "ai_prompt": "Photorealistic editorial image for haemorrhoids diet: high-fibre breakfast with oats, kiwi, prunes, ground flaxseed, water glass, gentle neutral medical nutrition style, no body parts, no text.",
+    "negative_prompt": "no text, no logos, no watermarks, no supplement bottle focus, no dramatic hospital imagery",
+    "stock_fallback_url": "https://www.pexels.com/search/oatmeal%20kiwi%20water/"
+  }
+]
