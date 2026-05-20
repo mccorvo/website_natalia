@@ -12,6 +12,7 @@
 **/.cache/
 **/.wrangler/
 **/.vercel/
+**/.automation-worktrees/
 
 # Logs
 *.log

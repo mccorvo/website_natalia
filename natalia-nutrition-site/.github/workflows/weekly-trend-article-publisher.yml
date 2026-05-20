@@ -39,7 +39,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Verify generation secret and detect Cloudflare deploy secrets
+      - name: Verify generation and Cloudflare deploy secrets
         id: deploy_secrets
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -55,12 +55,11 @@ jobs:
           const cloudflareSecrets = ["CLOUDFLARE_API_TOKEN", "CLOUDFLARE_ACCOUNT_ID"];
           const missingCloudflare = cloudflareSecrets.filter((name) => !process.env[name]);
           if (missingCloudflare.length > 0) {
-            console.log(`::warning::Missing Cloudflare deploy secret(s): ${missingCloudflare.join(", ")}. The weekly article will still be committed; Cloudflare deploy and live verification will be skipped.`);
-            appendFileSync(process.env.GITHUB_OUTPUT, "cloudflare_available=false\n");
-          } else {
-            console.log("Generation and Cloudflare deploy secrets are configured.");
-            appendFileSync(process.env.GITHUB_OUTPUT, "cloudflare_available=true\n");
+            console.error(`Missing Cloudflare deploy secret(s): ${missingCloudflare.join(", ")}. Refusing to publish without deploy and live image verification.`);
+            process.exit(1);
           }
+          console.log("Generation and Cloudflare deploy secrets are configured.");
+          appendFileSync(process.env.GITHUB_OUTPUT, "cloudflare_available=true\n");
           NODE
 
       - name: Start from latest origin/main
@@ -189,8 +188,27 @@ jobs:
             }
           }
 
+          async function imageIsReady(path) {
+            try {
+              const url = `https://nataliacorvo.com/${path}`;
+              const response = await fetch(url, { redirect: "follow" });
+              const type = response.headers.get("content-type") || "";
+              const length = Number(response.headers.get("content-length") || "0");
+              const bytes = length || (await response.arrayBuffer()).byteLength;
+              return response.ok && type.startsWith("image/") && bytes > 5000;
+            } catch {
+              return false;
+            }
+          }
+
+          function coverPath(html) {
+            return html.match(new RegExp(`assets/images/blog/${slug}-cover\\.[a-z0-9]+`, "u"))?.[0] || "";
+          }
+
           for (let attempt = 1; attempt <= 30; attempt += 1) {
             const [articleHtml, blogHtml] = await Promise.all([getText(articleUrl), getText(blogUrl)]);
+            const imagePath = coverPath(articleHtml) || coverPath(blogHtml);
+            const imageReady = imagePath ? await imageIsReady(imagePath) : false;
             const articleReady =
               articleHtml.includes(`https://nataliacorvo.com/articles/${slug}`) &&
               /Nota bezpieczeństwa/u.test(articleHtml) &&
@@ -202,8 +220,8 @@ jobs:
               /lang-en-content/u.test(blogHtml);
             const noItalian = !italianMarker.test(`${articleHtml}\n${blogHtml}`);
 
-            if (articleReady && blogReady && noItalian) {
-              console.log(`Live verification passed for ${articleUrl} and ${blogUrl}.`);
+            if (articleReady && blogReady && imageReady && noItalian) {
+              console.log(`Live verification passed for ${articleUrl}, ${blogUrl}, and ${imagePath}.`);
               process.exit(0);
             }
             console.log(`Live verification not ready yet, attempt ${attempt}/30.`);

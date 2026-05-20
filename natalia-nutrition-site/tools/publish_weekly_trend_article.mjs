@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { appendFileSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
+import { extensionForMime, findCommonsCoverImage, normalizeCommonsSourceUrl } from "./lib/commons_cover_search.mjs";
 
 const root = process.cwd();
 const statePath = path.join(root, "data/weekly-trend-publishing/state.json");
@@ -26,7 +27,6 @@ if (publishMode === dryRunMode) {
 
 const italianMarker = /(?:lang=["']it["']|data-set-lang=["']it["']|lang-it|\/it(?:\/|["'#?])|Italiano|italiano)/u;
 const unsafeMedicalClaim = /(?:wyleczy|leczy cukrzycę|leczy chorobę|gwarantuje|cudown|detoks|oczyszcza organizm|zastępuje leki|odstaw leki)/iu;
-const allowedImageLicenses = ["cc0", "public domain", "pd", "cc by", "cc-by", "cc by-sa", "cc-by-sa"];
 
 main().catch((error) => fail(error.message || String(error)));
 
@@ -64,7 +64,7 @@ async function main() {
   if (existingSlugs.has(generated.slug)) fail(`Refusing to publish duplicate article slug: ${generated.slug}`);
   if (blogContainsSlug(readText(blogPath), generated.slug)) fail(`Blog already contains weekly article slug: ${generated.slug}`);
 
-  const cover = await chooseCover(generated);
+  const cover = await chooseCover(generated, state);
   const articleHtml = renderArticlePage(generated, cover, now);
   const blogHtml = insertBlogCard(readText(blogPath), renderBlogCard(generated, cover), generated.slug);
   const sitemapXml = insertSitemapUrl(readText(sitemapPath), generated.slug, now.date);
@@ -409,7 +409,7 @@ function validateGeneratedArticle(article, state) {
   if (article.read_also_slugs.length < 2) fail("Generated weekly article needs at least two valid internal links.");
 }
 
-async function chooseCover(article) {
+async function chooseCover(article, state) {
   if (dryRunMode) {
     return {
       file: `${article.slug}-cover.jpg`,
@@ -420,7 +420,13 @@ async function chooseCover(article) {
       source_url: "https://commons.wikimedia.org/",
     };
   }
-  const selected = await findCommonsCoverImage(article.cover_query || article.title_pl, article.slug);
+  const selected = await findCommonsCoverImage({
+    query: article.cover_query || article.title_pl,
+    slug: article.slug,
+    usedSourceUrls: usedCoverSourceUrls(state),
+    userAgent: "nataliacorvo-weekly-trend-publisher/1.0",
+    fallbackQueries: ["healthy food nutrition vegetables", "balanced meal vegetables", "mediterranean diet food"],
+  });
   const extension = extensionForMime(selected.mime);
   const file = `${article.slug}-cover.${extension}`;
   const destination = path.join(blogImagesDir, file);
@@ -434,57 +440,21 @@ async function chooseCover(article) {
   return { file, alt_pl: article.cover_alt_pl, alt_en: article.cover_alt_en, attribution: selected.attribution, license: selected.license, source_url: selected.descriptionUrl };
 }
 
-async function findCommonsCoverImage(query, slug) {
-  const queries = [...new Set([query, "healthy food nutrition vegetables", "balanced meal vegetables", "mediterranean diet food"])];
-  for (const searchQuery of queries) {
-    const selected = await searchCommonsCoverImage(searchQuery);
-    if (selected) return selected;
+function usedCoverSourceUrls(weeklyState) {
+  const used = new Set();
+  for (const item of weeklyState.published || []) {
+    const normalized = normalizeCommonsSourceUrl(item.cover_source_url);
+    if (normalized) used.add(normalized);
   }
-  fail(`No suitable freely licensed Wikimedia Commons cover image found for ${slug}.`);
-}
-
-async function searchCommonsCoverImage(query) {
-  const api = new URL("https://commons.wikimedia.org/w/api.php");
-  api.searchParams.set("action", "query");
-  api.searchParams.set("format", "json");
-  api.searchParams.set("generator", "search");
-  api.searchParams.set("gsrnamespace", "6");
-  api.searchParams.set("gsrsearch", query);
-  api.searchParams.set("gsrlimit", "20");
-  api.searchParams.set("prop", "imageinfo");
-  api.searchParams.set("iiprop", "url|mime|mediatype|extmetadata");
-  api.searchParams.set("iiurlwidth", "1400");
-  api.searchParams.set("origin", "*");
-
-  const response = await fetch(api, { headers: { "User-Agent": "nataliacorvo-weekly-trend-publisher/1.0" } });
-  if (!response.ok) fail(`Wikimedia Commons search failed for "${query}": HTTP ${response.status}`);
-  const data = await response.json();
-  for (const page of Object.values(data.query?.pages || {})) {
-    const info = page.imageinfo?.[0];
-    if (!info) continue;
-    const candidate = normalizeCommonsImageInfo(info);
-    if (candidate) return candidate;
+  const dailyStatePath = path.join(root, "data/article-publishing/state.json");
+  if (existsSync(dailyStatePath)) {
+    const dailyState = readJson(dailyStatePath);
+    for (const item of dailyState.published || []) {
+      const normalized = normalizeCommonsSourceUrl(item.cover_source_url);
+      if (normalized) used.add(normalized);
+    }
   }
-  return null;
-}
-
-function normalizeCommonsImageInfo(info) {
-  const mime = String(info.mime || "").toLowerCase();
-  if (!["image/jpeg", "image/png", "image/webp"].includes(mime)) return null;
-  if (info.mediatype && info.mediatype !== "BITMAP") return null;
-  const metadata = info.extmetadata || {};
-  const license = cleanMetadata(metadata.LicenseShortName?.value || metadata.License?.value || "");
-  const licenseLower = license.toLowerCase();
-  if (!allowedImageLicenses.some((allowed) => licenseLower.includes(allowed))) return null;
-  if (/(?:non-?commercial|\bnc\b|no derivatives|\bnd\b|fair use)/iu.test(license)) return null;
-  const artist = cleanMetadata(metadata.Artist?.value || metadata.Credit?.value || "Wikimedia Commons contributor");
-  return {
-    mime,
-    downloadUrl: info.thumburl || info.url,
-    descriptionUrl: info.descriptionurl || info.descriptionshorturl || info.url,
-    license,
-    attribution: `${artist}, ${license}, Wikimedia Commons`,
-  };
+  return used;
 }
 
 function renderArticlePage(article, cover, now) {
@@ -900,12 +870,6 @@ function slugify(value) {
     .slice(0, 84);
 }
 
-function extensionForMime(mime) {
-  if (mime === "image/png") return "png";
-  if (mime === "image/webp") return "webp";
-  return "jpg";
-}
-
 function readJson(filePath) {
   try {
     return JSON.parse(readText(filePath));
@@ -938,10 +902,6 @@ function decodeXml(value) {
     .replace(/&#39;/g, "'")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">");
-}
-
-function cleanMetadata(value) {
-  return decodeBasicEntities(stripTags(String(value))).replace(/\s+/g, " ").trim();
 }
 
 function stripTags(value) {

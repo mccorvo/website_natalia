@@ -29,15 +29,15 @@
     <xhtml:link rel="alternate" hreflang="en-gb" href="https://nataliacorvo.com/en/"/>
   </url>
   <url>
-    <loc>https://nataliacorvo.com/book.html</loc>
+    <loc>https://nataliacorvo.com/book</loc>
     <lastmod>2026-04-26</lastmod>
   </url>
   <url>
-    <loc>https://nataliacorvo.com/blog.html</loc>
+    <loc>https://nataliacorvo.com/blog</loc>
     <lastmod>2026-04-26</lastmod>
   </url>
   <url>
-    <loc>https://nataliacorvo.com/autotest.html</loc>
+    <loc>https://nataliacorvo.com/autotest</loc>
     <lastmod>2026-04-26</lastmod>
   </url>
   <url>
@@ -103,5 +103,33 @@
   <url>
     <loc>https://nataliacorvo.com/articles/dieta-przy-nadcisnieniu-sol-potas-alkohol</loc>
     <lastmod>2026-05-03</lastmod>
+  </url>
+  <url>
+    <loc>https://nataliacorvo.com/articles/dieta-refluks-zgaga</loc>
+    <lastmod>2026-05-04</lastmod>
+  </url>
+  <url>
+    <loc>https://nataliacorvo.com/articles/dieta-low-fodmap-ibs</loc>
+    <lastmod>2026-05-05</lastmod>
+  </url>
+  <url>
+    <loc>https://nataliacorvo.com/articles/cukrzyca-ciazowa-dieta</loc>
+    <lastmod>2026-05-06</lastmod>
+  </url>
+  <url>
+    <loc>https://nataliacorvo.com/articles/dieta-stluszczenie-watroby-nafld</loc>
+    <lastmod>2026-05-07</lastmod>
+  </url>
+  <url>
+    <loc>https://nataliacorvo.com/articles/dieta-osteoporoza-wapn-witamina-d</loc>
+    <lastmod>2026-05-08</lastmod>
+  </url>
+  <url>
+    <loc>https://nataliacorvo.com/articles/dieta-w-ciazy-co-jesc-czego-unikac</loc>
+    <lastmod>2026-05-09</lastmod>
+  </url>
+  <url>
+    <loc>https://nataliacorvo.com/articles/dieta-na-zaparcia-co-jesc</loc>
+    <lastmod>2026-05-10</lastmod>
   </url>
 </urlset>

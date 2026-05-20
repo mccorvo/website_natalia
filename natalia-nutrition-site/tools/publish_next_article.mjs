@@ -2,6 +2,7 @@
 import { createHash } from "node:crypto";
 import { appendFileSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
+import { extensionForMime, findCommonsCoverImage, normalizeCommonsSourceUrl } from "./lib/commons_cover_search.mjs";
 
 const root = process.cwd();
 const sourceHashesPath = path.join(root, "data/article-publishing/source_hashes.json");
@@ -35,14 +36,18 @@ const sourcePackages = [
 const sourceRootRelatives = sourcePackages.map((sourcePackage) => sourcePackage.rootRelative);
 const expectedQueueTotal = 44;
 
-const args = new Set(process.argv.slice(2));
-const publishMode = args.has("--publish");
-const dryRunMode = args.has("--dry-run");
-const ignoreTime = args.has("--ignore-time") || dryRunMode;
+const cli = parseCliOptions(process.argv.slice(2));
+const publishMode = cli.mode === "publish";
+const dryRunMode = cli.mode === "dry-run";
+const ignoreTime = cli.ignoreTime || dryRunMode;
 const allowedPublishHours = new Set(["08", "09", "10"]);
 
 if (publishMode === dryRunMode) {
   fail("Use exactly one mode: --publish or --dry-run.");
+}
+
+if (cli.dateOverride && !ignoreTime) {
+  fail("Use --ignore-time with --date=YYYY-MM-DD so manual backfills are explicit.");
 }
 
 const requiredFrontmatterKeys = [
@@ -79,27 +84,21 @@ const fallbackReadAlso = [
   "dieta-dash-cisnienie-serce",
 ];
 
-const allowedImageLicenses = [
-  "cc0",
-  "public domain",
-  "pd",
-  "cc by",
-  "cc-by",
-  "cc by-sa",
-  "cc-by-sa",
-];
-
 main().catch((error) => fail(error.message || String(error)));
 
 async function main() {
   assertSourcePackageIntegrity();
 
-  const now = getDublinNow();
-  output("local_date", now.date);
-  output("local_hour", now.hour);
+  const currentDublin = getDublinNow();
+  const publishDate = cli.dateOverride || currentDublin.date;
+  if (cli.dateOverride && cli.dateOverride > currentDublin.date) {
+    fail(`Refusing to publish for future date ${cli.dateOverride}; current Europe/Dublin date is ${currentDublin.date}.`);
+  }
+  output("local_date", publishDate);
+  output("local_hour", currentDublin.hour);
 
-  if (publishMode && !ignoreTime && !allowedPublishHours.has(now.hour)) {
-    console.log(`Skipping publish: Europe/Dublin local hour is ${now.hour}, not 08, 09 or 10.`);
+  if (publishMode && !ignoreTime && !allowedPublishHours.has(currentDublin.hour)) {
+    console.log(`Skipping publish: Europe/Dublin local hour is ${currentDublin.hour}, not 08, 09 or 10.`);
     output("changed", "false");
     output("skip_reason", "outside_publish_hour");
     return;
@@ -112,11 +111,14 @@ async function main() {
   validateState(state, manifest);
   validatePublishedStateConsistency(state, manifest);
 
-  if (publishMode && state.last_published_local_date === now.date) {
-    console.log(`Skipping publish: one article was already published for ${now.date}.`);
+  if (publishMode && state.last_published_local_date === publishDate) {
+    console.log(`Skipping publish: one article was already published for ${publishDate}.`);
     output("changed", "false");
     output("skip_reason", "already_published_today");
     return;
+  }
+  if (publishMode && state.last_published_local_date && publishDate < state.last_published_local_date) {
+    fail(`Refusing to publish for ${publishDate}: last published local date is ${state.last_published_local_date}.`);
   }
 
   const nextEntry = manifest.find((entry) => !state.published.some((item) => item.slug === entry.slug));
@@ -135,8 +137,8 @@ async function main() {
     fail(`Refusing to publish ${source.meta.slug}: article file or blog card already exists outside committed publisher state.`);
   }
 
-  const cover = await chooseCover(source, imageSearchManifest);
-  const generated = buildPublication(source, state, sourceBySlug, cover, now.date);
+  const cover = await chooseCover(source, imageSearchManifest, state);
+  const generated = buildPublication(source, state, sourceBySlug, cover, publishDate);
   validateGeneratedPublication(generated, source);
 
   if (dryRunMode) {
@@ -155,7 +157,7 @@ async function main() {
     ...state,
     last_published_order: nextEntry.order,
     last_published_slug: nextEntry.slug,
-    last_published_local_date: now.date,
+    last_published_local_date: publishDate,
     published: [
       ...state.published,
       {
@@ -167,7 +169,7 @@ async function main() {
         cover_source_url: cover.source_url,
         cover_license: cover.license,
         cover_attribution: cover.attribution,
-        published_local_date: now.date,
+        published_local_date: publishDate,
         published_at_utc: new Date().toISOString(),
       },
     ],
@@ -439,7 +441,7 @@ function buildPublication(source, state, sourceBySlug, cover, publishedDate) {
   return { articleHtml, blogHtml, sitemapXml };
 }
 
-async function chooseCover(source, imageSearchManifest) {
+async function chooseCover(source, imageSearchManifest, state) {
   const imageEntry = imageSearchManifest.articles[source.meta.slug];
   const existing = findExistingCover(source.meta.slug);
   if (existing) {
@@ -463,7 +465,12 @@ async function chooseCover(source, imageSearchManifest) {
     };
   }
 
-  const selected = await findCommonsCoverImage(imageEntry.query, source.meta.slug);
+  const selected = await findCommonsCoverImage({
+    query: imageEntry.query,
+    slug: source.meta.slug,
+    usedSourceUrls: usedCoverSourceUrls(state, imageEntry),
+    userAgent: "nataliacorvo-daily-article-publisher/1.0 (https://nataliacorvo.com/)",
+  });
   const extension = extensionForMime(selected.mime);
   const file = `${source.meta.slug}-cover.${extension}`;
   const destination = path.join(blogImagesDir, file);
@@ -496,73 +503,17 @@ function findExistingCover(slug) {
   return readdirSync(blogImagesDir).find((file) => file.startsWith(prefix)) || null;
 }
 
-async function findCommonsCoverImage(query, slug) {
-  const queries = [...new Set([query, "healthy food vegetables", "salad vegetables", "mediterranean diet food"])];
-  for (const searchQuery of queries) {
-    const selected = await searchCommonsCoverImage(searchQuery);
-    if (selected) return selected;
+function usedCoverSourceUrls(state, imageEntry) {
+  const used = new Set();
+  for (const item of state.published || []) {
+    const normalized = normalizeCommonsSourceUrl(item.cover_source_url);
+    if (normalized) used.add(normalized);
   }
-  fail(`No suitable freely licensed Wikimedia Commons cover image found for ${slug} using query: ${query}`);
-}
-
-async function searchCommonsCoverImage(query) {
-  const api = new URL("https://commons.wikimedia.org/w/api.php");
-  api.searchParams.set("action", "query");
-  api.searchParams.set("format", "json");
-  api.searchParams.set("generator", "search");
-  api.searchParams.set("gsrnamespace", "6");
-  api.searchParams.set("gsrsearch", query);
-  api.searchParams.set("gsrlimit", "20");
-  api.searchParams.set("prop", "imageinfo");
-  api.searchParams.set("iiprop", "url|mime|mediatype|extmetadata");
-  api.searchParams.set("iiurlwidth", "1400");
-  api.searchParams.set("origin", "*");
-
-  const response = await fetch(api, {
-    headers: { "User-Agent": "nataliacorvo-daily-article-publisher/1.0 (https://nataliacorvo.com/)" },
-  });
-  if (!response.ok) fail(`Wikimedia Commons search failed for "${query}": HTTP ${response.status}`);
-  const data = await response.json();
-  const pages = Object.values(data.query?.pages || {});
-  for (const page of pages) {
-    const info = page.imageinfo?.[0];
-    if (!info) continue;
-    const candidate = normalizeCommonsImageInfo(info);
-    if (candidate) return candidate;
+  for (const sourceUrl of imageEntry.avoid_source_urls || []) {
+    const normalized = normalizeCommonsSourceUrl(sourceUrl);
+    if (normalized) used.add(normalized);
   }
-  return null;
-}
-
-function normalizeCommonsImageInfo(info) {
-  const mime = String(info.mime || "").toLowerCase();
-  if (!["image/jpeg", "image/png", "image/webp"].includes(mime)) return null;
-  if (info.mediatype && info.mediatype !== "BITMAP") return null;
-
-  const metadata = info.extmetadata || {};
-  const license = cleanMetadata(metadata.LicenseShortName?.value || metadata.License?.value || "");
-  const licenseLower = license.toLowerCase();
-  if (!allowedImageLicenses.some((allowed) => licenseLower.includes(allowed))) return null;
-  if (/(?:non-?commercial|\bnc\b|no derivatives|\bnd\b|fair use)/iu.test(license)) return null;
-
-  const artist = cleanMetadata(metadata.Artist?.value || metadata.Credit?.value || "Wikimedia Commons contributor");
-  const descriptionUrl = info.descriptionurl || info.descriptionshorturl || info.url;
-  return {
-    mime,
-    downloadUrl: info.thumburl || info.url,
-    descriptionUrl,
-    license,
-    attribution: `${artist}, ${license}, Wikimedia Commons`,
-  };
-}
-
-function extensionForMime(mime) {
-  if (mime === "image/png") return "png";
-  if (mime === "image/webp") return "webp";
-  return "jpg";
-}
-
-function cleanMetadata(value) {
-  return decodeBasicEntities(stripTags(String(value))).replace(/\s+/g, " ").trim();
+  return used;
 }
 
 function chooseArticleLinks(meta, state, sourceBySlug) {
@@ -1169,6 +1120,45 @@ function decodeBasicEntities(value) {
 
 function containsItalianMarker(value) {
   return /(?:lang=["']it["']|data-set-lang=["']it["']|lang-it|\/it(?:\/|["'#?])|Italiano|italiano)/u.test(value);
+}
+
+function parseCliOptions(rawArgs) {
+  const options = {
+    mode: null,
+    ignoreTime: false,
+    dateOverride: "",
+  };
+
+  for (const arg of rawArgs) {
+    if (arg === "--publish") {
+      options.mode = options.mode ? "invalid" : "publish";
+      continue;
+    }
+    if (arg === "--dry-run") {
+      options.mode = options.mode ? "invalid" : "dry-run";
+      continue;
+    }
+    if (arg === "--ignore-time") {
+      options.ignoreTime = true;
+      continue;
+    }
+    if (arg.startsWith("--date=")) {
+      const value = arg.slice("--date=".length);
+      if (!isValidIsoDate(value)) fail(`Invalid --date value: ${value}. Use YYYY-MM-DD.`);
+      options.dateOverride = value;
+      continue;
+    }
+    fail(`Unknown argument: ${arg}`);
+  }
+
+  if (options.mode === "invalid") fail("Use exactly one mode: --publish or --dry-run.");
+  return options;
+}
+
+function isValidIsoDate(value) {
+  if (!/^\d{4}-\d{2}-\d{2}$/u.test(value)) return false;
+  const date = new Date(`${value}T00:00:00.000Z`);
+  return !Number.isNaN(date.getTime()) && date.toISOString().slice(0, 10) === value;
 }
 
 function getDublinNow() {

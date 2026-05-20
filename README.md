@@ -20,7 +20,9 @@ To resume the main site:
 ```sh
 cd natalia-nutrition-site
 npm install
-npm run dev
+npm run typecheck
+npm run build
+npx wrangler dev
 ```
 
 If you need the original Git history for `natalia-nutrition-site`, restore it from the bundle included in this backup:
@@ -30,3 +32,9 @@ git clone natalia-nutrition-site.git.bundle natalia-nutrition-site-history
 ```
 
 The working files for the folder are also stored directly in this backup repository, so cloning this repo is enough to recover the project files.
+
+The canonical live-site repository is:
+
+```sh
+git clone https://github.com/mccorvo/nataliacorvo.git
+```

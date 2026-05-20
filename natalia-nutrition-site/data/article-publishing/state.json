@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "last_published_order": 5,
-  "last_published_slug": "dieta-przy-nadcisnieniu-sol-potas-alkohol",
-  "last_published_local_date": "2026-05-03",
+  "last_published_order": 12,
+  "last_published_slug": "dieta-na-zaparcia-co-jesc",
+  "last_published_local_date": "2026-05-10",
   "published": [
     {
       "order": 1,
@@ -63,6 +63,90 @@
       "cover_attribution": "Unknown authorUnknown author, Public domain, Wikimedia Commons",
       "published_local_date": "2026-05-03",
       "published_at_utc": "2026-05-03T10:04:18.649Z"
+    },
+    {
+      "order": 6,
+      "slug": "dieta-refluks-zgaga",
+      "source_root": "data/article-publishing/nataliacorvo_codex_new_articles_sources",
+      "source_file": "articles/06_dieta-refluks-zgaga.md",
+      "cover_image": "dieta-refluks-zgaga-cover.jpg",
+      "cover_source_url": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Easy_lunch_with_grilled_chicken,_mujaddara,_and_Israeli_salad.jpg",
+      "cover_license": "CC BY-SA 4.0",
+      "cover_attribution": "HaJunkiyada, CC BY-SA 4.0, Wikimedia Commons",
+      "published_local_date": "2026-05-04",
+      "published_at_utc": "2026-05-04T09:16:42.053Z"
+    },
+    {
+      "order": 7,
+      "slug": "dieta-low-fodmap-ibs",
+      "source_root": "data/article-publishing/nataliacorvo_codex_new_articles_sources",
+      "source_file": "articles/07_dieta-low-fodmap-ibs.md",
+      "cover_image": "dieta-low-fodmap-ibs-cover.jpg",
+      "cover_source_url": "https://commons.wikimedia.org/wiki/File:Good_Food_Display_-_NCI_Visuals_Online.jpg",
+      "cover_license": "Public domain",
+      "cover_attribution": "Unknown authorUnknown author, Public domain, Wikimedia Commons",
+      "published_local_date": "2026-05-05",
+      "published_at_utc": "2026-05-05T09:06:25.921Z"
+    },
+    {
+      "order": 8,
+      "slug": "cukrzyca-ciazowa-dieta",
+      "source_root": "data/article-publishing/nataliacorvo_codex_new_articles_sources",
+      "source_file": "articles/08_cukrzyca-ciazowa-dieta.md",
+      "cover_image": "cukrzyca-ciazowa-dieta-cover.jpg",
+      "cover_source_url": "https://commons.wikimedia.org/wiki/File:Grocery_bag_of_healthy_foods.jpg",
+      "cover_license": "Public domain",
+      "cover_attribution": "Bill Branson (Photographer), Public domain, Wikimedia Commons",
+      "published_local_date": "2026-05-06",
+      "published_at_utc": "2026-05-10T09:15:07.102Z"
+    },
+    {
+      "order": 9,
+      "slug": "dieta-stluszczenie-watroby-nafld",
+      "source_root": "data/article-publishing/nataliacorvo_codex_new_articles_sources",
+      "source_file": "articles/09_dieta-stluszczenie-watroby-nafld.md",
+      "cover_image": "dieta-stluszczenie-watroby-nafld-cover.jpg",
+      "cover_source_url": "https://commons.wikimedia.org/wiki/File:Healthy_food.jpg",
+      "cover_license": "Public domain",
+      "cover_attribution": "Unknown photographer, Public domain, Wikimedia Commons",
+      "published_local_date": "2026-05-07",
+      "published_at_utc": "2026-05-10T09:15:21.527Z"
+    },
+    {
+      "order": 10,
+      "slug": "dieta-osteoporoza-wapn-witamina-d",
+      "source_root": "data/article-publishing/nataliacorvo_codex_new_articles_sources",
+      "source_file": "articles/10_dieta-osteoporoza-wapn-witamina-d.md",
+      "cover_image": "dieta-osteoporoza-wapn-witamina-d-cover.jpg",
+      "cover_source_url": "https://commons.wikimedia.org/wiki/File:Ready_to_eat_diet_healthy_and_tasty_food.jpg",
+      "cover_license": "CC BY-SA 4.0",
+      "cover_attribution": "ProgramwarriorAbhi, CC BY-SA 4.0, Wikimedia Commons",
+      "published_local_date": "2026-05-08",
+      "published_at_utc": "2026-05-10T09:15:35.985Z"
+    },
+    {
+      "order": 11,
+      "slug": "dieta-w-ciazy-co-jesc-czego-unikac",
+      "source_root": "data/article-publishing/nataliacorvo_codex_new_articles_sources",
+      "source_file": "articles/11_dieta-w-ciazy-co-jesc-czego-unikac.md",
+      "cover_image": "dieta-w-ciazy-co-jesc-czego-unikac-cover.jpg",
+      "cover_source_url": "https://commons.wikimedia.org/wiki/File:Food-healthy-vegetables-dinner_(24326948265).jpg",
+      "cover_license": "CC0",
+      "cover_attribution": "www.Pixel.la Free Stock Photos, CC0, Wikimedia Commons",
+      "published_local_date": "2026-05-09",
+      "published_at_utc": "2026-05-10T09:15:54.906Z"
+    },
+    {
+      "order": 12,
+      "slug": "dieta-na-zaparcia-co-jesc",
+      "source_root": "data/article-publishing/nataliacorvo_codex_new_articles_sources",
+      "source_file": "articles/12_dieta-na-zaparcia-co-jesc.md",
+      "cover_image": "dieta-na-zaparcia-co-jesc-cover.jpg",
+      "cover_source_url": "https://commons.wikimedia.org/wiki/File:Food-salad-healthy-vegetables-1_(23959011279).jpg",
+      "cover_license": "CC0",
+      "cover_attribution": "www.Pixel.la Free Stock Photos, CC0, Wikimedia Commons",
+      "published_local_date": "2026-05-10",
+      "published_at_utc": "2026-05-10T09:16:10.891Z"
     }
   ],
   "source_roots": [
