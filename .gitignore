@@ -32,3 +32,18 @@ id_ed25519*
 
 # Nested Git metadata is represented by source files plus bundle files when needed.
 **/.git/
+
+# Local staging/worktree snapshots. Keep the canonical site folder and bundle tracked.
+natalia-deploy-staging-*/
+natalia-nutrition-site-all-article-sources-*/
+natalia-nutrition-site-automation-hardening-*/
+natalia-nutrition-site-blog-corrections-*/
+natalia-nutrition-site-blog-fixes-*/
+natalia-nutrition-site-codex-daily-publisher/
+natalia-nutrition-site-daily-publishing-*/
+natalia-nutrition-site-github-checkpoint-*/
+natalia-nutrition-site-image-automation-fix/
+natalia-nutrition-site-live-staging/
+natalia-nutrition-site-seo-implementation/
+natalia-nutrition-site-visual-restore/
+natalia-nutrition-site-weekly-trend-publisher-*/
