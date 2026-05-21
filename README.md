@@ -22,7 +22,7 @@ cd natalia-nutrition-site
 npm install
 npm run typecheck
 npm run build
-npx wrangler dev
+npm run dev
 ```
 
 If you need the original Git history for `natalia-nutrition-site`, restore it from the bundle included in this backup:

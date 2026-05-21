@@ -22,6 +22,15 @@ Safe workflow:
 
 Do not deploy from a dirty root. If a manual production deploy is explicitly requested, create clean staging from live/current approved files, copy only the approved changed files, run a dry-run, then deploy from staging.
 
+## Local Development
+
+```sh
+npm install
+npm run dev
+```
+
+Open `http://127.0.0.1:8787/`. Use `wrangler deploy` only for Cloudflare deployment; `wrangler dev` watches generated `.wrangler/tmp` files when this static site is served from the repository root.
+
 Current online backup:
 
 - branch: `backup/current-online-20260426-0922-ist`
