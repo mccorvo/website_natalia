@@ -1,6 +1,77 @@
 {
   "version": 1,
-  "last_published_iso_week": null,
-  "last_published_slug": null,
-  "published": []
+  "last_published_iso_week": "2026-W22",
+  "last_published_slug": "zdrowe-grillowanie-majowka-dieta",
+  "published": [
+    {
+      "slug": "leki-na-otylosc-glp-1-dieta",
+      "title_pl": "Dieta przy lekach GLP-1: co jeść, gdy apetyt znika?",
+      "title_en": "Diet on GLP-1 medicines: what to eat when appetite drops",
+      "topic_summary": "Maj 2026 przyniósł w Europie kolejne wiadomości o lekach GLP-1, a w Polsce temat leczenia otyłości jest coraz częściej opisywany jako opieka nad chorobą przewlekłą. Ten tekst wyjaśnia, jak jeść, gdy apetyt spada, bez zmieniania leków na własną rękę.",
+      "iso_week": "2026-W22",
+      "published_local_date": "2026-05-30",
+      "published_at_utc": "2026-05-30T22:00:20.500Z",
+      "model": "subagent-editorial-research",
+      "reasoning_effort": "high",
+      "cover_image": "leki-na-otylosc-glp-1-dieta-cover.jpg",
+      "cover_source_url": "https://commons.wikimedia.org/wiki/File:Skordalia,_hummus_and_vegetables.jpg",
+      "cover_license": "CC BY-SA 2.0"
+    },
+    {
+      "slug": "witamina-d-magnez-suplementy-bezpieczenstwo",
+      "title_pl": "Witamina D i magnez: jak suplementować rozsądnie w 2026 roku",
+      "title_en": "Vitamin D and magnesium: how to supplement sensibly in 2026",
+      "topic_summary": "W maju 2026 w polskich mediach wracały pytania o witaminę D, magnez i bezpieczeństwo suplementów. Artykuł tłumaczy, jak wybierać rozsądnie, czym suplement różni się od leku i kiedy warto porozmawiać z lekarzem lub farmaceutą.",
+      "iso_week": "2026-W22",
+      "published_local_date": "2026-05-30",
+      "published_at_utc": "2026-05-30T22:00:20.500Z",
+      "model": "subagent-editorial-research",
+      "reasoning_effort": "high",
+      "cover_image": "witamina-d-magnez-suplementy-bezpieczenstwo-cover.jpg",
+      "cover_source_url": "https://commons.wikimedia.org/wiki/File:Vitamin_D_pills.jpg",
+      "cover_license": "CC0"
+    },
+    {
+      "slug": "cholesterol-lpa-dieta-co-moze-jedzenie",
+      "title_pl": "LDL, Lp(a) i dieta: co naprawdę może zmienić jedzenie?",
+      "title_en": "LDL, Lp(a) and diet: what can food really change?",
+      "topic_summary": "W maju 2026 polski program profilaktyczny Moje Zdrowie i międzynarodowe dyskusje lipidologiczne przypomniały, że LDL i Lp(a) nie są tym samym. Dieta może wspierać LDL i całe ryzyko sercowo-naczyniowe, ale Lp(a) jest w dużej mierze genetyczne.",
+      "iso_week": "2026-W22",
+      "published_local_date": "2026-05-30",
+      "published_at_utc": "2026-05-30T22:00:20.500Z",
+      "model": "subagent-editorial-research",
+      "reasoning_effort": "high",
+      "cover_image": "cholesterol-lpa-dieta-co-moze-jedzenie-cover.jpg",
+      "cover_source_url": "https://commons.wikimedia.org/wiki/File:Healthy_food_green_gram,_moong_brown_gram_etc.jpg",
+      "cover_license": "CC BY-SA 4.0"
+    },
+    {
+      "slug": "mikrobiota-apetyt-bialko-dieta",
+      "title_pl": "Mikrobiota, apetyt i białko: jak jeść dla jelit i sytości",
+      "title_en": "Microbiota, appetite and protein: eating for gut health and satiety",
+      "topic_summary": "Maj 2026 przyniósł nowe polskie materiały o probiotykach i badania nad mikrobiotą w utrzymaniu masy ciała. Artykuł oddziela to, co ciekawe naukowo, od tego, co warto realnie robić na talerzu: białko, błonnik, fermentowane produkty i stopniowe zmiany.",
+      "iso_week": "2026-W22",
+      "published_local_date": "2026-05-30",
+      "published_at_utc": "2026-05-30T22:00:20.500Z",
+      "model": "subagent-editorial-research",
+      "reasoning_effort": "high",
+      "cover_image": "mikrobiota-apetyt-bialko-dieta-cover.jpg",
+      "cover_source_url": "https://commons.wikimedia.org/wiki/File:Healthy_Food_-_Colourful_Fruit_and_Veg_-_50191699151.jpg",
+      "cover_license": "CC BY 2.0"
+    },
+    {
+      "slug": "zdrowe-grillowanie-majowka-dieta",
+      "title_pl": "Zdrowe grillowanie na majówkę 2026: dieta, bezpieczeństwo i przyjemność bez przesady",
+      "title_en": "Healthy grilling for the May weekend 2026: diet, safety and pleasure without overdoing it",
+      "topic_summary": "Majówka 2026 ponownie pokazała, że grillowanie jest mocnym polskim zwyczajem, ale coraz częściej pojawiają się pytania o zdrowie, bezpieczeństwo i warzywa na ruszcie. Artykuł ma być praktyczny, ciepły i bez straszenia.",
+      "iso_week": "2026-W22",
+      "published_local_date": "2026-05-30",
+      "published_at_utc": "2026-05-30T22:00:20.500Z",
+      "model": "subagent-editorial-research",
+      "reasoning_effort": "high",
+      "cover_image": "zdrowe-grillowanie-majowka-dieta-cover.jpg",
+      "cover_source_url": "https://commons.wikimedia.org/wiki/File:BBQ_Skewers_(Unsplash).jpg",
+      "cover_license": "CC0"
+    }
+  ]
 }
