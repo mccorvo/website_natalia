@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-31T06:14:02.473Z",
+  "generated_at": "2026-05-31T06:50:55.226Z",
   "selected_count": 150,
   "candidate_count": 150,
   "methodology": "Manual editorial shortlist refreshed for the additional 50-draft batch, informed by Polish nutrition search intent, official public-health sources, existing Natalia Corvo coverage, non-duplication checks and YMYL safety constraints.",
@@ -3116,15 +3116,13 @@
       "practical_angle": "spokojny powrót do rytmu po wyjazdach, restauracjach i nieregularnych posiłkach",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
+        "https://pacjent.gov.pl/aktualnosc/zdrowe-odchudzanie",
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+        "https://www.nice.org.uk/guidance/ng246",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
         "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
         "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en"
       ],
       "scoring": {
         "popularity_pl": 80,
@@ -3135,7 +3133,8 @@
         "non_duplication": 91,
         "practical_explainability": 91,
         "total": 589
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 102,
@@ -3148,15 +3147,13 @@
       "practical_angle": "wybór jogurtu bez demonizowania cukru i bez przepłacania za marketing wysokobiałkowy",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
+        "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en",
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+        "https://www.who.int/news-room/fact-sheets/detail/sodium-reduction",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
         "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
         "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
       ],
       "scoring": {
         "popularity_pl": 79,
@@ -3167,7 +3164,8 @@
         "non_duplication": 90,
         "practical_explainability": 90,
         "total": 582
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 103,
@@ -3180,15 +3178,13 @@
       "practical_angle": "proste kolacje z białkiem bez codziennego kurczaka i bez odżywek",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
+        "https://ncez.pzh.gov.pl/abc-zywienia/zasady-zdrowego-zywienia/dieta-roslinna-zalecenia-zywieniowe/",
+        "https://ncez.pzh.gov.pl/abc-zywienia/bialko-w-diecie/",
+        "https://jissn.biomedcentral.com/articles/10.1186/s12970-017-0177-8",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
         "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
         "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
       ],
       "scoring": {
         "popularity_pl": 95,
@@ -3199,7 +3195,8 @@
         "non_duplication": 89,
         "practical_explainability": 89,
         "total": 592
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 104,
@@ -3212,15 +3209,13 @@
       "practical_angle": "wykorzystanie mrożonek jako normalnej bazy obiadu, nie kompromisu jakości",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
+        "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
         "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
         "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+        "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en",
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
       ],
       "scoring": {
         "popularity_pl": 94,
@@ -3231,7 +3226,8 @@
         "non_duplication": 88,
         "practical_explainability": 88,
         "total": 585
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 105,
@@ -3244,15 +3240,13 @@
       "practical_angle": "owsianka jako praktyczny sposób na więcej błonnika rozpuszczalnego i lepszą jakość śniadania",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
+        "https://ncez.pzh.gov.pl/choroba-a-dieta/choroby-ukladu-krazenia/zaburzenia-lipidowe-zalecenia-i-jadlospis-2-2/",
+        "https://pubmed.ncbi.nlm.nih.gov/27724985/",
+        "https://medlineplus.gov/howtolowercholesterolwithdiet.html",
+        "https://ncez.pzh.gov.pl/choroba-a-dieta/choroby-ukladu-krazenia/dieta-dash-dla-lepszego-cisnienia-krwi-i-nie-tylko/",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
         "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
-        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
       ],
       "scoring": {
         "popularity_pl": 93,
@@ -3263,7 +3257,8 @@
         "non_duplication": 87,
         "practical_explainability": 95,
         "total": 599
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 106,
@@ -3276,15 +3271,13 @@
       "practical_angle": "dopasowanie porcji do dnia z małą aktywnością bez schodzenia do głodowych ilości",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
+        "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
+        "https://www.nice.org.uk/guidance/ng246",
         "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
         "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+        "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en"
       ],
       "scoring": {
         "popularity_pl": 92,
@@ -3295,7 +3288,8 @@
         "non_duplication": 86,
         "practical_explainability": 94,
         "total": 599
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 107,
@@ -3308,15 +3302,13 @@
       "practical_angle": "strategia jedzenia w trasie, hotelu i na stacji bez perfekcyjnego planu",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
+        "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en",
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
         "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
         "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+        "https://www.nice.org.uk/guidance/ng246"
       ],
       "scoring": {
         "popularity_pl": 91,
@@ -3327,7 +3319,8 @@
         "non_duplication": 85,
         "practical_explainability": 93,
         "total": 592
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 108,
@@ -3340,15 +3333,13 @@
       "practical_angle": "posiłki na dyżur, nocną zmianę lub długi dzień bez opierania się wyłącznie na automacie",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
+        "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod6/05.html",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
-        "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
         "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+        "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en",
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
       ],
       "scoring": {
         "popularity_pl": 90,
@@ -3359,7 +3350,8 @@
         "non_duplication": 84,
         "practical_explainability": 92,
         "total": 585
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 109,
@@ -3372,15 +3364,13 @@
       "practical_angle": "wyjaśnienie, że liczba posiłków jest narzędziem, a nie obowiązkową zasadą zdrowej diety",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
         "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
+        "https://www.nice.org.uk/guidance/ng246",
         "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+        "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en",
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
       ],
       "scoring": {
         "popularity_pl": 89,
@@ -3391,7 +3381,8 @@
         "non_duplication": 83,
         "practical_explainability": 91,
         "total": 587
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 110,
@@ -3404,15 +3395,13 @@
       "practical_angle": "zupy jako sycący element redukcji, jeśli mają białko i nie są tylko wodnistym wypełniaczem",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
+        "https://pacjent.gov.pl/aktualnosc/zdrowe-odchudzanie",
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+        "https://www.nice.org.uk/guidance/ng246",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
         "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
         "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en"
       ],
       "scoring": {
         "popularity_pl": 88,
@@ -3423,7 +3412,8 @@
         "non_duplication": 82,
         "practical_explainability": 90,
         "total": 580
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 111,
@@ -3436,15 +3426,13 @@
       "practical_angle": "stopniowe wprowadzanie strączków, aby zwiększać błonnik bez wojny z brzuchem",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
+        "https://ncez.pzh.gov.pl/choroba-a-dieta/dieta-low-fodmap-zasady-i-zastosowanie/",
+        "https://ncez.pzh.gov.pl/choroba-a-dieta/zespol-jelita-drazliwego-a-dieta/",
+        "https://ncez.pzh.gov.pl/abc-zywienia/zasady-zdrowego-zywienia/dieta-roslinna-zalecenia-zywieniowe/",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
         "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
         "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
       ],
       "scoring": {
         "popularity_pl": 87,
@@ -3455,7 +3443,8 @@
         "non_duplication": 91,
         "practical_explainability": 89,
         "total": 594
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 112,
@@ -3468,15 +3457,13 @@
       "practical_angle": "kefir, jogurt i maślanka jako element diety, nie magiczny probiotyk dla każdego",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
+        "https://www.nccih.nih.gov/health/probiotics-usefulness-and-safety",
+        "https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/eating-diet-nutrition",
+        "https://ncez.pzh.gov.pl/choroba-a-dieta/zespol-jelita-drazliwego-a-dieta/",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
         "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
         "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
       ],
       "scoring": {
         "popularity_pl": 86,
@@ -3487,7 +3474,8 @@
         "non_duplication": 90,
         "practical_explainability": 88,
         "total": 587
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 113,
@@ -3500,15 +3488,13 @@
       "practical_angle": "praktyczne porównanie dwóch produktów bez tworzenia rankingu cudownych właściwości",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
+        "https://www.nccih.nih.gov/health/probiotics-usefulness-and-safety",
+        "https://www.niddk.nih.gov/health-information/digestive-diseases/lactose-intolerance/eating-diet-nutrition",
+        "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
         "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
         "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
       ],
       "scoring": {
         "popularity_pl": 85,
@@ -3519,7 +3505,8 @@
         "non_duplication": 89,
         "practical_explainability": 95,
         "total": 595
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 114,
@@ -3532,15 +3519,13 @@
       "practical_angle": "ryby w puszce jako szybkie źródło białka i tłuszczów omega-3 z uwzględnieniem soli i różnorodności",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
+        "https://www.fda.gov/food/consumers/advice-about-eating-fish",
+        "https://www.who.int/news-room/fact-sheets/detail/sodium-reduction",
+        "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
         "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
         "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
       ],
       "scoring": {
         "popularity_pl": 84,
@@ -3551,7 +3536,8 @@
         "non_duplication": 88,
         "practical_explainability": 94,
         "total": 588
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 115,
@@ -3564,15 +3550,13 @@
       "practical_angle": "wykorzystanie sardynek z ośćmi jako małego, taniego źródła wapnia i białka",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
+        "https://www.fda.gov/food/consumers/advice-about-eating-fish",
+        "https://medlineplus.gov/calcium.html",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
         "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
         "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+        "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en"
       ],
       "scoring": {
         "popularity_pl": 83,
@@ -3583,7 +3567,8 @@
         "non_duplication": 87,
         "practical_explainability": 93,
         "total": 581
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 116,
@@ -3596,15 +3581,13 @@
       "practical_angle": "zmniejszanie soli w codziennych kanapkach bez rezygnacji z pieczywa",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
+        "https://www.who.int/news-room/fact-sheets/detail/sodium-reduction",
+        "https://ncez.pzh.gov.pl/choroba-a-dieta/choroby-ukladu-krazenia/dieta-dash-dla-lepszego-cisnienia-krwi-i-nie-tylko/",
+        "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en",
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
         "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
-        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
       ],
       "scoring": {
         "popularity_pl": 82,
@@ -3615,7 +3598,8 @@
         "non_duplication": 86,
         "practical_explainability": 92,
         "total": 574
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 117,
@@ -3628,15 +3612,13 @@
       "practical_angle": "łagodne ograniczanie słodzonych napojów bez moralizowania i bez przechodzenia od razu na samą wodę",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
+        "https://www.cdc.gov/healthy-weight-growth/be-sugar-smart/index.html",
+        "https://www.who.int/publications/i/item/9789241549028",
+        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
         "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
-        "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+        "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en"
       ],
       "scoring": {
         "popularity_pl": 81,
@@ -3647,7 +3629,8 @@
         "non_duplication": 85,
         "practical_explainability": 91,
         "total": 567
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 118,
@@ -3660,15 +3643,13 @@
       "practical_angle": "przekąski, które stabilizują energię zamiast nakręcać całodzienne podjadanie",
       "trend_rationale": "Selected for the additional 50-article draft batch because it addresses Polish long-tail nutrition intent with practical, non-overlapping reader utility and manageable YMYL risk.",
       "source_basis": [
-        "https://trends.google.com/trending/rss?geo=PL",
-        "https://news.google.com/rss/search?q=dieta%20OR%20%C5%BCywienie%20OR%20od%C5%BCywianie%20when%3A7d&hl=pl&gl=PL&ceid=PL%3Apl",
         "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
+        "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
         "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac",
-        "https://www.gov.pl/web/gis/suplementy-diety",
         "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
-        "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
-        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
-        "https://developers.google.com/search/docs/essentials/spam-policies"
+        "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+        "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en",
+        "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
       ],
       "scoring": {
         "popularity_pl": 80,
@@ -3679,7 +3660,8 @@
         "non_duplication": 84,
         "practical_explainability": 90,
         "total": 582
-      }
+      },
+      "remediation_status": "partial_p1_p2_rewrite_done_pending_final_image_qa"
     },
     {
       "rank": 119,
@@ -3711,7 +3693,8 @@
         "non_duplication": 83,
         "practical_explainability": 89,
         "total": 575
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 120,
@@ -3743,7 +3726,8 @@
         "non_duplication": 82,
         "practical_explainability": 88,
         "total": 592
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 121,
@@ -3775,7 +3759,8 @@
         "non_duplication": 91,
         "practical_explainability": 95,
         "total": 603
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 122,
@@ -3807,7 +3792,8 @@
         "non_duplication": 90,
         "practical_explainability": 94,
         "total": 607
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 123,
@@ -3839,7 +3825,8 @@
         "non_duplication": 89,
         "practical_explainability": 93,
         "total": 600
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 124,
@@ -3871,7 +3858,8 @@
         "non_duplication": 88,
         "practical_explainability": 92,
         "total": 593
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 125,
@@ -3903,7 +3891,8 @@
         "non_duplication": 87,
         "practical_explainability": 91,
         "total": 586
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 126,
@@ -3935,7 +3924,8 @@
         "non_duplication": 86,
         "practical_explainability": 90,
         "total": 579
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 127,
@@ -3967,7 +3957,8 @@
         "non_duplication": 85,
         "practical_explainability": 89,
         "total": 588
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 128,
@@ -3999,7 +3990,8 @@
         "non_duplication": 84,
         "practical_explainability": 88,
         "total": 581
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 129,
@@ -4031,7 +4023,8 @@
         "non_duplication": 83,
         "practical_explainability": 95,
         "total": 582
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 130,
@@ -4063,7 +4056,8 @@
         "non_duplication": 82,
         "practical_explainability": 94,
         "total": 575
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 131,
@@ -4095,7 +4089,8 @@
         "non_duplication": 91,
         "practical_explainability": 93,
         "total": 591
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 132,
@@ -4127,7 +4122,8 @@
         "non_duplication": 90,
         "practical_explainability": 92,
         "total": 584
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 133,
@@ -4159,7 +4155,8 @@
         "non_duplication": 89,
         "practical_explainability": 91,
         "total": 588
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 134,
@@ -4191,7 +4188,8 @@
         "non_duplication": 88,
         "practical_explainability": 90,
         "total": 588
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 135,
@@ -4223,7 +4221,8 @@
         "non_duplication": 87,
         "practical_explainability": 89,
         "total": 581
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 136,
@@ -4255,7 +4254,8 @@
         "non_duplication": 86,
         "practical_explainability": 88,
         "total": 583
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 137,
@@ -4287,7 +4287,8 @@
         "non_duplication": 85,
         "practical_explainability": 95,
         "total": 601
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 138,
@@ -4319,7 +4320,8 @@
         "non_duplication": 84,
         "practical_explainability": 94,
         "total": 594
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 139,
@@ -4351,7 +4353,8 @@
         "non_duplication": 83,
         "practical_explainability": 93,
         "total": 587
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 140,
@@ -4383,7 +4386,8 @@
         "non_duplication": 82,
         "practical_explainability": 92,
         "total": 580
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 141,
@@ -4415,7 +4419,8 @@
         "non_duplication": 91,
         "practical_explainability": 91,
         "total": 590
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 142,
@@ -4447,7 +4452,8 @@
         "non_duplication": 90,
         "practical_explainability": 90,
         "total": 583
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 143,
@@ -4479,7 +4485,8 @@
         "non_duplication": 89,
         "practical_explainability": 89,
         "total": 576
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 144,
@@ -4511,7 +4518,8 @@
         "non_duplication": 88,
         "practical_explainability": 88,
         "total": 593
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 145,
@@ -4543,7 +4551,8 @@
         "non_duplication": 87,
         "practical_explainability": 95,
         "total": 603
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 146,
@@ -4575,7 +4584,8 @@
         "non_duplication": 86,
         "practical_explainability": 94,
         "total": 596
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 147,
@@ -4607,7 +4617,8 @@
         "non_duplication": 85,
         "practical_explainability": 93,
         "total": 589
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 148,
@@ -4639,7 +4650,8 @@
         "non_duplication": 84,
         "practical_explainability": 92,
         "total": 589
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 149,
@@ -4671,7 +4683,8 @@
         "non_duplication": 83,
         "practical_explainability": 91,
         "total": 582
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     },
     {
       "rank": 150,
@@ -4703,7 +4716,68 @@
         "non_duplication": 82,
         "practical_explainability": 90,
         "total": 575
-      }
+      },
+      "remediation_status": "pending_p1_p2_remediation"
     }
-  ]
+  ],
+  "p1_p2_remediation_checkpoint": {
+    "created_at": "2026-05-31T06:50:55.226Z",
+    "completed_count": 18,
+    "pending_count": 32,
+    "completed_slugs": [
+      "dieta-po-urlopie-bez-detoksu",
+      "jak-czytac-etykiety-jogurtow",
+      "kolacja-bialkowa-bez-miesa",
+      "szybkie-obiady-z-mrozonek",
+      "owsianka-przy-wysokim-cholesterolu",
+      "talerz-dla-osoby-siedzacej",
+      "dieta-przy-czestych-delegacjach",
+      "jak-planowac-jedzenie-na-dyzur",
+      "czy-trzeba-jesc-piec-posilkow",
+      "zupy-w-redukcji-masy",
+      "straczki-bez-wzdec",
+      "nabial-fermentowany-a-jelita",
+      "kefir-czy-jogurt-naturalny",
+      "ryby-w-puszce-w-zdrowej-diecie",
+      "sardynki-jako-zrodlo-wapnia",
+      "jak-ograniczyc-sol-w-kanapkach",
+      "co-zamiast-slodkich-napojow",
+      "przekaski-przy-pracy-biurowej"
+    ],
+    "pending_slugs": [
+      "jedzenie-przy-pms",
+      "dieta-a-migrena-dzienniczek",
+      "kawa-przed-sniadaniem",
+      "czy-banan-tuczy",
+      "pieczywo-przy-cukrzycy",
+      "platki-sniadaniowe-jak-wybierac",
+      "dieta-po-antybiotyku-rozsadnie",
+      "kiedy-eliminowac-laktoze",
+      "czy-gluten-powoduje-zmeczenie",
+      "dieta-przy-kamicy-zolciowej-profilaktyka",
+      "kamica-nerkowa-a-nawodnienie",
+      "dna-moczanowa-co-ograniczyc",
+      "dieta-seniora-z-malym-apetytem",
+      "sarcopenia-bialko-i-ruch",
+      "dieta-przy-tradziku-bez-skrajnosci",
+      "dieta-przy-luszczycy-wsparcie",
+      "dieta-antyhistaminowa-ostroznie",
+      "napoje-energetyczne-a-apetyt",
+      "jak-zmniejszyc-cukier-w-diecie-dziecka",
+      "rodzinne-obiady-bez-dwoch-kuchni",
+      "sniadanie-przed-treningiem-amatora",
+      "regeneracja-po-treningu-bez-odzywek",
+      "ile-wody-naprawde-pic",
+      "elektrolity-a-biegunka",
+      "dieta-roslinna-dla-poczatkujacych",
+      "blonnik-rozpuszczalny-i-ldl",
+      "psyllium-kiedy-ma-sens",
+      "oliwa-rzepakowy-czy-maslo",
+      "orzechy-w-diecie-redukcyjnej",
+      "jak-nie-marnowac-warzyw",
+      "tanie-obiady-z-kasza",
+      "zamienniki-slodyczy-bez-obsesji"
+    ],
+    "next_slug": "jedzenie-przy-pms"
+  }
 }

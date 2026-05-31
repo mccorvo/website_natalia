@@ -1,21 +1,20 @@
-# QA for dieta-po-urlopie-bez-detoksu
+# QA for Dieta po urlopie bez detoksu
 
-- [x] Sources verified as real URLs or official/search source URLs
-- [x] No improper medical cure claims
-- [x] No sensationalistic tone
-- [x] No Italian article body content
-- [x] PL and EN complete
-- [x] Meta title and meta description present
-- [x] Image has license and attribution
-- [x] draft.html contains noindex,nofollow
-- [x] No public canonical link
-- [x] Internal links are suggestions to existing Natalia Corvo content
-- [x] Not an exact duplicate of existing public article slug
-- [x] Draft only; no public publishing command used
+Status: draft reviewed after P1/P2 remediation.
 
-## Claims to avoid
+- Required files present: yes.
+- PL-first full article: yes.
+- Complete EN version: yes.
+- `draft.html` contains `noindex,nofollow`: yes.
+- Canonical link absent: yes.
+- Topic-specific sources: yes; 7 sources listed.
+- PubMed search-result URLs: none.
+- Wikimedia Commons image: yes; topic-specific source is https://commons.wikimedia.org/wiki/File:Summer_On_The_Table_(220262015).jpeg.
+- Shared NCI fallback image: not used.
+- Internal links included: 3.
+- YMYL safety note included: yes.
+- Cure, detox, guaranteed disease-treatment or guaranteed weight-loss claims: none.
+- Sensational tone: avoided.
+- Public publishing/deploy files touched: no; draft artifact only.
 
-- Do not promise treatment, cure, detox, hormone reset or guaranteed weight loss.
-- Do not tell readers to stop medication or replace medical care with diet.
-- Do not recommend restrictive elimination without a clear reason and professional support.
-- Do not replace medical diagnosis with nutrition advice.
+Editorial caveat: this is a stronger draft package after automated and manual remediation, not a final medical review or publication approval.

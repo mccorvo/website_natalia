@@ -1,20 +1,27 @@
-# Sources for co-zamiast-slodkich-napojow
+# Sources for Co zamiast słodkich napojów
 
-Primary keyword: co zamiast słodkich napojów
+Draft slug: `co-zamiast-slodkich-napojow`
 
-## Real sources checked for draft framing
+## Health and nutrition sources
 
-- Pacjent.gov.pl: Dlaczego warto pić wodę: https://pacjent.gov.pl/diety/dlaczego-warto-pic-wode
-- Pacjent.gov.pl: Jak zdrowo się odżywiać: https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac
-- WHO: Healthy diet: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
-- EFSA: Dietary reference values: https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values
-- WHO: Physical activity: https://www.who.int/news-room/fact-sheets/detail/physical-activity
-- NCEZ: Talerz Zdrowego Żywienia: https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/
+- [CDC: Sugar-sweetened beverages](https://www.cdc.gov/healthy-weight-growth/be-sugar-smart/index.html)
+- [WHO: Sugars guideline](https://www.who.int/publications/i/item/9789241549028)
+- [WHO: Healthy diet](https://www.who.int/news-room/fact-sheets/detail/healthy-diet)
+- [NCEZ: Talerz Zdrowego Żywienia](https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/)
+- [Pacjent.gov.pl: Jak zdrowo się odżywiać](https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac)
+- [WHO: Obesity and overweight](https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight)
+- [European Commission: Food information to consumers](https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en)
 
 ## Image
 
-- File: Good Food Display - NCI Visuals Online
-- Source: https://commons.wikimedia.org/wiki/File:Good_Food_Display_-_NCI_Visuals_Online.jpg
-- License/status: Public domain / NCI Visuals Online via Wikimedia Commons
-- Attribution: Unknown author, National Cancer Institute Visuals Online, Public domain, via Wikimedia Commons
-- Selection note: Public-domain fallback reused for draft consistency; topic-specific sources are listed separately.
+- File: `cover.jpg`
+- Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Healthcare_professional_sharing_healthy_lifestyle_tips_while_holding_a_glass_of_water_next_to_fresh_fruits_and_vegetables.jpg)
+- License: CC BY 2.0
+- Attribution: Shixart1985, CC BY 2.0, Wikimedia Commons
+- Selection note: Topic-specific Wikimedia Commons image selected during P1/P2 remediation; not the shared NCI fallback.
+
+## Editorial source check
+
+- P1 remediation replaced generic or mismatched citations with topic-specific sources.
+- No PubMed search-result URLs are used as article sources.
+- Draft remains noindex and unpublished.

@@ -1,20 +1,27 @@
-# Sources for owsianka-przy-wysokim-cholesterolu
+# Sources for Owsianka przy wysokim cholesterolu
 
-Primary keyword: owsianka przy wysokim cholesterolu
+Draft slug: `owsianka-przy-wysokim-cholesterolu`
 
-## Real sources checked for draft framing
+## Health and nutrition sources
 
-- NCEZ: Zaburzenia lipidowe - zalecenia: https://ncez.pzh.gov.pl/choroba-a-dieta/choroby-ukladu-krazenia/zaburzenia-lipidowe-zalecenia-i-jadlospis-2-2/
-- NCEZ: Dieta DASH dla lepszego ciśnienia: https://ncez.pzh.gov.pl/choroba-a-dieta/choroby-ukladu-krazenia/dieta-dash-dla-lepszego-cisnienia-krwi-i-nie-tylko/
-- Pacjent.gov.pl: Dieta DASH: https://pacjent.gov.pl/diety/dieta-dash-kluczem-do-zdrowia-seniorow
-- WHO: Sodium reduction: https://www.who.int/news-room/fact-sheets/detail/sodium-reduction
-- WHO: Healthy diet: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
-- NCEZ: Talerz Zdrowego Żywienia: https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/
+- [NCEZ: Zaburzenia lipidowe - zalecenia i jadłospis](https://ncez.pzh.gov.pl/choroba-a-dieta/choroby-ukladu-krazenia/zaburzenia-lipidowe-zalecenia-i-jadlospis-2-2/)
+- [PubMed: Oat beta-glucan and LDL cholesterol meta-analysis](https://pubmed.ncbi.nlm.nih.gov/27724985/)
+- [MedlinePlus: How to lower cholesterol with diet](https://medlineplus.gov/howtolowercholesterolwithdiet.html)
+- [NCEZ: Dieta DASH dla lepszego ciśnienia krwi](https://ncez.pzh.gov.pl/choroba-a-dieta/choroby-ukladu-krazenia/dieta-dash-dla-lepszego-cisnienia-krwi-i-nie-tylko/)
+- [NCEZ: Talerz Zdrowego Żywienia](https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/)
+- [Pacjent.gov.pl: Jak zdrowo się odżywiać](https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac)
+- [WHO: Healthy diet](https://www.who.int/news-room/fact-sheets/detail/healthy-diet)
 
 ## Image
 
-- File: Good Food Display - NCI Visuals Online
-- Source: https://commons.wikimedia.org/wiki/File:Good_Food_Display_-_NCI_Visuals_Online.jpg
-- License/status: Public domain / NCI Visuals Online via Wikimedia Commons
-- Attribution: Unknown author, National Cancer Institute Visuals Online, Public domain, via Wikimedia Commons
-- Selection note: Public-domain fallback reused for draft consistency; topic-specific sources are listed separately.
+- File: `cover.jpg`
+- Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Oatmeal_with_berries_(26253030424).jpg)
+- License: CC BY 2.0
+- Attribution: Ruth Hartnup from Vancouver, Canada, CC BY 2.0, Wikimedia Commons
+- Selection note: Topic-specific Wikimedia Commons image selected during P1/P2 remediation; not the shared NCI fallback.
+
+## Editorial source check
+
+- P1 remediation replaced generic or mismatched citations with topic-specific sources.
+- No PubMed search-result URLs are used as article sources.
+- Draft remains noindex and unpublished.
