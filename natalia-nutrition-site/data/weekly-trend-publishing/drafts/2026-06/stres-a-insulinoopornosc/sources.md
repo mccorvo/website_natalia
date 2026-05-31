@@ -2,18 +2,20 @@
 
 Primary keyword: stres insulinooporność
 
-## Real sources checked for draft framing
+## Article sources
 
-- NCEZ: Insulinooporność - zacznijmy od podstaw: https://ncez.pzh.gov.pl/choroba-a-dieta/cukrzyca-i-insulinoopornosc/insulinoopornosc-zacznijmy-od-podstaw/
-- NCEZ: Insulinooporność - zalecenia i jadłospis: https://ncez.pzh.gov.pl/choroba-a-dieta/cukrzyca-i-insulinoopornosc/insulinoopornosc-zalecenia-i-jadlospis/
-- Diety NFZ: Cukrzyca: https://diety.nfz.gov.pl/plany-zywieniowe/cukrzyca
-- NCEZ: Talerz Zdrowego Żywienia: https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/
-- WHO: Healthy diet: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
-- EFSA: Dietary reference values: https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values
+- NCEZ: Insulinooporność - podstawy (NCEZ / NIZP PZH-PIB): https://ncez.pzh.gov.pl/choroba-a-dieta/cukrzyca-i-insulinoopornosc/insulinoopornosc-zacznijmy-od-podstaw/
+- NCEZ: Insulinooporność - zalecenia i jadłospis (NCEZ / NIZP PZH-PIB): https://ncez.pzh.gov.pl/choroba-a-dieta/cukrzyca-i-insulinoopornosc/insulinoopornosc-zalecenia-i-jadlospis/
+- Diety NFZ: Cukrzyca (Diety NFZ): https://diety.nfz.gov.pl/plany-zywieniowe/cukrzyca
+- NCEZ: Talerz Zdrowego Żywienia (NCEZ / NIZP PZH-PIB): https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/
+- WHO: Healthy diet (World Health Organization): https://www.who.int/news-room/fact-sheets/detail/healthy-diet
+- PubMed search: stres insulinooporność (PubMed): https://pubmed.ncbi.nlm.nih.gov/?term=stres%20insulinooporno%C5%9B%C4%87%20nutrition%20diet
 
 ## Image
 
-- File: Good Food Display - NCI Visuals Online
-- Source: https://commons.wikimedia.org/wiki/File:Good_Food_Display_-_NCI_Visuals_Online.jpg
-- License/status: Public domain / NCI Visuals Online via Wikimedia Commons
-- Attribution: Unknown author, National Cancer Institute Visuals Online, Public domain, via Wikimedia Commons
+- Title: Anacortes, WA - California Fruit Store 02
+- Source: https://commons.wikimedia.org/wiki/File:Anacortes,_WA_-_California_Fruit_Store_02.jpg
+- Download URL used for local draft: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Anacortes%2C_WA_-_California_Fruit_Store_02.jpg/1280px-Anacortes%2C_WA_-_California_Fruit_Store_02.jpg
+- License: CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
+- Attribution: Joe Mabel, Anacortes, WA - California Fruit Store 02, CC BY-SA 3.0, via Wikimedia Commons
+- SHA-256: 6c2fff6d830acadf4f2c9139a3d95818665347fd4b813c428e25ebb549792bdb

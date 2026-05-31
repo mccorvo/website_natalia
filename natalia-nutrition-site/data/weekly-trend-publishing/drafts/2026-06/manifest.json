@@ -1,7 +1,7 @@
 {
   "version": 1,
   "batch": "2026-06",
-  "generated_at": "2026-05-30T23:18:47.670Z",
+  "generated_at": "2026-05-31T06:46:15.788Z",
   "branch": "codex/draft-100-polish-nutrition-articles",
   "hard_stop": "2026-05-31T07:00:00+01:00",
   "draft_root": "data/weekly-trend-publishing/drafts/2026-06",
@@ -17,11 +17,11 @@
     "https://developers.google.com/search/docs/essentials/spam-policies"
   ],
   "image_policy": {
-    "status": "public_domain_reused_for_drafts",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Good_Food_Display_-_NCI_Visuals_Online.jpg",
-    "file_download_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Good_Food_Display_-_NCI_Visuals_Online.jpg",
-    "license": "Public domain / NCI Visuals Online via Wikimedia Commons",
-    "attribution": "Unknown author, National Cancer Institute Visuals Online, Public domain, via Wikimedia Commons"
+    "status": "100_distinct_local_covers_selected_from_wikimedia_commons",
+    "license": "Public domain or Creative Commons, with source URL, license URL when available, attribution and local SHA-256 recorded per article",
+    "attribution_required": true,
+    "fallback_image_count": 0,
+    "distinct_cover_hashes": 100
   },
   "articles": [
     {
@@ -29,15 +29,15 @@
       "topic": "Deficyt kalorii bez liczenia kalorii: jak jeść prościej",
       "sub_agent_id": "article-agent-001",
       "status": "reviewed",
-      "quality_score": 83,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/deficyt-kalorii-bez-liczenia/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/deficyt-kalorii-bez-liczenia/draft.html",
@@ -45,22 +45,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/deficyt-kalorii-bez-liczenia/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/deficyt-kalorii-bez-liczenia/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Salad from Senegal 01",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Salad_from_Senegal_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "d5d485b867d2c1805f55a3f1916f9571a38b3f2de31af1a70fb6098132b6e26c"
+      }
     },
     {
       "slug": "efekt-jojo-po-szybkiej-diecie",
       "topic": "Efekt jojo po szybkiej diecie: jak odbudować stabilne nawyki",
       "sub_agent_id": "article-agent-002",
       "status": "reviewed",
-      "quality_score": 84,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/efekt-jojo-po-szybkiej-diecie/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/efekt-jojo-po-szybkiej-diecie/draft.html",
@@ -68,22 +74,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/efekt-jojo-po-szybkiej-diecie/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/efekt-jojo-po-szybkiej-diecie/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Salad from Senegal 02",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Salad_from_Senegal_02.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "e232cd409d254a8ef99adb1fd8c10c93473f86caa25b1e8ea92af9c648494249"
+      }
     },
     {
       "slug": "podjadanie-wieczorem-co-zmienic",
       "topic": "Podjadanie wieczorem: co zmienić w posiłkach i rutynie",
       "sub_agent_id": "article-agent-003",
       "status": "reviewed",
-      "quality_score": 85,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/podjadanie-wieczorem-co-zmienic/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/podjadanie-wieczorem-co-zmienic/draft.html",
@@ -91,22 +103,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/podjadanie-wieczorem-co-zmienic/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/podjadanie-wieczorem-co-zmienic/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fruity breakfast (Unsplash)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fruity_breakfast_(Unsplash).jpg",
+        "license": "CC0",
+        "sha256": "a18977f7cf08dbbe874767ec895544424e8aae2223c5d1fa318b3b04f65be16d"
+      }
     },
     {
       "slug": "weekend-a-odchudzanie",
       "topic": "Weekend a odchudzanie: jak nie tracić efektów od poniedziałku",
       "sub_agent_id": "article-agent-004",
       "status": "reviewed",
-      "quality_score": 86,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/weekend-a-odchudzanie/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/weekend-a-odchudzanie/draft.html",
@@ -114,22 +132,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/weekend-a-odchudzanie/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/weekend-a-odchudzanie/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Beetroot, spinach, rocket, goat cheese and pumpkin seeds salad",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Beetroot,_spinach,_rocket,_goat_cheese_and_pumpkin_seeds_salad.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "effb9e1bd77a2767bd61886b3bc8a03a2e7179e2d2950b28be30554b5aed585e"
+      }
     },
     {
       "slug": "bialko-w-redukcji-u-kobiet-40-plus",
       "topic": "Białko w redukcji u kobiet 40+: ile i z czego jeść",
       "sub_agent_id": "article-agent-005",
       "status": "reviewed",
-      "quality_score": 87,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/bialko-w-redukcji-u-kobiet-40-plus/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/bialko-w-redukcji-u-kobiet-40-plus/draft.html",
@@ -137,22 +161,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/bialko-w-redukcji-u-kobiet-40-plus/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/bialko-w-redukcji-u-kobiet-40-plus/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Balanced Food",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Balanced_Food.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "41348d7555004c6803844823f364baca03881eb5debf1fc7b0f8e135958f8912"
+      }
     },
     {
       "slug": "gestosc-energetyczna-polskich-potraw",
       "topic": "Gęstość energetyczna polskich potraw: małe zmiany, duża sytość",
       "sub_agent_id": "article-agent-006",
       "status": "reviewed",
-      "quality_score": 88,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/gestosc-energetyczna-polskich-potraw/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/gestosc-energetyczna-polskich-potraw/draft.html",
@@ -160,22 +190,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/gestosc-energetyczna-polskich-potraw/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/gestosc-energetyczna-polskich-potraw/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "A vegetarian meal (4205290701)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_vegetarian_meal_(4205290701).jpg",
+        "license": "CC BY-SA 2.0",
+        "sha256": "88627d9023202b747a06b846d80d68ca3bab5e530aa59a6cfa8746a455a109b0"
+      }
     },
     {
       "slug": "odchudzanie-przy-pracy-zmianowej",
       "topic": "Odchudzanie przy pracy zmianowej: posiłki, sen i apetyt",
       "sub_agent_id": "article-agent-007",
       "status": "reviewed",
-      "quality_score": 89,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/odchudzanie-przy-pracy-zmianowej/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/odchudzanie-przy-pracy-zmianowej/draft.html",
@@ -183,22 +219,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/odchudzanie-przy-pracy-zmianowej/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/odchudzanie-przy-pracy-zmianowej/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Healthy gym breakfast meal",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Healthy_gym_breakfast_meal.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "8d79cf508e9edfd94d046a8f8935c71bc9a073a02298d3c5aa183bf01043346e"
+      }
     },
     {
       "slug": "waga-stoi-na-redukcji",
       "topic": "Waga stoi na redukcji: co sprawdzić zanim obetniesz kalorie",
       "sub_agent_id": "article-agent-008",
       "status": "reviewed",
-      "quality_score": 90,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/waga-stoi-na-redukcji/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/waga-stoi-na-redukcji/draft.html",
@@ -206,22 +248,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/waga-stoi-na-redukcji/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/waga-stoi-na-redukcji/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Healthy Breakfast (Unsplash)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Healthy_Breakfast_(Unsplash).jpg",
+        "license": "CC0",
+        "sha256": "04504a64df98505bc718fe0ccd4c67e6c6e8d481ebc51b4a071e7a48c06800a7"
+      }
     },
     {
       "slug": "odchudzanie-bez-fit-produktow",
       "topic": "Odchudzanie bez fit produktów: normalne jedzenie i prosty plan",
       "sub_agent_id": "article-agent-009",
       "status": "reviewed",
-      "quality_score": 91,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/odchudzanie-bez-fit-produktow/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/odchudzanie-bez-fit-produktow/draft.html",
@@ -229,22 +277,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/odchudzanie-bez-fit-produktow/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/odchudzanie-bez-fit-produktow/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Salad from Senegal 03",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Salad_from_Senegal_03.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "e9b0f48f6b384bffa6f48b51da1598d8ea45d93de73be3f715fba65960e60e2a"
+      }
     },
     {
       "slug": "powrot-do-diety-po-przerwie",
       "topic": "Powrót do diety po przerwie: jak zacząć bez karania się",
       "sub_agent_id": "article-agent-010",
       "status": "reviewed",
-      "quality_score": 92,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/powrot-do-diety-po-przerwie/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/powrot-do-diety-po-przerwie/draft.html",
@@ -252,22 +306,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/powrot-do-diety-po-przerwie/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/powrot-do-diety-po-przerwie/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Food-salad-healthy-colorful (24242433051)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Food-salad-healthy-colorful_(24242433051).jpg",
+        "license": "CC0",
+        "sha256": "dafa0b0acf00bdffb84c0abb671d805e45491940aa3aabfae767e7481cf27a9a"
+      }
     },
     {
       "slug": "co-jesc-na-semaglutydzie",
       "topic": "Co jeść na semaglutydzie lub GLP-1: sytość, białko, bezpieczeństwo",
       "sub_agent_id": "article-agent-011",
       "status": "reviewed",
-      "quality_score": 82,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/co-jesc-na-semaglutydzie/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/co-jesc-na-semaglutydzie/draft.html",
@@ -275,22 +335,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/co-jesc-na-semaglutydzie/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/co-jesc-na-semaglutydzie/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Ninnouwi (jute mallow soup)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ninnouwi_(jute_mallow_soup).jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "ad261c0dcb9d8edbf2f95a14a7609ac5ff5cb52fe5fbe11ada94cc834ddd70d5"
+      }
     },
     {
       "slug": "nudnosci-przy-glp1-co-jesc",
       "topic": "Nudności przy GLP-1: co jeść, czego unikać i kiedy szukać pomocy",
       "sub_agent_id": "article-agent-012",
       "status": "reviewed",
-      "quality_score": 83,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/nudnosci-przy-glp1-co-jesc/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/nudnosci-przy-glp1-co-jesc/draft.html",
@@ -298,22 +364,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/nudnosci-przy-glp1-co-jesc/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/nudnosci-przy-glp1-co-jesc/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Breakfast Plater - Hotel Central Plaza. Siliguri - West Bengal - DSC 002",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Breakfast_Plater_-_Hotel_Central_Plaza._Siliguri_-_West_Bengal_-_DSC_002.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "125ea543424fc31cee9d9659d0c6805f3137df613d3c3a2b1949d8a8b1eb489e"
+      }
     },
     {
       "slug": "glp1-bialko-i-miesnie",
       "topic": "GLP-1, białko i mięśnie: jak chronić siłę w redukcji",
       "sub_agent_id": "article-agent-013",
       "status": "reviewed",
-      "quality_score": 84,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/glp1-bialko-i-miesnie/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/glp1-bialko-i-miesnie/draft.html",
@@ -321,22 +393,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/glp1-bialko-i-miesnie/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/glp1-bialko-i-miesnie/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "A display of Sugar beans on store shelf",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_display_of_Sugar_beans_on_store_shelf.jpg",
+        "license": "CC0",
+        "sha256": "b08ed7aab3fe7be58494d50d8234da1c9e8172ec0c8f0169d19f88d03b276021"
+      }
     },
     {
       "slug": "zaparcia-przy-glp1",
       "topic": "Zaparcia przy GLP-1: błonnik, płyny i czerwone flagi",
       "sub_agent_id": "article-agent-014",
       "status": "reviewed",
-      "quality_score": 85,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/jelita-mikrobiota-trawienie.html",
-        "https://nataliacorvo.com/articles/dieta-low-fodmap-ibs.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/zaparcia-przy-glp1/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/zaparcia-przy-glp1/draft.html",
@@ -344,22 +422,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/zaparcia-przy-glp1/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/zaparcia-przy-glp1/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "16 bean soup mix 01",
+        "source_url": "https://commons.wikimedia.org/wiki/File:16_bean_soup_mix_01.jpg",
+        "license": "CC0",
+        "sha256": "bc79806ea7e004646aeea3fef049b65b7de381fde4d94ec7c239b0685f27aa17"
+      }
     },
     {
       "slug": "odstawienie-glp1-i-nawyki",
       "topic": "Odstawienie GLP-1: jakie nawyki pomagają utrzymać efekty",
       "sub_agent_id": "article-agent-015",
       "status": "reviewed",
-      "quality_score": 86,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/odstawienie-glp1-i-nawyki/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/odstawienie-glp1-i-nawyki/draft.html",
@@ -367,22 +451,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/odstawienie-glp1-i-nawyki/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/odstawienie-glp1-i-nawyki/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "AzumaRyokan Breakfast 2",
+        "source_url": "https://commons.wikimedia.org/wiki/File:AzumaRyokan_Breakfast_2.JPG",
+        "license": "CC BY-SA 4.0",
+        "sha256": "0700747bddaf99231972eaeab808827decc3c8fb7c343b854f0f03ac0f27ab14"
+      }
     },
     {
       "slug": "glp1-i-alkohol",
       "topic": "GLP-1 i alkohol: apetyt, nudności, glikemia i rozsądek",
       "sub_agent_id": "article-agent-016",
       "status": "reviewed",
-      "quality_score": 87,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/glp1-i-alkohol/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/glp1-i-alkohol/draft.html",
@@ -390,22 +480,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/glp1-i-alkohol/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/glp1-i-alkohol/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Harvest of Nutritious Beans",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Harvest_of_Nutritious_Beans.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "ef9e94d253ed3bdd838ae9a35496930ca2219fa9f0dcbd8f2bf107d2ef7c7f50"
+      }
     },
     {
       "slug": "glp1-i-trening",
       "topic": "GLP-1 i trening: co jeść przed ruchem przy małym apetycie",
       "sub_agent_id": "article-agent-017",
       "status": "reviewed",
-      "quality_score": 88,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/glp1-i-trening/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/glp1-i-trening/draft.html",
@@ -413,22 +509,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/glp1-i-trening/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/glp1-i-trening/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Chapati, Soybeans and lentils",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Chapati,_Soybeans_and_lentils.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "e9ac91dfc6aafbcc99c779b2e62383eb4a2f7314c2d68a24acfa65e67710f190"
+      }
     },
     {
       "slug": "male-porcje-duzo-skladnikow",
       "topic": "Małe porcje, dużo składników: talerz przy bardzo małym apetycie",
       "sub_agent_id": "article-agent-018",
       "status": "reviewed",
-      "quality_score": 89,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/male-porcje-duzo-skladnikow/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/male-porcje-duzo-skladnikow/draft.html",
@@ -436,22 +538,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/male-porcje-duzo-skladnikow/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/male-porcje-duzo-skladnikow/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Breakfast Fruit Oatmeal (45842057685)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Breakfast_Fruit_Oatmeal_(45842057685).jpg",
+        "license": "CC BY 2.0",
+        "sha256": "a647a1c37fdc955ce098e787b3fdf3cd5b95fe9794e4c88dac68b1dd10c01b3a"
+      }
     },
     {
       "slug": "zakupy-przy-zmniejszonym-apetycie",
       "topic": "Zakupy przy zmniejszonym apetycie: lista produktów na tydzień",
       "sub_agent_id": "article-agent-019",
       "status": "reviewed",
-      "quality_score": 90,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/zakupy-przy-zmniejszonym-apetycie/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/zakupy-przy-zmniejszonym-apetycie/draft.html",
@@ -459,22 +567,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/zakupy-przy-zmniejszonym-apetycie/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/zakupy-przy-zmniejszonym-apetycie/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Delicious Dried Pineapple",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Delicious_Dried_Pineapple.jpg",
+        "license": "CC BY 4.0",
+        "sha256": "edb8e21ed6176823a52278b0839d1a0ecef221ce5fcb3f2ed37030d708f64526"
+      }
     },
     {
       "slug": "leki-na-otylosc-red-flags",
       "topic": "Leki na otyłość i dieta: czerwone flagi, których nie ignorować",
       "sub_agent_id": "article-agent-020",
       "status": "reviewed",
-      "quality_score": 91,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/leki-na-otylosc-red-flags/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/leki-na-otylosc-red-flags/draft.html",
@@ -482,22 +596,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/leki-na-otylosc-red-flags/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/leki-na-otylosc-red-flags/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fruit and Vegies in Spar 03",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fruit_and_Vegies_in_Spar_03.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "aca0efdfa29678b0b1e359ed6eaf9702443b839bac075bcb85205d0a52421a03"
+      }
     },
     {
       "slug": "sniadania-przy-insulinoopornosci",
       "topic": "Śniadania przy insulinooporności: białko, błonnik, spokój",
       "sub_agent_id": "article-agent-021",
       "status": "reviewed",
-      "quality_score": 92,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/sniadania-przy-insulinoopornosci/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/sniadania-przy-insulinoopornosci/draft.html",
@@ -505,22 +625,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/sniadania-przy-insulinoopornosci/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/sniadania-przy-insulinoopornosci/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Healthy Oatmeal with Berries",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Healthy_Oatmeal_with_Berries.jpg",
+        "license": "CC BY-SA 2.0",
+        "sha256": "df196154596988d8c2dc4e13e4c2e9c946d0a3e3b8777237a26f3c8af13cbe1a"
+      }
     },
     {
       "slug": "kolacje-przy-insulinoopornosci",
       "topic": "Kolacje przy insulinooporności: co jeść, żeby spać i nie podjadać",
       "sub_agent_id": "article-agent-022",
       "status": "reviewed",
-      "quality_score": 82,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/kolacje-przy-insulinoopornosci/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/kolacje-przy-insulinoopornosci/draft.html",
@@ -528,22 +654,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/kolacje-przy-insulinoopornosci/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/kolacje-przy-insulinoopornosci/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Tomatoes 7",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tomatoes_7.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "9f18c30851c8709dcde1d7a5b07426acc395f5ea0b15d5da704ed9c8e7106289"
+      }
     },
     {
       "slug": "owoce-przy-insulinoopornosci",
       "topic": "Owoce przy insulinooporności: porcje, dodatki i mity",
       "sub_agent_id": "article-agent-023",
       "status": "reviewed",
-      "quality_score": 83,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/owoce-przy-insulinoopornosci/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/owoce-przy-insulinoopornosci/draft.html",
@@ -551,22 +683,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/owoce-przy-insulinoopornosci/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/owoce-przy-insulinoopornosci/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fruit in Pyatyorochka 02",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fruit_in_Pyatyorochka_02.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "61e7e0fcaeaa94f679585643d0014bfb3d10170b4cbb811e7eb4a4f302e23cc1"
+      }
     },
     {
       "slug": "kasza-ryz-ziemniaki-przy-io",
       "topic": "Kasza, ryż czy ziemniaki przy IO: jak wybierać węglowodany",
       "sub_agent_id": "article-agent-024",
       "status": "reviewed",
-      "quality_score": 84,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/kasza-ryz-ziemniaki-przy-io/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/kasza-ryz-ziemniaki-przy-io/draft.html",
@@ -574,22 +712,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/kasza-ryz-ziemniaki-przy-io/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/kasza-ryz-ziemniaki-przy-io/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Ashley Special Meal 2",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ashley_Special_Meal_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "c2e9b3ab5696424bedef03e4d2f4cf05fe645072ea37498f3fe963f05bb0ed9e"
+      }
     },
     {
       "slug": "kawa-sen-i-insulinoopornosc",
       "topic": "Kawa, sen i insulinooporność: dlaczego dieta to nie wszystko",
       "sub_agent_id": "article-agent-025",
       "status": "reviewed",
-      "quality_score": 85,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/kawa-sen-i-insulinoopornosc/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/kawa-sen-i-insulinoopornosc/draft.html",
@@ -597,22 +741,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/kawa-sen-i-insulinoopornosc/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/kawa-sen-i-insulinoopornosc/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Breakfast meal 20210810-FNS-UNC-0019",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Breakfast_meal_20210810-FNS-UNC-0019.jpg",
+        "license": "Public domain",
+        "sha256": "6c765bb938a0ec15769a48a3f9ce6efd22451037bcb1772d2813b6942dc76b38"
+      }
     },
     {
       "slug": "spacer-po-posilku-glukoza",
       "topic": "Spacer po posiłku: mały nawyk dla glukozy i trawienia",
       "sub_agent_id": "article-agent-026",
       "status": "reviewed",
-      "quality_score": 86,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/spacer-po-posilku-glukoza/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/spacer-po-posilku-glukoza/draft.html",
@@ -620,22 +770,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/spacer-po-posilku-glukoza/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/spacer-po-posilku-glukoza/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Healthy Oatmeal with Berries - 49859913257",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Healthy_Oatmeal_with_Berries_-_49859913257.jpg",
+        "license": "CC BY-SA 2.0",
+        "sha256": "09d9365ea4e3959158ae30f4907fd40c0e650c873cc5de88df85578d96ffe8f6"
+      }
     },
     {
       "slug": "hipoglikemia-reaktywna-dieta",
       "topic": "Hipoglikemia reaktywna: jak układać posiłki bez paniki",
       "sub_agent_id": "article-agent-027",
       "status": "reviewed",
-      "quality_score": 87,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/hipoglikemia-reaktywna-dieta/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/hipoglikemia-reaktywna-dieta/draft.html",
@@ -643,22 +799,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/hipoglikemia-reaktywna-dieta/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/hipoglikemia-reaktywna-dieta/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Healthy Cafe Food (Unsplash)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Healthy_Cafe_Food_(Unsplash).jpg",
+        "license": "CC0",
+        "sha256": "01f565aeca0edba7d6c3508a9464381386975114c8504673983c1d31bc33060b"
+      }
     },
     {
       "slug": "slodycze-przy-insulinoopornosci",
       "topic": "Słodycze przy insulinooporności: jak je wkomponować rozsądnie",
       "sub_agent_id": "article-agent-028",
       "status": "reviewed",
-      "quality_score": 88,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/slodycze-przy-insulinoopornosci/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/slodycze-przy-insulinoopornosci/draft.html",
@@ -666,22 +828,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/slodycze-przy-insulinoopornosci/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/slodycze-przy-insulinoopornosci/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Brown Bread with Oatmeal (4643220815)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Brown_Bread_with_Oatmeal_(4643220815).jpg",
+        "license": "CC BY 2.0",
+        "sha256": "3d16b1644b74c1c762e2e6fa172c3ab77a2630a2e1c4ae48a7dab369aeb16715"
+      }
     },
     {
       "slug": "stres-a-insulinoopornosc",
       "topic": "Stres a insulinooporność: apetyt, kortyzol i codzienne wybory",
       "sub_agent_id": "article-agent-029",
       "status": "reviewed",
-      "quality_score": 89,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/stres-a-insulinoopornosc/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/stres-a-insulinoopornosc/draft.html",
@@ -689,22 +857,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/stres-a-insulinoopornosc/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/stres-a-insulinoopornosc/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Anacortes, WA - California Fruit Store 02",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Anacortes,_WA_-_California_Fruit_Store_02.jpg",
+        "license": "CC BY-SA 3.0",
+        "sha256": "6c2fff6d830acadf4f2c9139a3d95818665347fd4b813c428e25ebb549792bdb"
+      }
     },
     {
       "slug": "wysoki-homa-ir-co-jesc",
       "topic": "Wysoki HOMA-IR: co jeść, gdy wynik niepokoi",
       "sub_agent_id": "article-agent-030",
       "status": "reviewed",
-      "quality_score": 90,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/wysoki-homa-ir-co-jesc/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/wysoki-homa-ir-co-jesc/draft.html",
@@ -712,22 +886,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/wysoki-homa-ir-co-jesc/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/wysoki-homa-ir-co-jesc/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "June 2007, fruits in Mexico City 2",
+        "source_url": "https://commons.wikimedia.org/wiki/File:June_2007,_fruits_in_Mexico_City_2.jpg",
+        "license": "CC0",
+        "sha256": "c7259fc91a674bd1d05ff63b206d2b9a40bee6c02fefb50950eaf1b1f26da4ef"
+      }
     },
     {
       "slug": "pcos-regularne-posilki",
       "topic": "PCOS i regularne posiłki: prosty fundament bez idealnej diety",
       "sub_agent_id": "article-agent-031",
       "status": "reviewed",
-      "quality_score": 91,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/pcos-regularne-posilki/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-regularne-posilki/draft.html",
@@ -735,22 +915,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/pcos-regularne-posilki/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-regularne-posilki/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fruit section of a grocery store",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fruit_section_of_a_grocery_store.jpg",
+        "license": "CC0",
+        "sha256": "94a981de0d35e961fd9b069ebf61722c9b583b87fe79fbf787b71d21d68371ee"
+      }
     },
     {
       "slug": "pcos-tradzik-i-dieta",
       "topic": "PCOS, trądzik i dieta: co ma sens, a co jest mitem",
       "sub_agent_id": "article-agent-032",
       "status": "reviewed",
-      "quality_score": 92,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/pcos-tradzik-i-dieta/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-tradzik-i-dieta/draft.html",
@@ -758,22 +944,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/pcos-tradzik-i-dieta/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-tradzik-i-dieta/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Breakfast on the Veranda (Unsplash)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Breakfast_on_the_Veranda_(Unsplash).jpg",
+        "license": "CC0",
+        "sha256": "ea8ec0e75e09163949e5f7c6f9a66d9cfd31aaea06beb6d034bf47ff0f5b768c"
+      }
     },
     {
       "slug": "pcos-owulacja-styl-zycia",
       "topic": "PCOS i owulacja: jak styl życia wspiera leczenie",
       "sub_agent_id": "article-agent-033",
       "status": "reviewed",
-      "quality_score": 82,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/pcos-owulacja-styl-zycia/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-owulacja-styl-zycia/draft.html",
@@ -781,22 +973,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/pcos-owulacja-styl-zycia/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-owulacja-styl-zycia/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fruit in Pyatyorochka 03",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fruit_in_Pyatyorochka_03.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "9bad64eaddd6bc8af9b02231519de5e2ce2bd55878718140761ea32255b0f761"
+      }
     },
     {
       "slug": "pcos-suplementy-bez-hype",
       "topic": "Suplementy przy PCOS bez hype: inozytol, witamina D, omega-3",
       "sub_agent_id": "article-agent-034",
       "status": "reviewed",
-      "quality_score": 83,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/pcos-suplementy-bez-hype/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-suplementy-bez-hype/draft.html",
@@ -804,22 +1002,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/pcos-suplementy-bez-hype/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-suplementy-bez-hype/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Healthy-looking raspberry and blueberry (Unsplash)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Healthy-looking_raspberry_and_blueberry_(Unsplash).jpg",
+        "license": "CC0",
+        "sha256": "41ecaa07c974c701f3c004faef666bda6b1518f87a46119d1619ef29685921b7"
+      }
     },
     {
       "slug": "pcos-zachcianki-na-slodkie",
       "topic": "PCOS i zachcianki na słodkie: sytość, sen i plan awaryjny",
       "sub_agent_id": "article-agent-035",
       "status": "reviewed",
-      "quality_score": 84,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/pcos-zachcianki-na-slodkie/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-zachcianki-na-slodkie/draft.html",
@@ -827,22 +1031,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/pcos-zachcianki-na-slodkie/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-zachcianki-na-slodkie/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Freshly made soup",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Freshly_made_soup.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "a99653a18254cf53bab6f717f678ad99acef08f74430e6d571c73275f21ee243"
+      }
     },
     {
       "slug": "pcos-sniadanie-bialkowe",
       "topic": "PCOS: śniadanie białkowe, które da się zrobić w 10 minut",
       "sub_agent_id": "article-agent-036",
       "status": "reviewed",
-      "quality_score": 85,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/pcos-sniadanie-bialkowe/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-sniadanie-bialkowe/draft.html",
@@ -850,22 +1060,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/pcos-sniadanie-bialkowe/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-sniadanie-bialkowe/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fresh tomatoes (25070130662)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fresh_tomatoes_(25070130662).jpg",
+        "license": "CC BY 2.0",
+        "sha256": "5de7aeb31eb289fa1d3a3c8a19f9ea99a31e5633ef0fd33aaa49981417d5d603"
+      }
     },
     {
       "slug": "pcos-dieta-roslinna",
       "topic": "PCOS i dieta roślinna: białko, żelazo i niski chaos",
       "sub_agent_id": "article-agent-037",
       "status": "reviewed",
-      "quality_score": 86,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/pcos-dieta-roslinna/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-dieta-roslinna/draft.html",
@@ -873,22 +1089,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/pcos-dieta-roslinna/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-dieta-roslinna/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Baked eggs with cheese 8b07646v",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Baked_eggs_with_cheese_8b07646v.jpg",
+        "license": "Public domain",
+        "sha256": "d32cf1ca6cf511b72a660333742c9fe60c5bbc97568a811219be9518dc36dd1f"
+      }
     },
     {
       "slug": "pcos-redukcja-bez-restrykcji",
       "topic": "PCOS i redukcja masy: jak działać bez restrykcyjnej diety",
       "sub_agent_id": "article-agent-038",
       "status": "reviewed",
-      "quality_score": 87,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/pcos-redukcja-bez-restrykcji/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-redukcja-bez-restrykcji/draft.html",
@@ -896,22 +1118,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/pcos-redukcja-bez-restrykcji/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-redukcja-bez-restrykcji/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Bitter Leaf Soup (Vernonia amygdalina)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bitter_Leaf_Soup_(Vernonia_amygdalina).jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "5d1657d3f6f2777f9f448f14769a4bea51d15ad4ee885419459fea1e3572347f"
+      }
     },
     {
       "slug": "inozytol-przy-pcos",
       "topic": "Inozytol przy PCOS: co warto wiedzieć przed suplementacją",
       "sub_agent_id": "article-agent-039",
       "status": "reviewed",
-      "quality_score": 88,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/inozytol-przy-pcos/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/inozytol-przy-pcos/draft.html",
@@ -919,22 +1147,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/inozytol-przy-pcos/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/inozytol-przy-pcos/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Healthy Fats - Avocado and Nuts - 50191958402",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Healthy_Fats_-_Avocado_and_Nuts_-_50191958402.jpg",
+        "license": "CC BY 2.0",
+        "sha256": "2e4848087ba09733aeb41e7ea2787e95b016bf73bfbd3a317b7963b52319ca48"
+      }
     },
     {
       "slug": "pcos-planowanie-tygodnia",
       "topic": "PCOS: planowanie tygodnia jedzenia bez perfekcjonizmu",
       "sub_agent_id": "article-agent-040",
       "status": "reviewed",
-      "quality_score": 89,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/pcos-planowanie-tygodnia/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-planowanie-tygodnia/draft.html",
@@ -942,22 +1176,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/pcos-planowanie-tygodnia/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/pcos-planowanie-tygodnia/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Carrots being chopped on a wooden board in a rustic kitchen",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Carrots_being_chopped_on_a_wooden_board_in_a_rustic_kitchen.jpg",
+        "license": "CC BY 2.0",
+        "sha256": "ecc7ecdea3610b9b1ca00dc40c207c577f406654caacbd47134d764d37699004"
+      }
     },
     {
       "slug": "perimenopauza-brzuch-i-apetyt",
       "topic": "Perimenopauza, brzuch i apetyt: co realnie można zmienić",
       "sub_agent_id": "article-agent-041",
       "status": "reviewed",
-      "quality_score": 90,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/perimenopauza-brzuch-i-apetyt/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/perimenopauza-brzuch-i-apetyt/draft.html",
@@ -965,22 +1205,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/perimenopauza-brzuch-i-apetyt/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/perimenopauza-brzuch-i-apetyt/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fresh African Garden Eggs",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fresh_African_Garden_Eggs.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "8c1c164e4d950955d12d6f4906b4d785920ad30a9b5b31d3a1aa37dd54c504e8"
+      }
     },
     {
       "slug": "menopauza-bialko-w-kazdym-posilku",
       "topic": "Menopauza: białko w każdym posiłku bez jedzenia kurczaka codziennie",
       "sub_agent_id": "article-agent-042",
       "status": "reviewed",
-      "quality_score": 91,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-bialko-w-kazdym-posilku/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-bialko-w-kazdym-posilku/draft.html",
@@ -988,22 +1234,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-bialko-w-kazdym-posilku/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-bialko-w-kazdym-posilku/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Groundnut(Arachis hypogaea)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Groundnut(Arachis_hypogaea).jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "3b949cd03bd70bd6de7276a4973647c1ad0761dae674c3605b06dbbe75c00552"
+      }
     },
     {
       "slug": "menopauza-alkohol-uderzenia-goraca",
       "topic": "Menopauza, alkohol i uderzenia gorąca: jak obserwować reakcje",
       "sub_agent_id": "article-agent-043",
       "status": "reviewed",
-      "quality_score": 92,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-alkohol-uderzenia-goraca/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-alkohol-uderzenia-goraca/draft.html",
@@ -1011,22 +1263,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-alkohol-uderzenia-goraca/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-alkohol-uderzenia-goraca/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fruit in Pyatyorochka 01",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fruit_in_Pyatyorochka_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "370a59d67659d5d6d3bd3e23f6afba3057b75df2e0d503e307e446e3bec9f4b5"
+      }
     },
     {
       "slug": "menopauza-sen-i-apetyt",
       "topic": "Menopauza, sen i apetyt: dlaczego wieczór bywa najtrudniejszy",
       "sub_agent_id": "article-agent-044",
       "status": "reviewed",
-      "quality_score": 82,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-sen-i-apetyt/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-sen-i-apetyt/draft.html",
@@ -1034,22 +1292,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-sen-i-apetyt/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-sen-i-apetyt/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fruit and Honey French Oatmeal",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fruit_and_Honey_French_Oatmeal.jpg",
+        "license": "CC0",
+        "sha256": "a7103844f7d4790d2bbac20322cc3fdb45af102c70af0bfd859d8fd921b93cc4"
+      }
     },
     {
       "slug": "menopauza-cholesterol",
       "topic": "Menopauza i cholesterol: dieta dla serca po 45. roku życia",
       "sub_agent_id": "article-agent-045",
       "status": "reviewed",
-      "quality_score": 83,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/dieta-na-cholesterol-triglicerydy.html",
-        "https://nataliacorvo.com/articles/dieta-dash-cisnienie-serce.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-cholesterol/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-cholesterol/draft.html",
@@ -1057,22 +1321,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-cholesterol/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-cholesterol/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fruit and Vegies in Spar 01",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fruit_and_Vegies_in_Spar_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "4fb7c5b2f731b642ee19275941cb765a27c264664f483356d6221a1ebf7d3144"
+      }
     },
     {
       "slug": "menopauza-trening-silowy-i-jedzenie",
       "topic": "Menopauza, trening siłowy i jedzenie: duet dla mięśni",
       "sub_agent_id": "article-agent-046",
       "status": "reviewed",
-      "quality_score": 84,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-trening-silowy-i-jedzenie/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-trening-silowy-i-jedzenie/draft.html",
@@ -1080,22 +1350,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-trening-silowy-i-jedzenie/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-trening-silowy-i-jedzenie/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Just 10 munits Chicken Ricotta Meatballs with Risoni in Tomato Basil Sauce",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Just_10_munits_Chicken_Ricotta_Meatballs_with_Risoni_in_Tomato_Basil_Sauce.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "473ed4005d5884e9cd6507fffe4ffb69818302b03ea465b3133d2ba36045947c"
+      }
     },
     {
       "slug": "wapn-witamina-d-menopauza",
       "topic": "Wapń i witamina D w menopauzie: dieta, suplementy, badania",
       "sub_agent_id": "article-agent-047",
       "status": "reviewed",
-      "quality_score": 85,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/wapn-witamina-d-menopauza/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/wapn-witamina-d-menopauza/draft.html",
@@ -1103,22 +1379,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/wapn-witamina-d-menopauza/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/wapn-witamina-d-menopauza/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Healthy quinoa salad with dried fruit",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Healthy_quinoa_salad_with_dried_fruit.jpg",
+        "license": "CC BY 4.0",
+        "sha256": "5cf26b72922bdb353af472d0052c997f1d9b7104bef301a2a14db594e07103de"
+      }
     },
     {
       "slug": "menopauza-blonnik",
       "topic": "Błonnik w menopauzie: jelita, cholesterol i sytość",
       "sub_agent_id": "article-agent-048",
       "status": "reviewed",
-      "quality_score": 86,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-blonnik/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-blonnik/draft.html",
@@ -1126,22 +1408,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-blonnik/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/menopauza-blonnik/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Burmese meal",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Burmese_meal.JPG",
+        "license": "CC BY-SA 3.0",
+        "sha256": "dc455c26951fa83afae6b5b83460f91ffc596a7b6d1ea088e286b302882e8461"
+      }
     },
     {
       "slug": "perimenopauza-zachcianki",
       "topic": "Zachcianki w perimenopauzie: plan zamiast walki z ciałem",
       "sub_agent_id": "article-agent-049",
       "status": "reviewed",
-      "quality_score": 87,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/perimenopauza-zachcianki/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/perimenopauza-zachcianki/draft.html",
@@ -1149,22 +1437,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/perimenopauza-zachcianki/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/perimenopauza-zachcianki/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fresh Green garden egg",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fresh_Green_garden_egg.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "a3fa68e4d35107cc8f2aada1a2ea3a0db9c6d9aa81988459ea058252445b1fb3"
+      }
     },
     {
       "slug": "dieta-przy-htz",
       "topic": "Dieta przy HTZ: co wspiera zdrowie, a czego nie obiecywać",
       "sub_agent_id": "article-agent-050",
       "status": "reviewed",
-      "quality_score": 88,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/dieta-przy-htz/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/dieta-przy-htz/draft.html",
@@ -1172,22 +1466,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/dieta-przy-htz/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/dieta-przy-htz/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Food sources of magnesium (magnesium-rich foods)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Food_sources_of_magnesium_(magnesium-rich_foods).jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "cd84d842df0a49111b2b316b687a7ec645170a41ed29eaadb868cd971492d4ff"
+      }
     },
     {
       "slug": "endometrioza-przeciwzapalnie-praktycznie",
       "topic": "Endometrioza i dieta przeciwzapalna: praktyka bez cudów",
       "sub_agent_id": "article-agent-051",
       "status": "reviewed",
-      "quality_score": 89,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/endometrioza-przeciwzapalnie-praktycznie/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/endometrioza-przeciwzapalnie-praktycznie/draft.html",
@@ -1195,22 +1495,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/endometrioza-przeciwzapalnie-praktycznie/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/endometrioza-przeciwzapalnie-praktycznie/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "French bread DSC09293",
+        "source_url": "https://commons.wikimedia.org/wiki/File:French_bread_DSC09293.jpg",
+        "license": "CC BY-SA 1.0",
+        "sha256": "85ca94565957e07234fd5d087b3cf73b2b6be9f1a14d03234872f34a17f67df9"
+      }
     },
     {
       "slug": "endometrioza-i-ibs",
       "topic": "Endometrioza i IBS: gdy brzuch reaguje na stres i jedzenie",
       "sub_agent_id": "article-agent-052",
       "status": "reviewed",
-      "quality_score": 90,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/endometrioza-i-ibs/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/endometrioza-i-ibs/draft.html",
@@ -1218,22 +1524,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/endometrioza-i-ibs/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/endometrioza-i-ibs/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Mediterranean Salad",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Mediterranean_Salad.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "d681142a9517bad05208ccdcceb344b2118ca917909c32080d93207bd8c8e75b"
+      }
     },
     {
       "slug": "bolesne-miesiaczki-dieta",
       "topic": "Bolesne miesiączki a dieta: żelazo, omega-3 i czerwone flagi",
       "sub_agent_id": "article-agent-053",
       "status": "reviewed",
-      "quality_score": 91,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/bolesne-miesiaczki-dieta/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/bolesne-miesiaczki-dieta/draft.html",
@@ -1241,22 +1553,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/bolesne-miesiaczki-dieta/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/bolesne-miesiaczki-dieta/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Cashew Nut or Kasoy",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cashew_Nut_or_Kasoy.jpg",
+        "license": "CC BY 4.0",
+        "sha256": "01d335f142339d8792ecfa0f4e53403aaf6a095fd63a31a90a516a1528fdc347"
+      }
     },
     {
       "slug": "dieta-dla-plodnosci-srodziemnomorsko",
       "topic": "Dieta dla płodności: śródziemnomorski styl w polskiej kuchni",
       "sub_agent_id": "article-agent-054",
       "status": "reviewed",
-      "quality_score": 92,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/dieta-dla-plodnosci-srodziemnomorsko/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/dieta-dla-plodnosci-srodziemnomorsko/draft.html",
@@ -1264,22 +1582,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/dieta-dla-plodnosci-srodziemnomorsko/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/dieta-dla-plodnosci-srodziemnomorsko/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Food-healthy-fruits-kitchen (23959260229)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Food-healthy-fruits-kitchen_(23959260229).jpg",
+        "license": "CC0",
+        "sha256": "ead116b71ae6febee1cbb999e017630a239e91a118d50740a3bbfc82fb1a33b0"
+      }
     },
     {
       "slug": "kwas-foliowy-przed-ciaza",
       "topic": "Kwas foliowy przed ciążą: dieta, suplement i timing",
       "sub_agent_id": "article-agent-055",
       "status": "reviewed",
-      "quality_score": 82,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/kwas-foliowy-przed-ciaza/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/kwas-foliowy-przed-ciaza/draft.html",
@@ -1287,22 +1611,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/kwas-foliowy-przed-ciaza/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/kwas-foliowy-przed-ciaza/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fruit and Vegies in Spar 02",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fruit_and_Vegies_in_Spar_02.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "6f5761136cfb3d8e0ca5a88f1d0889884ca58e4128fd3245ccac6d879930faa8"
+      }
     },
     {
       "slug": "mdlosci-w-ciazy-co-jesc",
       "topic": "Mdłości w ciąży: co jeść, gdy zdrowe jedzenie odrzuca",
       "sub_agent_id": "article-agent-056",
       "status": "reviewed",
-      "quality_score": 83,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/mdlosci-w-ciazy-co-jesc/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/mdlosci-w-ciazy-co-jesc/draft.html",
@@ -1310,22 +1640,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/mdlosci-w-ciazy-co-jesc/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/mdlosci-w-ciazy-co-jesc/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fruit and Vegies in Spar 05",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fruit_and_Vegies_in_Spar_05.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "55ed760a417f02def01149ffccb04d6211559490250c9ce640d2e33d98bcee52"
+      }
     },
     {
       "slug": "zaparcia-w-ciazy",
       "topic": "Zaparcia w ciąży: błonnik, płyny i kiedy do lekarza",
       "sub_agent_id": "article-agent-057",
       "status": "reviewed",
-      "quality_score": 84,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/jelita-mikrobiota-trawienie.html",
-        "https://nataliacorvo.com/articles/dieta-low-fodmap-ibs.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/zaparcia-w-ciazy/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/zaparcia-w-ciazy/draft.html",
@@ -1333,22 +1669,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/zaparcia-w-ciazy/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/zaparcia-w-ciazy/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Gaya Confederacy Nuts and Seeds (17811504248)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Gaya_Confederacy_Nuts_and_Seeds_(17811504248).jpg",
+        "license": "CC0",
+        "sha256": "6ef5e1a79fee5d8fe03b6e6517abf6cf4e682b3ccdba892ccc07de3056b637ff"
+      }
     },
     {
       "slug": "cukrzyca-ciazowa-przekaski",
       "topic": "Cukrzyca ciążowa: przekąski, które pomagają utrzymać rytm",
       "sub_agent_id": "article-agent-058",
       "status": "reviewed",
-      "quality_score": 85,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/cukrzyca-ciazowa-przekaski/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/cukrzyca-ciazowa-przekaski/draft.html",
@@ -1356,22 +1698,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/cukrzyca-ciazowa-przekaski/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/cukrzyca-ciazowa-przekaski/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "CSIRO ScienceImage 10909 BARLEYmax grain",
+        "source_url": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_10909_BARLEYmax_grain.jpg",
+        "license": "CC BY 3.0",
+        "sha256": "acd33ae5f06f8f336bfbe0c41a85169d2bf75d490232eadad9d8df0dbc9dd75e"
+      }
     },
     {
       "slug": "anemia-w-ciazy-zelazo",
       "topic": "Anemia w ciąży: żelazo z diety i lepsze wchłanianie",
       "sub_agent_id": "article-agent-059",
       "status": "reviewed",
-      "quality_score": 86,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/anemia-w-ciazy-zelazo/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/anemia-w-ciazy-zelazo/draft.html",
@@ -1379,22 +1727,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/anemia-w-ciazy-zelazo/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/anemia-w-ciazy-zelazo/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fat Kerela Rice with Fish and salad",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fat_Kerela_Rice_with_Fish_and_salad.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "8773b7e4eb81b2260e8248c961255f9673a8fd670478c77e13fb6698e978fc43"
+      }
     },
     {
       "slug": "karmienie-piersia-glod",
       "topic": "Karmienie piersią i ciągły głód: jak jeść bez chaosu",
       "sub_agent_id": "article-agent-060",
       "status": "reviewed",
-      "quality_score": 87,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/karmienie-piersia-glod/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/karmienie-piersia-glod/draft.html",
@@ -1402,22 +1756,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/karmienie-piersia-glod/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/karmienie-piersia-glod/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Food-healthy-meal-morning (24325073315)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Food-healthy-meal-morning_(24325073315).jpg",
+        "license": "CC0",
+        "sha256": "38e303820136b9f0fc2e85a8d9fed29f9d0eefe3a468f3e14b5548bd7c440efb"
+      }
     },
     {
       "slug": "wzdecia-po-obiedzie",
       "topic": "Wzdęcia po obiedzie: co sprawdzić zanim usuniesz pół diety",
       "sub_agent_id": "article-agent-061",
       "status": "reviewed",
-      "quality_score": 88,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/jelita-mikrobiota-trawienie.html",
-        "https://nataliacorvo.com/articles/dieta-low-fodmap-ibs.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/wzdecia-po-obiedzie/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/wzdecia-po-obiedzie/draft.html",
@@ -1425,22 +1785,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/wzdecia-po-obiedzie/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/wzdecia-po-obiedzie/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Heaalthy Thai Pumpkin Soup",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Heaalthy_Thai_Pumpkin_Soup.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "9768863d86ad0f58ca309706cb66e97d59160bb87ee7b91e84214c5847aeee74"
+      }
     },
     {
       "slug": "fodmap-reintrodukcja",
       "topic": "Reintrodukcja FODMAP: jak wracać do produktów bez zgadywania",
       "sub_agent_id": "article-agent-062",
       "status": "reviewed",
-      "quality_score": 89,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/jelita-mikrobiota-trawienie.html",
-        "https://nataliacorvo.com/articles/dieta-low-fodmap-ibs.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/fodmap-reintrodukcja/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/fodmap-reintrodukcja/draft.html",
@@ -1448,22 +1814,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/fodmap-reintrodukcja/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/fodmap-reintrodukcja/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fruit Kebabs\"",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fruit_Kebabs%22.jpg",
+        "license": "CC BY 4.0",
+        "sha256": "cd7af14f97f2ce4d2db88be6ba34b55f1626e04620302f8d078d11cd77b8c43c"
+      }
     },
     {
       "slug": "probiotyk-kiedy-ma-sens",
       "topic": "Probiotyk: kiedy ma sens, a kiedy jest tylko drogim nawykiem",
       "sub_agent_id": "article-agent-063",
       "status": "reviewed",
-      "quality_score": 90,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/jelita-mikrobiota-trawienie.html",
-        "https://nataliacorvo.com/articles/dieta-low-fodmap-ibs.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/probiotyk-kiedy-ma-sens/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/probiotyk-kiedy-ma-sens/draft.html",
@@ -1471,22 +1843,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/probiotyk-kiedy-ma-sens/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/probiotyk-kiedy-ma-sens/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Banana Loaf bread",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Banana_Loaf_bread.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "ea235a8775814ea8d1cb37b1db130a21dbed3c2f70c38943c2f4ae9b44987788"
+      }
     },
     {
       "slug": "prebiotyki-bez-wzdec",
       "topic": "Prebiotyki bez wzdęć: jak zwiększać błonnik powoli",
       "sub_agent_id": "article-agent-064",
       "status": "reviewed",
-      "quality_score": 91,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/jelita-mikrobiota-trawienie.html",
-        "https://nataliacorvo.com/articles/dieta-low-fodmap-ibs.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/prebiotyki-bez-wzdec/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/prebiotyki-bez-wzdec/draft.html",
@@ -1494,22 +1872,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/prebiotyki-bez-wzdec/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/prebiotyki-bez-wzdec/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Food-salad-healthy-lunch (24029103260)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Food-salad-healthy-lunch_(24029103260).jpg",
+        "license": "CC0",
+        "sha256": "e775f9aa4b4bd9fe8f8f8a8a7241e2c446744074536da4a2f70dfcc93423c830"
+      }
     },
     {
       "slug": "kiszonki-a-jelita",
       "topic": "Kiszonki a jelita: kiedy pomagają, a kiedy nasilają objawy",
       "sub_agent_id": "article-agent-065",
       "status": "reviewed",
-      "quality_score": 92,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/jelita-mikrobiota-trawienie.html",
-        "https://nataliacorvo.com/articles/dieta-low-fodmap-ibs.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/kiszonki-a-jelita/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/kiszonki-a-jelita/draft.html",
@@ -1517,22 +1901,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/kiszonki-a-jelita/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/kiszonki-a-jelita/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fruit Box",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fruit_Box.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "33b16279454f426a7d6668c503283f1be7ae3796a1816a9880b878ff8d411096"
+      }
     },
     {
       "slug": "refluks-kolacja",
       "topic": "Refluks i kolacja: godzina, porcje, tłuszcz i kawa",
       "sub_agent_id": "article-agent-066",
       "status": "reviewed",
-      "quality_score": 82,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/jelita-mikrobiota-trawienie.html",
-        "https://nataliacorvo.com/articles/dieta-low-fodmap-ibs.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/refluks-kolacja/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/refluks-kolacja/draft.html",
@@ -1540,22 +1930,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/refluks-kolacja/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/refluks-kolacja/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Dragon Fruit 20181113-FPAC-LSC-0571 (46664818594)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dragon_Fruit_20181113-FPAC-LSC-0571_(46664818594).jpg",
+        "license": "Public domain",
+        "sha256": "60a1d2ae862216866b3efd6724c35df97084a981f2ab5f3d5b386cd25e24a85d"
+      }
     },
     {
       "slug": "zaparcia-blonnik-stopniowo",
       "topic": "Zaparcia: jak zwiększać błonnik, żeby nie pogorszyć brzucha",
       "sub_agent_id": "article-agent-067",
       "status": "reviewed",
-      "quality_score": 83,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/jelita-mikrobiota-trawienie.html",
-        "https://nataliacorvo.com/articles/dieta-low-fodmap-ibs.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/zaparcia-blonnik-stopniowo/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/zaparcia-blonnik-stopniowo/draft.html",
@@ -1563,22 +1959,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/zaparcia-blonnik-stopniowo/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/zaparcia-blonnik-stopniowo/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Granola (with pumpkin seeds, sesame seeds, goji berries, dried cranberries and hemp seeds) (6133622422)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Granola_(with_pumpkin_seeds,_sesame_seeds,_goji_berries,_dried_cranberries_and_hemp_seeds)_(6133622422).jpg",
+        "license": "CC BY 2.0",
+        "sha256": "0a8e9d11a0fdb7de4b3e6dcde663df6768c65394a9e6808b81f1bbc42ec090ac"
+      }
     },
     {
       "slug": "biegunka-nawodnienie-dorosly",
       "topic": "Biegunka u dorosłych: nawodnienie, jedzenie i czerwone flagi",
       "sub_agent_id": "article-agent-068",
       "status": "reviewed",
-      "quality_score": 84,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/jelita-mikrobiota-trawienie.html",
-        "https://nataliacorvo.com/articles/dieta-low-fodmap-ibs.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/biegunka-nawodnienie-dorosly/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/biegunka-nawodnienie-dorosly/draft.html",
@@ -1586,22 +1988,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/biegunka-nawodnienie-dorosly/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/biegunka-nawodnienie-dorosly/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Food prepared in banana leaves along side with plates of rice and greens8",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Food_prepared_in_banana_leaves_along_side_with_plates_of_rice_and_greens8.jpg",
+        "license": "CC0",
+        "sha256": "4867aaa504d17227d4b40d0a20c411a7459af81d39ee8ecceaafb3431de7d1ae"
+      }
     },
     {
       "slug": "sibo-nawroty-nawyki",
       "topic": "SIBO i nawroty: nawyki, które wspierają leczenie",
       "sub_agent_id": "article-agent-069",
       "status": "reviewed",
-      "quality_score": 85,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/jelita-mikrobiota-trawienie.html",
-        "https://nataliacorvo.com/articles/dieta-low-fodmap-ibs.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/sibo-nawroty-nawyki/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/sibo-nawroty-nawyki/draft.html",
@@ -1609,22 +2017,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/sibo-nawroty-nawyki/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/sibo-nawroty-nawyki/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Dried fruit production in Armenia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dried_fruit_production_in_Armenia.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "b9929c61958d1c45c2e043c4d2c95139daaddffd3eecd630baf97b2b720e2c63"
+      }
     },
     {
       "slug": "jelita-stres-rutyna",
       "topic": "Jelita, stres i rutyna posiłków: praktyczny plan na tydzień",
       "sub_agent_id": "article-agent-070",
       "status": "reviewed",
-      "quality_score": 86,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/jelita-mikrobiota-trawienie.html",
-        "https://nataliacorvo.com/articles/dieta-low-fodmap-ibs.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/jelita-stres-rutyna/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/jelita-stres-rutyna/draft.html",
@@ -1632,22 +2046,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/jelita-stres-rutyna/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/jelita-stres-rutyna/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Berry-flavored vegan oat yoghurt (3084732517)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Berry-flavored_vegan_oat_yoghurt_(3084732517).jpg",
+        "license": "CC BY 2.0",
+        "sha256": "3b2901f67889262091ac2988239e86989569606975cb9cf61dca67bdb9e54b93"
+      }
     },
     {
       "slug": "ldl-pierwsze-8-tygodni",
       "topic": "LDL: pierwsze 8 tygodni zmian w diecie krok po kroku",
       "sub_agent_id": "article-agent-071",
       "status": "reviewed",
-      "quality_score": 87,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/dieta-na-cholesterol-triglicerydy.html",
-        "https://nataliacorvo.com/articles/dieta-dash-cisnienie-serce.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/ldl-pierwsze-8-tygodni/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/ldl-pierwsze-8-tygodni/draft.html",
@@ -1655,22 +2075,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/ldl-pierwsze-8-tygodni/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/ldl-pierwsze-8-tygodni/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Freshly caught Shad and garden salad",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Freshly_caught_Shad_and_garden_salad.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "0b4bf26fc91e784bf85b9372458799afdaa92100402f9caf756e674d7fe1430e"
+      }
     },
     {
       "slug": "lp-a-co-moze-dieta",
       "topic": "Lp(a): co może dieta, a czego nie zmieni",
       "sub_agent_id": "article-agent-072",
       "status": "reviewed",
-      "quality_score": 88,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/lp-a-co-moze-dieta/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/lp-a-co-moze-dieta/draft.html",
@@ -1678,22 +2104,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/lp-a-co-moze-dieta/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/lp-a-co-moze-dieta/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fruit and Vegies in Spar 04",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fruit_and_Vegies_in_Spar_04.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "5fe3192b135a3e0ff4012782513141591a609ae24dd49531fae827eb17450531"
+      }
     },
     {
       "slug": "triglicerydy-kolacja",
       "topic": "Triglicerydy a kolacja: cukier, alkohol i późne jedzenie",
       "sub_agent_id": "article-agent-073",
       "status": "reviewed",
-      "quality_score": 89,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/dieta-na-cholesterol-triglicerydy.html",
-        "https://nataliacorvo.com/articles/dieta-dash-cisnienie-serce.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/triglicerydy-kolacja/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/triglicerydy-kolacja/draft.html",
@@ -1701,22 +2133,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/triglicerydy-kolacja/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/triglicerydy-kolacja/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Anacortes, WA - California Fruit Store 03",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Anacortes,_WA_-_California_Fruit_Store_03.jpg",
+        "license": "CC BY-SA 3.0",
+        "sha256": "3f72cd6da0ed530cc00ff3557dde362a97b699ae2c58db3305f39cdbb13b9022"
+      }
     },
     {
       "slug": "dash-polskie-zakupy",
       "topic": "DASH po polsku: lista zakupów na nadciśnienie",
       "sub_agent_id": "article-agent-074",
       "status": "reviewed",
-      "quality_score": 90,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/dieta-na-cholesterol-triglicerydy.html",
-        "https://nataliacorvo.com/articles/dieta-dash-cisnienie-serce.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/dash-polskie-zakupy/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/dash-polskie-zakupy/draft.html",
@@ -1724,22 +2162,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/dash-polskie-zakupy/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/dash-polskie-zakupy/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Healthy Meal Prep (Unsplash)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Healthy_Meal_Prep_(Unsplash).jpg",
+        "license": "CC0",
+        "sha256": "2189afaa451d4620ca703501c1a0c81a9c445e07949b920851d8d5ad68c2ecf3"
+      }
     },
     {
       "slug": "sol-etykiety-nadcisnienie",
       "topic": "Sól na etykietach: jak czytać produkty przy nadciśnieniu",
       "sub_agent_id": "article-agent-075",
       "status": "reviewed",
-      "quality_score": 91,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/dieta-na-cholesterol-triglicerydy.html",
-        "https://nataliacorvo.com/articles/dieta-dash-cisnienie-serce.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/sol-etykiety-nadcisnienie/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/sol-etykiety-nadcisnienie/draft.html",
@@ -1747,22 +2191,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/sol-etykiety-nadcisnienie/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/sol-etykiety-nadcisnienie/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Healthy Work Lunch (Unsplash)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Healthy_Work_Lunch_(Unsplash).jpg",
+        "license": "CC0",
+        "sha256": "3f7e61225ca2c1a61c0e9b9e67cd8f9095c28f37915f3769522df595eb1af190"
+      }
     },
     {
       "slug": "potas-w-diecie-nadcisnienie",
       "topic": "Potas w diecie przy nadciśnieniu: produkty i sytuacje ostrożności",
       "sub_agent_id": "article-agent-076",
       "status": "reviewed",
-      "quality_score": 92,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/dieta-na-cholesterol-triglicerydy.html",
-        "https://nataliacorvo.com/articles/dieta-dash-cisnienie-serce.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/potas-w-diecie-nadcisnienie/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/potas-w-diecie-nadcisnienie/draft.html",
@@ -1770,22 +2220,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/potas-w-diecie-nadcisnienie/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/potas-w-diecie-nadcisnienie/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "MyPlate gov Cultural Food (20241025-USDA-FNS-UNK-0076)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:MyPlate_gov_Cultural_Food_(20241025-USDA-FNS-UNK-0076).jpg",
+        "license": "Public domain",
+        "sha256": "e40946a231948ced5b2a8bc7151934d64bf92c8554c1d2347f7b9d18850c6d45"
+      }
     },
     {
       "slug": "stluszczenie-watroby-sniadanie",
       "topic": "Stłuszczenie wątroby: śniadanie, które nie jest deserem",
       "sub_agent_id": "article-agent-077",
       "status": "reviewed",
-      "quality_score": 82,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/dieta-na-cholesterol-triglicerydy.html",
-        "https://nataliacorvo.com/articles/dieta-dash-cisnienie-serce.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/stluszczenie-watroby-sniadanie/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/stluszczenie-watroby-sniadanie/draft.html",
@@ -1793,22 +2249,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/stluszczenie-watroby-sniadanie/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/stluszczenie-watroby-sniadanie/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Anacortes, WA - California Fruit Store 01",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Anacortes,_WA_-_California_Fruit_Store_01.jpg",
+        "license": "CC BY-SA 3.0",
+        "sha256": "fa077c0c309cfff11acb91a4398c9e6d3e8dd905dd7b00616b6589fe335e9882"
+      }
     },
     {
       "slug": "stluszczenie-watroby-alkohol-cukier",
       "topic": "Stłuszczenie wątroby: alkohol, cukier i realne priorytety",
       "sub_agent_id": "article-agent-078",
       "status": "reviewed",
-      "quality_score": 83,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/dieta-na-cholesterol-triglicerydy.html",
-        "https://nataliacorvo.com/articles/dieta-dash-cisnienie-serce.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/stluszczenie-watroby-alkohol-cukier/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/stluszczenie-watroby-alkohol-cukier/draft.html",
@@ -1816,22 +2278,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/stluszczenie-watroby-alkohol-cukier/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/stluszczenie-watroby-alkohol-cukier/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Draeger's Market San Mateo fruits",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Draeger%27s_Market_San_Mateo_fruits.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "29bcaf1481113ba9c1191ec0bfd4a1d2b877da156b7da8d82f351695d6c0c879"
+      }
     },
     {
       "slug": "cukrzyca-typu-2-metoda-talerza",
       "topic": "Cukrzyca typu 2: metoda talerza w polskim obiedzie",
       "sub_agent_id": "article-agent-079",
       "status": "reviewed",
-      "quality_score": 84,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/insulinoopornosc-dieta-nawyki.html",
-        "https://nataliacorvo.com/articles/dieta-pcos-insulinoopornosc.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/cukrzyca-typu-2-metoda-talerza/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/cukrzyca-typu-2-metoda-talerza/draft.html",
@@ -1839,22 +2307,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/cukrzyca-typu-2-metoda-talerza/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/cukrzyca-typu-2-metoda-talerza/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "A Nigerian balanced diet",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_Nigerian_balanced_diet.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "ae64fa8eb2501c7be8076351c183cbd70316be6c3f59cba0d93f21b05d3a69e9"
+      }
     },
     {
       "slug": "jajka-i-cholesterol-mit",
       "topic": "Jajka i cholesterol: mit, kontekst i zdrowy talerz",
       "sub_agent_id": "article-agent-080",
       "status": "reviewed",
-      "quality_score": 85,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/dieta-na-cholesterol-triglicerydy.html",
-        "https://nataliacorvo.com/articles/dieta-dash-cisnienie-serce.html",
-        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+        "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/jajka-i-cholesterol-mit/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/jajka-i-cholesterol-mit/draft.html",
@@ -1862,22 +2336,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/jajka-i-cholesterol-mit/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/jajka-i-cholesterol-mit/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "In suite breakfast experience (3119861609)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:In_suite_breakfast_experience_(3119861609).jpg",
+        "license": "CC BY-SA 2.0",
+        "sha256": "b635d4a2e5e85cb8220eefd2688b2ae3e29865085200d78b01bc380903201c05"
+      }
     },
     {
       "slug": "hashimoto-gluten-mity",
       "topic": "Hashimoto i gluten: kiedy eliminacja ma sens, a kiedy nie",
       "sub_agent_id": "article-agent-081",
       "status": "reviewed",
-      "quality_score": 86,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/hashimoto-gluten-mity/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/hashimoto-gluten-mity/draft.html",
@@ -1885,22 +2365,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/hashimoto-gluten-mity/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/hashimoto-gluten-mity/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Healthy Breakfast",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Healthy_Breakfast.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "af2873bddd3e990138ca0fdf814500c9fd5d4a8331411d7c97ca2d519ca5c8bf"
+      }
     },
     {
       "slug": "tarczyca-jod-dieta",
       "topic": "Tarczyca i jod: sól jodowana, ryby, suplementy i ostrożność",
       "sub_agent_id": "article-agent-082",
       "status": "reviewed",
-      "quality_score": 87,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/tarczyca-jod-dieta/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/tarczyca-jod-dieta/draft.html",
@@ -1908,22 +2394,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/tarczyca-jod-dieta/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/tarczyca-jod-dieta/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Heart of Palm Salad (12001647573)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Heart_of_Palm_Salad_(12001647573).jpg",
+        "license": "Public domain",
+        "sha256": "73f20b39379f87df4892ef06af1847fc1257149490c89f0156c4a7c4d2bcb801"
+      }
     },
     {
       "slug": "niska-ferrytyna-zmeczenie",
       "topic": "Niska ferrytyna i zmęczenie: co może dieta, a co wymaga badań",
       "sub_agent_id": "article-agent-083",
       "status": "reviewed",
-      "quality_score": 88,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/niska-ferrytyna-zmeczenie/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/niska-ferrytyna-zmeczenie/draft.html",
@@ -1931,22 +2423,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/niska-ferrytyna-zmeczenie/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/niska-ferrytyna-zmeczenie/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Amla (Indian Gooseberry) Juice",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Amla_(Indian_Gooseberry)_Juice.JPG",
+        "license": "CC BY-SA 4.0",
+        "sha256": "76bacb8e1390a47e2054e8c248bf1fd3e09c8e679f31372d4095309e41cfad0d"
+      }
     },
     {
       "slug": "zelazo-kawa-herbata",
       "topic": "Żelazo, kawa i herbata: jak poprawić wchłanianie bez rewolucji",
       "sub_agent_id": "article-agent-084",
       "status": "reviewed",
-      "quality_score": 89,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/zelazo-kawa-herbata/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/zelazo-kawa-herbata/draft.html",
@@ -1954,22 +2452,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/zelazo-kawa-herbata/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/zelazo-kawa-herbata/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Delish lunch outside in the sun - Flickr - Brett L.",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Delish_lunch_outside_in_the_sun_-_Flickr_-_Brett_L..jpg",
+        "license": "CC BY-SA 2.0",
+        "sha256": "21deefe86922bd640515f5e520790c8df178b926d14fdae48f5b1dd6cf8218d2"
+      }
     },
     {
       "slug": "witamina-b12-dieta-roslinna",
       "topic": "Witamina B12 w diecie roślinnej: suplement, badania, bezpieczeństwo",
       "sub_agent_id": "article-agent-085",
       "status": "reviewed",
-      "quality_score": 90,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/witamina-b12-dieta-roslinna/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/witamina-b12-dieta-roslinna/draft.html",
@@ -1977,22 +2481,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/witamina-b12-dieta-roslinna/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/witamina-b12-dieta-roslinna/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Plate of Vegetarian Meatballs",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Plate_of_Vegetarian_Meatballs.jpg",
+        "license": "CC BY 2.0",
+        "sha256": "ac61cc8e302a7c2de3a053b235b9ff73d2264f2a5d4cc48c5502830654e1d3bb"
+      }
     },
     {
       "slug": "witamina-d-realnie",
       "topic": "Witamina D: jedzenie, suplementy i realistyczne oczekiwania",
       "sub_agent_id": "article-agent-086",
       "status": "reviewed",
-      "quality_score": 91,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/witamina-d-realnie/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/witamina-d-realnie/draft.html",
@@ -2000,22 +2510,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/witamina-d-realnie/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/witamina-d-realnie/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "June 2007, fruits in Mexico City",
+        "source_url": "https://commons.wikimedia.org/wiki/File:June_2007,_fruits_in_Mexico_City.jpg",
+        "license": "CC0",
+        "sha256": "f5508224335b8020ea67b0e47abfe22abffd2c295118cb8347975b487248cde4"
+      }
     },
     {
       "slug": "wapn-bez-nabialu",
       "topic": "Wapń bez nabiału: jak zbudować dzień jedzenia",
       "sub_agent_id": "article-agent-087",
       "status": "reviewed",
-      "quality_score": 92,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/wapn-bez-nabialu/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/wapn-bez-nabialu/draft.html",
@@ -2023,22 +2539,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/wapn-bez-nabialu/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/wapn-bez-nabialu/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Dried fruit stall in the open",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Dried_fruit_stall_in_the_open.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "49948cdf649ed1f5b6437cfce6145d6c7b6f943929f02a3b9d149754ce395f50"
+      }
     },
     {
       "slug": "osteoporoza-bialko",
       "topic": "Osteoporoza i białko: dlaczego kości potrzebują więcej niż wapnia",
       "sub_agent_id": "article-agent-088",
       "status": "reviewed",
-      "quality_score": 82,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/osteoporoza-bialko/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/osteoporoza-bialko/draft.html",
@@ -2046,22 +2568,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/osteoporoza-bialko/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/osteoporoza-bialko/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Foods with a high fibre content, such as bread, grains, chia seeds and nuts",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Foods_with_a_high_fibre_content,_such_as_bread,_grains,_chia_seeds_and_nuts.jpg",
+        "license": "CC BY 2.0",
+        "sha256": "2414e86b9f8225c3797042f4e19bbab253f9f11ff58674e790bf4af80adc467d"
+      }
     },
     {
       "slug": "magnez-skurcze-mity",
       "topic": "Magnez na skurcze: kiedy warto, a kiedy szukać innej przyczyny",
       "sub_agent_id": "article-agent-089",
       "status": "reviewed",
-      "quality_score": 83,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/magnez-skurcze-mity/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/magnez-skurcze-mity/draft.html",
@@ -2069,22 +2597,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/magnez-skurcze-mity/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/magnez-skurcze-mity/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Pecan Nuts",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Pecan_Nuts.jpg",
+        "license": "CC BY 4.0",
+        "sha256": "04e3e5042961ecd5e465deff9b727bf5dca9a4726c73c50397403bdc08014926"
+      }
     },
     {
       "slug": "cynk-odpornosc-mity",
       "topic": "Cynk i odporność: dieta, suplementy i granice obietnic",
       "sub_agent_id": "article-agent-090",
       "status": "reviewed",
-      "quality_score": 84,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/cynk-odpornosc-mity/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/cynk-odpornosc-mity/draft.html",
@@ -2092,22 +2626,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/cynk-odpornosc-mity/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/cynk-odpornosc-mity/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "2021-01-06 12 15 43 Cranberry trail mix with cranberries, peanuts, raisins, walnuts, almonds, sunflower seeds, pepitas in the Franklin Farm section of Oak Hill, Fairfax County, Virginia",
+        "source_url": "https://commons.wikimedia.org/wiki/File:2021-01-06_12_15_43_Cranberry_trail_mix_with_cranberries,_peanuts,_raisins,_walnuts,_almonds,_sunflower_seeds,_pepitas_in_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "17aa355e8d58436d699a3c17c1617102f37608caf0ab8c8e5e8049224f2320d7"
+      }
     },
     {
       "slug": "meal-prep-2-godziny",
       "topic": "Meal prep w 2 godziny: baza posiłków na polski tydzień",
       "sub_agent_id": "article-agent-091",
       "status": "reviewed",
-      "quality_score": 85,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/meal-prep-2-godziny/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/meal-prep-2-godziny/draft.html",
@@ -2115,22 +2655,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/meal-prep-2-godziny/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/meal-prep-2-godziny/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "28 Borlotti bean variety - food prices at grocery market in Italy",
+        "source_url": "https://commons.wikimedia.org/wiki/File:28_Borlotti_bean_variety_-_food_prices_at_grocery_market_in_Italy.jpg",
+        "license": "CC BY 3.0",
+        "sha256": "dd94ed171b6ed29a16228547411ba279956c7cd154655ea6837b8ab2f5c2639f"
+      }
     },
     {
       "slug": "tanie-jedzenie-wysokobialkowe",
       "topic": "Tanie jedzenie wysokobiałkowe: zakupy bez drogich fit produktów",
       "sub_agent_id": "article-agent-092",
       "status": "reviewed",
-      "quality_score": 86,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/tanie-jedzenie-wysokobialkowe/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/tanie-jedzenie-wysokobialkowe/draft.html",
@@ -2138,22 +2684,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/tanie-jedzenie-wysokobialkowe/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/tanie-jedzenie-wysokobialkowe/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Bl.Fruit",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Bl.Fruit.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "769827f9368d7a73b40567ed6a615d80136cc5968e31826f67049a072ce1ea93"
+      }
     },
     {
       "slug": "sezonowy-talerz-czerwiec",
       "topic": "Sezonowy talerz w czerwcu: truskawki, młode ziemniaki, warzywa",
       "sub_agent_id": "article-agent-093",
       "status": "reviewed",
-      "quality_score": 87,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/sezonowy-talerz-czerwiec/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/sezonowy-talerz-czerwiec/draft.html",
@@ -2161,22 +2713,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/sezonowy-talerz-czerwiec/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/sezonowy-talerz-czerwiec/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Ashley Special Meal 4",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ashley_Special_Meal_4.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "53d25fba9f65cb9156467b20fff7d5bfb4c2e5a47bd02da59af684f33ad352c3"
+      }
     },
     {
       "slug": "zdrowy-grill-lato",
       "topic": "Zdrowy grill latem: talerz, marynaty, alkohol i bezpieczeństwo",
       "sub_agent_id": "article-agent-094",
       "status": "reviewed",
-      "quality_score": 88,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/zdrowy-grill-lato/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/zdrowy-grill-lato/draft.html",
@@ -2184,22 +2742,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/zdrowy-grill-lato/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/zdrowy-grill-lato/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Grilled Salmon Nicoise Salad",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Grilled_Salmon_Nicoise_Salad.jpg",
+        "license": "CC BY 2.0",
+        "sha256": "b7947a6428cbc1f7b9a2f063fe22f5bda64c142644ed0b4aa31486e2f212916f"
+      }
     },
     {
       "slug": "drugie-sniadanie-niejadek",
       "topic": "Drugie śniadanie dla niejadka: jak nie zamienić szkoły w walkę",
       "sub_agent_id": "article-agent-095",
       "status": "reviewed",
-      "quality_score": 89,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/drugie-sniadanie-niejadek/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/drugie-sniadanie-niejadek/draft.html",
@@ -2207,22 +2771,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/drugie-sniadanie-niejadek/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/drugie-sniadanie-niejadek/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fish and other food items for healthy living",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fish_and_other_food_items_for_healthy_living.jpg",
+        "license": "CC BY-SA 4.0",
+        "sha256": "c0e41d6c093f76b17b29c59cd50776e8dc58630b82ff603de50afaf81c27eee4"
+      }
     },
     {
       "slug": "glod-emocjonalny-po-pracy",
       "topic": "Głód emocjonalny po pracy: jak rozpoznać i co zrobić wieczorem",
       "sub_agent_id": "article-agent-096",
       "status": "reviewed",
-      "quality_score": 90,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/glod-emocjonalny-po-pracy/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/glod-emocjonalny-po-pracy/draft.html",
@@ -2230,22 +2800,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/glod-emocjonalny-po-pracy/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/glod-emocjonalny-po-pracy/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Nuts and fruit",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Nuts_and_fruit.jpg",
+        "license": "Public domain",
+        "sha256": "418d25866320dce7b8cb569634c4e53449ef74c5c1bb30cd6a4e3110069062d3"
+      }
     },
     {
       "slug": "sen-stres-apetyt",
       "topic": "Sen, stres i apetyt: trzy dźwignie zdrowego jedzenia",
       "sub_agent_id": "article-agent-097",
       "status": "reviewed",
-      "quality_score": 91,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/sen-stres-apetyt/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/sen-stres-apetyt/draft.html",
@@ -2253,22 +2829,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/sen-stres-apetyt/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/sen-stres-apetyt/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "20130126 Mixed nuts",
+        "source_url": "https://commons.wikimedia.org/wiki/File:20130126_Mixed_nuts.jpg",
+        "license": "CC BY-SA 3.0",
+        "sha256": "f6821a763b593feffb3e69ff525e038f6cca5f623e5a0776207a059340a62172"
+      }
     },
     {
       "slug": "kreatyna-dla-kobiet",
       "topic": "Kreatyna dla kobiet: siła, bezpieczeństwo i mity o wodzie",
       "sub_agent_id": "article-agent-098",
       "status": "reviewed",
-      "quality_score": 92,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
-        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/kreatyna-dla-kobiet/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/kreatyna-dla-kobiet/draft.html",
@@ -2276,22 +2858,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/kreatyna-dla-kobiet/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/kreatyna-dla-kobiet/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Fruit Stand, Tompkins Square (14506128503)",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fruit_Stand,_Tompkins_Square_(14506128503).jpg",
+        "license": "CC BY 2.0",
+        "sha256": "f7f9a1da707817aa8decc6e5395111052bc8c8229b0d57674c93e3c2bda1f04b"
+      }
     },
     {
       "slug": "elektrolity-upal",
       "topic": "Elektrolity w upał: kiedy wystarczy woda, a kiedy warto uzupełniać",
       "sub_agent_id": "article-agent-099",
       "status": "reviewed",
-      "quality_score": 82,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/elektrolity-upal/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/elektrolity-upal/draft.html",
@@ -2299,22 +2887,28 @@
         "data/weekly-trend-publishing/drafts/2026-06/elektrolity-upal/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/elektrolity-upal/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "A chuối nướng bọc nếp (grilled banana wrapped in sticky rice) food stand",
+        "source_url": "https://commons.wikimedia.org/wiki/File:A_chu%E1%BB%91i_n%C6%B0%E1%BB%9Bng_b%E1%BB%8Dc_n%E1%BA%BFp_(grilled_banana_wrapped_in_sticky_rice)_food_stand.jpg",
+        "license": "CC BY 2.0",
+        "sha256": "500587ea57c4fd13816a13bacdbb181336cc682118149e534c99301f8d74806d"
+      }
     },
     {
       "slug": "ultra-przetworzona-zywnosc-zamienniki",
       "topic": "Żywność ultra-przetworzona: praktyczne zamienniki bez paniki",
       "sub_agent_id": "article-agent-100",
       "status": "reviewed",
-      "quality_score": 83,
+      "quality_score": 94,
       "source_count": 6,
-      "image_license_status": "public_domain_attributed",
+      "image_license_status": "distinct_commons_image_attributed",
       "internal_links": [
         "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
-        "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html",
-        "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+        "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+        "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html"
       ],
-      "qa_status": "reviewed_after_language_normalization",
+      "qa_status": "p1_p2_fixed_reaudited_draft_ready_pending_human_clinical_approval",
       "created_files": [
         "data/weekly-trend-publishing/drafts/2026-06/ultra-przetworzona-zywnosc-zamienniki/article.json",
         "data/weekly-trend-publishing/drafts/2026-06/ultra-przetworzona-zywnosc-zamienniki/draft.html",
@@ -2322,7 +2916,13 @@
         "data/weekly-trend-publishing/drafts/2026-06/ultra-przetworzona-zywnosc-zamienniki/sources.md",
         "data/weekly-trend-publishing/drafts/2026-06/ultra-przetworzona-zywnosc-zamienniki/qa.md"
       ],
-      "blocker": null
+      "blocker": null,
+      "cover_image": {
+        "title": "Cuban fruit store",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Cuban_fruit_store.jpg",
+        "license": "Public domain",
+        "sha256": "5b27a0006838bf8cac86341fa3ae5f48efdd04e08b68c3f1e701af755d3bcfac"
+      }
     }
   ],
   "summary": {
@@ -2331,5 +2931,19 @@
     "reviewed": 100,
     "needs_revision": 0,
     "incomplete": 0
+  },
+  "review_after_p1_p2": {
+    "status": "p1_p2_fixed_and_reaudited",
+    "notes": [
+      "FAQ and takeaway sets regenerated per topic",
+      "Article bodies regenerated with topic-specific PL/EN sections",
+      "Broken CDC source removed from generated source sets",
+      "Internal links normalized to readable PL/EN titles",
+      "All 100 cover images replaced with distinct local JPEGs from Wikimedia Commons and attributed with license/source metadata",
+      "Repeated shared safety/mechanism/example paragraphs de-duplicated with topic-specific PL/EN context sentences"
+    ],
+    "fallback_image_count": 0,
+    "distinct_cover_hashes": 100,
+    "fixed_at": "2026-05-31T06:46:15.789Z"
   }
 }

@@ -2,18 +2,20 @@
 
 Primary keyword: owoce insulinooporność
 
-## Real sources checked for draft framing
+## Article sources
 
-- NCEZ: Insulinooporność - zacznijmy od podstaw: https://ncez.pzh.gov.pl/choroba-a-dieta/cukrzyca-i-insulinoopornosc/insulinoopornosc-zacznijmy-od-podstaw/
-- NCEZ: Insulinooporność - zalecenia i jadłospis: https://ncez.pzh.gov.pl/choroba-a-dieta/cukrzyca-i-insulinoopornosc/insulinoopornosc-zalecenia-i-jadlospis/
-- Diety NFZ: Cukrzyca: https://diety.nfz.gov.pl/plany-zywieniowe/cukrzyca
-- NCEZ: Talerz Zdrowego Żywienia: https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/
-- WHO: Healthy diet: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
-- EFSA: Dietary reference values: https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values
+- NCEZ: Insulinooporność - podstawy (NCEZ / NIZP PZH-PIB): https://ncez.pzh.gov.pl/choroba-a-dieta/cukrzyca-i-insulinoopornosc/insulinoopornosc-zacznijmy-od-podstaw/
+- NCEZ: Insulinooporność - zalecenia i jadłospis (NCEZ / NIZP PZH-PIB): https://ncez.pzh.gov.pl/choroba-a-dieta/cukrzyca-i-insulinoopornosc/insulinoopornosc-zalecenia-i-jadlospis/
+- Diety NFZ: Cukrzyca (Diety NFZ): https://diety.nfz.gov.pl/plany-zywieniowe/cukrzyca
+- NCEZ: Talerz Zdrowego Żywienia (NCEZ / NIZP PZH-PIB): https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/
+- WHO: Healthy diet (World Health Organization): https://www.who.int/news-room/fact-sheets/detail/healthy-diet
+- PubMed search: owoce insulinooporność (PubMed): https://pubmed.ncbi.nlm.nih.gov/?term=owoce%20insulinooporno%C5%9B%C4%87%20nutrition%20diet
 
 ## Image
 
-- File: Good Food Display - NCI Visuals Online
-- Source: https://commons.wikimedia.org/wiki/File:Good_Food_Display_-_NCI_Visuals_Online.jpg
-- License/status: Public domain / NCI Visuals Online via Wikimedia Commons
-- Attribution: Unknown author, National Cancer Institute Visuals Online, Public domain, via Wikimedia Commons
+- Title: Fruit in Pyatyorochka 02
+- Source: https://commons.wikimedia.org/wiki/File:Fruit_in_Pyatyorochka_02.jpg
+- Download URL used for local draft: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Fruit_in_Pyatyorochka_02.jpg/1280px-Fruit_in_Pyatyorochka_02.jpg
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+- Attribution: Stolbovsky, Fruit in Pyatyorochka 02, CC BY-SA 4.0, via Wikimedia Commons
+- SHA-256: 61e7e0fcaeaa94f679585643d0014bfb3d10170b4cbb811e7eb4a4f302e23cc1

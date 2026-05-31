@@ -2,18 +2,20 @@
 
 Primary keyword: inozytol PCOS
 
-## Real sources checked for draft framing
+## Article sources
 
-- NCEZ: PCOS - zalecenia i jadłospis: https://ncez.pzh.gov.pl/choroba-a-dieta/inne/zespol-policystycznych-jajnikow-zalecenia-i-jadlospis/
-- NCEZ: PCOS - rola diety i suplementacja: https://ncez.pzh.gov.pl/choroba-a-dieta/zespol-policystycznych-jajnikow-rola-diety-w-leczeniu-suplementacja/
-- Diety NFZ: PCOS: https://diety.nfz.gov.pl/plany-zywieniowe/pcos
-- NCEZ: Talerz Zdrowego Żywienia: https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/
-- WHO: Healthy diet: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
-- EFSA: Dietary reference values: https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values
+- NCEZ: PCOS - zalecenia i jadłospis (NCEZ / NIZP PZH-PIB): https://ncez.pzh.gov.pl/choroba-a-dieta/inne/zespol-policystycznych-jajnikow-zalecenia-i-jadlospis/
+- NCEZ: PCOS - dieta i suplementacja (NCEZ / NIZP PZH-PIB): https://ncez.pzh.gov.pl/choroba-a-dieta/zespol-policystycznych-jajnikow-rola-diety-w-leczeniu-suplementacja/
+- Diety NFZ: PCOS (Diety NFZ): https://diety.nfz.gov.pl/plany-zywieniowe/pcos
+- NCEZ: Talerz Zdrowego Żywienia (NCEZ / NIZP PZH-PIB): https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/
+- WHO: Healthy diet (World Health Organization): https://www.who.int/news-room/fact-sheets/detail/healthy-diet
+- PubMed search: inozytol PCOS (PubMed): https://pubmed.ncbi.nlm.nih.gov/?term=inozytol%20PCOS%20nutrition%20diet
 
 ## Image
 
-- File: Good Food Display - NCI Visuals Online
-- Source: https://commons.wikimedia.org/wiki/File:Good_Food_Display_-_NCI_Visuals_Online.jpg
-- License/status: Public domain / NCI Visuals Online via Wikimedia Commons
-- Attribution: Unknown author, National Cancer Institute Visuals Online, Public domain, via Wikimedia Commons
+- Title: Healthy Fats - Avocado and Nuts - 50191958402
+- Source: https://commons.wikimedia.org/wiki/File:Healthy_Fats_-_Avocado_and_Nuts_-_50191958402.jpg
+- Download URL used for local draft: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Healthy_Fats_-_Avocado_and_Nuts_-_50191958402.jpg/1280px-Healthy_Fats_-_Avocado_and_Nuts_-_50191958402.jpg
+- License: CC BY 2.0 (https://creativecommons.org/licenses/by/2.0)
+- Attribution: formulatehealth, Healthy Fats - Avocado and Nuts - 50191958402, CC BY 2.0, via Wikimedia Commons
+- SHA-256: 2e4848087ba09733aeb41e7ea2787e95b016bf73bfbd3a317b7963b52319ca48

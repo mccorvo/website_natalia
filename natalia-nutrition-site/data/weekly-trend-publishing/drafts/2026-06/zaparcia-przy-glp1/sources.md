@@ -2,18 +2,20 @@
 
 Primary keyword: zaparcia GLP-1
 
-## Real sources checked for draft framing
+## Article sources
 
-- WHO: Obesity and overweight: https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight
-- NICE: Overweight and obesity management: https://www.nice.org.uk/guidance/ng246
-- PubMed search: semaglutide obesity nutrition: https://pubmed.ncbi.nlm.nih.gov/?term=semaglutide+obesity+nutrition
-- NCEZ: Talerz Zdrowego Żywienia: https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/
-- WHO: Healthy diet: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
-- EFSA: Dietary reference values: https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values
+- NICE NG246: Overweight and obesity management (NICE): https://www.nice.org.uk/guidance/ng246
+- WHO: Obesity and overweight (World Health Organization): https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight
+- PubMed: GLP-1 receptor agonists and obesity nutrition (PubMed): https://pubmed.ncbi.nlm.nih.gov/?term=GLP-1+receptor+agonist+obesity+nutrition
+- NCEZ: Talerz Zdrowego Żywienia (NCEZ / NIZP PZH-PIB): https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/
+- WHO: Healthy diet (World Health Organization): https://www.who.int/news-room/fact-sheets/detail/healthy-diet
+- PubMed search: zaparcia GLP-1 (PubMed): https://pubmed.ncbi.nlm.nih.gov/?term=zaparcia%20GLP-1%20nutrition%20diet
 
 ## Image
 
-- File: Good Food Display - NCI Visuals Online
-- Source: https://commons.wikimedia.org/wiki/File:Good_Food_Display_-_NCI_Visuals_Online.jpg
-- License/status: Public domain / NCI Visuals Online via Wikimedia Commons
-- Attribution: Unknown author, National Cancer Institute Visuals Online, Public domain, via Wikimedia Commons
+- Title: 16 bean soup mix 01
+- Source: https://commons.wikimedia.org/wiki/File:16_bean_soup_mix_01.jpg
+- Download URL used for local draft: https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/16_bean_soup_mix_01.jpg/1280px-16_bean_soup_mix_01.jpg
+- License: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- Attribution: Bean appreciator, 16 bean soup mix 01, CC0, via Wikimedia Commons
+- SHA-256: bc79806ea7e004646aeea3fef049b65b7de381fde4d94ec7c239b0685f27aa17

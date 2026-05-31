@@ -1,191 +1,245 @@
 {
-  "version": 1,
+  "version": 2,
   "slug": "hipoglikemia-reaktywna-dieta",
-  "status": "draft",
+  "status": "reviewed",
   "language_mode": "PL-first with complete EN version",
   "topic": {
     "pl": "Hipoglikemia reaktywna: jak układać posiłki bez paniki",
     "en": "Reactive hypoglycaemia: building meals without panic",
-    "category": "insulinoresistenza",
-    "search_intent": "Regularność, skład posiłku i kiedy potrzebna jest diagnostyka."
+    "category_pl": "glikemii, insulinooporności i energii w ciągu dnia",
+    "category_en": "glucose balance, insulin resistance and daily energy",
+    "search_intent_pl": "Regularność, skład posiłku i kiedy potrzebna jest diagnostyka.",
+    "search_intent_en": "Practical search intent for reactive hypoglycaemia."
   },
   "seo": {
     "primary_keyword": "hipoglikemia reaktywna dieta",
     "secondary_keywords": [
       "hipoglikemia reaktywna dieta",
       "hipoglikemia reaktywna dieta praktycznie",
-      "hipoglikemia reaktywna dieta jadłospis",
       "hipoglikemia reaktywna dieta co jeść",
-      "hipoglikemia reaktywna dieta bezpiecznie",
-      "hipoglikemia reaktywna dieta FAQ"
+      "hipoglikemia reaktywna dieta objawy",
+      "hipoglikemia reaktywna dieta jadłospis",
+      "hipoglikemia reaktywna dieta FAQ",
+      "hipoglikemia reaktywna dieta bezpiecznie"
     ],
     "meta_title_pl": "Hipoglikemia reaktywna: jak układać posiłki bez paniki",
     "meta_title_en": "Reactive hypoglycaemia: building meals without panic",
-    "meta_description_pl": "Praktyczny przewodnik: hipoglikemia reaktywna dieta. Co jeść, czego nie obiecywać, kiedy szukać pomocy i jak zacząć małymi krokami w codziennym życiu.",
-    "meta_description_en": "Practical guide: reactive hypoglycaemia: building meals without panic. What to eat, what not to promise, when to seek support and how to start with small.",
+    "meta_description_pl": "Praktyczny przewodnik PL/EN: hipoglikemia reaktywna dieta. Konkretne kroki, przykłady posiłków, czerwone flagi, źródła i bezpieczne granice obietnic dietetycznych.",
+    "meta_description_en": "Practical PL/EN guide: Reactive hypoglycaemia: building meals without panic. Food steps, meal examples, red flags, sources and safety limits for nutrition claims.",
     "h1_pl": "Hipoglikemia reaktywna: jak układać posiłki bez paniki",
     "h1_en": "Reactive hypoglycaemia: building meals without panic",
-    "search_intent_note": "Regularność, skład posiłku i kiedy potrzebna jest diagnostyka."
+    "search_intent_note_pl": "Regularność, skład posiłku i kiedy potrzebna jest diagnostyka.",
+    "search_intent_note_en": "Practical, safety-first explanation for readers searching reactive hypoglycaemia."
   },
   "content": {
     "pl": {
-      "lead": "Regularność, skład posiłku i kiedy potrzebna jest diagnostyka. Ten szkic porządkuje temat bez obietnic leczenia i bez perfekcjonizmu. Celem jest decyzja, co możesz sprawdzić w najbliższym tygodniu, a co wymaga konsultacji lekarskiej lub dietetycznej.",
+      "lead": "Hipoglikemia reaktywna: jak układać posiłki bez paniki wymaga praktycznego podejścia: konkretnego, bezpiecznego i możliwego do utrzymania. Ten draft pokazuje, jak zacząć od jedzenia w realnym tygodniu, jakie sygnały obserwować i kiedy temat wymaga konsultacji zamiast kolejnej porady z internetu.",
       "takeaways": [
-        "Najpierw ustal prosty, powtarzalny fundament: regularność, białko, warzywa lub owoce, płyny i sen.",
-        "Nie traktuj jednego produktu jak przyczyny lub rozwiązania całego problemu; liczy się kontekst dnia.",
-        "Przy chorobach, lekach, ciąży, silnych objawach lub wynikach poza normą decyzje warto omówić ze specjalistą.",
-        "Najbezpieczniejszy plan to małe zmiany, obserwacja reakcji i unikanie skrajnych eliminacji."
+        "hipoglikemia reaktywna dieta: zacznij od jednej zmiany, którą da się powtórzyć przez tydzień.",
+        "Najważniejsze dźwignie w tym temacie to łączenie węglowodanów z białkiem, błonnikiem, ruchem po posiłku i snem.",
+        "Nie wprowadzaj dużych eliminacji bez powodu, planu powrotu i oceny ryzyka.",
+        "Objawy alarmowe i choroby przewlekłe wymagają konsultacji, nie tylko artykułu."
       ],
       "sections": [
         [
-          "Szybka odpowiedź",
-          "Hipoglikemia reaktywna: jak układać posiłki bez paniki to temat, w którym najwięcej sensu ma praktyczne podejście: mniej list zakazów, więcej powtarzalnych posiłków i uczciwa obserwacja objawów. W większości sytuacji dobrym początkiem jest talerz z porcją białka, dodatkiem węglowodanów dopasowanych do tolerancji, warzywami lub owocami oraz tłuszczem w rozsądnej ilości."
+          "Dla kogo jest ten draft: hipoglikemia reaktywna dieta",
+          "Hipoglikemia reaktywna: jak układać posiłki bez paniki jest dla osoby, która chce przełożyć popularny temat na bezpieczne decyzje przy stole. Nie jest to plan leczenia ani jadłospis kliniczny. To rama do rozmowy o glikemii, insulinooporności i energii w ciągu dnia: co warto sprawdzić samodzielnie, co obserwować i gdzie kończy się rola artykułu."
         ],
         [
-          "Co sprawdzić najpierw",
-          "Zanim zmienisz całą dietę, sprawdź trzy rzeczy: czy jesz wystarczająco regularnie, czy główne posiłki mają źródło białka i błonnika oraz czy nie próbujesz nadrabiać zmęczenia jedzeniem wieczorem. Dzienniczek przez 7 dni często pokazuje więcej niż kolejna restrykcyjna zasada."
+          "Mechanizm w praktyce",
+          "W tym temacie najważniejsze są: łączenie węglowodanów z białkiem, błonnikiem, ruchem po posiłku i snem. Zamiast szukać jednego winnego produktu, lepiej zobaczyć cały dzień: porę posiłku, wielkość porcji, białko, błonnik, napoje, sen i poziom stresu. Dla hasła „hipoglikemia reaktywna dieta” najpierw obserwuj jeden wskaźnik: objawy, energię, tolerancję posiłku albo wynik badania, zamiast zmieniać wszystko naraz."
         ],
         [
-          "Jak może wyglądać praktyczny talerz",
-          "Przykłady do adaptacji: prosty talerz: warzywa, źródło białka i węglowodany; zupa z dodatkiem strączków lub mięsa; kanapka z pełnoziarnistego pieczywa i warzyw. Porcja nie musi być idealna. Lepiej zacząć od jednego stabilnego posiłku dziennie niż planować rewolucję, której nie da się utrzymać przy pracy, rodzinie i zakupach w zwykłym sklepie."
+          "Plan na pierwsze 7 dni",
+          "Przez tydzień wybierz jedną zmianę związaną z hasłem „hipoglikemia reaktywna dieta”: ustal stałą porę jednego posiłku, dodaj do niego źródło białka, zapisz objawy lub energię po jedzeniu i nie wprowadzaj kilku eliminacji naraz. Po 7 dniach oceń, czy zmiana była realna, a nie tylko ambitna."
         ],
         [
-          "Polski kontekst: zakupy i gotowanie",
-          "W polskiej kuchni pomocne są proste bazy: ziemniaki, kasze, płatki owsiane, jajka, twaróg, jogurt naturalny, tofu, mrożone warzywa, strączki, ryby w puszce, zupy i surówki. Wybieraj produkty, które realnie zjesz, a nie tylko te, które wyglądają idealnie w planie."
+          "Przykłady posiłków do dopasowania",
+          "Możesz zacząć od takich baz: owsianka z jogurtem i orzechami; kanapka żytnia z jajkiem, warzywami i oliwą; obiad z kaszą, rybą i surówką. Każdy przykład wymaga dopasowania porcji, tolerancji, leków i celu. W praktyce lepsze są 2-3 powtarzalne posiłki niż długa lista potraw, których nie ugotujesz. Przy celu „hipoglikemia reaktywna dieta” wybierz wariant najbliższy Twojej kuchni i dopiero potem zmieniaj porcję, dodatek białka lub źródło błonnika."
         ],
         [
-          "Czego nie obiecywać",
-          "Dieta może wspierać zdrowie metaboliczne, komfort jelit, sytość i jakość posiłków, ale nie zastępuje diagnozy ani leczenia. Uważaj na obietnice „wyleczenia”, detoksu, resetu hormonów, magicznych suplementów i zakazów całych grup produktów bez wskazań."
+          "Co monitorować",
+          "Przy temacie hipoglikemia reaktywna dieta obserwuj: senność po posiłkach, głód po 2 godzinach, wyniki badań i reakcję na różne porcje węglowodanów. Dobrze działa prosty dzienniczek: godzina posiłku, skład, objawy po 2-4 godzinach, sen i stres. Nie chodzi o kontrolę perfekcyjną, tylko o znalezienie wzoru."
         ],
         [
-          "Kiedy skonsultować się ze specjalistą",
-          "Skonsultuj się z lekarzem lub dietetykiem, jeśli masz niezamierzoną utratę masy ciała, krew w stolcu, omdlenia, silny ból, uporczywe wymioty, anemię, zaburzenia miesiączkowania, ciążę, choroby nerek, cukrzycę, przyjmujesz leki wpływające na apetyt lub glikemię albo planujesz dużą eliminację."
+          "Czego unikać",
+          "Unikaj obietnic typu „wyleczy”, „zresetuje hormony”, „spali tłuszcz” albo „zastąpi leki”. Ostrożnie podchodź też do list zakazów kopiowanych z internetu. Jeśli ograniczenie dotyczy całej grupy produktów, powinno mieć powód, plan powrotu albo opiekę specjalisty. W kontekście „hipoglikemia reaktywna dieta” szczególnie odrzucaj rady, które pomijają leki, wyniki badań albo realny rytm dnia."
+        ],
+        [
+          "Czerwone flagi",
+          "Skontaktuj się z lekarzem, jeśli pojawiają się: nawracające hipoglikemie, bardzo wysokie glikemie, omdlenia, ciąża, szybka utrata masy ciała albo samodzielne zmiany leków. Dietetyk może pomóc ułożyć jedzenie, ale nie powinien zastępować diagnostyki ani leczenia, gdy objawy są silne lub nowe. Przy temacie „hipoglikemia reaktywna dieta” próg konsultacji powinien być niższy, jeśli objawy są nowe, nasilają się albo dotyczą ciąży, leków lub choroby przewlekłej."
+        ],
+        [
+          "Jak Natalia może dopracować ten temat w konsultacji",
+          "W konsultacji ten draft można zamienić w indywidualny plan: przejrzeć wyniki badań, leki, rytm pracy, kuchnię domową, budżet i preferencje. Dopiero wtedy temat hipoglikemia reaktywna dieta staje się konkretną strategią, a nie kolejną ogólną poradą."
         ]
       ],
       "faq": [
         [
-          "Czy muszę zmieniać wszystko od razu?",
-          "Nie. Najczęściej lepiej wybrać jedną zmianę na 7-14 dni, np. śniadanie z białkiem albo wcześniejszą kolację, i dopiero potem ocenić efekt."
+          "Czy hipoglikemia reaktywna dieta wymaga idealnej diety?",
+          "Nie. W praktyce lepiej zacząć od regularności, białka, błonnika i obserwacji reakcji niż od idealnego jadłospisu. Perfekcja często skraca trwałość planu."
         ],
         [
-          "Czy ten temat wymaga suplementów?",
-          "Nie zawsze. Suplementy mają sens tylko wtedy, gdy odpowiadają na konkretny cel, niedobór lub zalecenie. Warto uważać na pakiety suplementów sprzedawane jako uniwersalne rozwiązanie."
+          "Po jakim czasie ocenić zmianę przy temacie hipoglikemia reaktywna dieta?",
+          "Najczęściej po 7-14 dniach jednej konkretnej zmiany. Jeśli objawy są silne, nowe albo dotyczą choroby przewlekłej, nie czekaj z konsultacją."
         ],
         [
-          "Kiedy dieta nie wystarczy?",
-          "Dieta nie wystarczy przy objawach alarmowych, chorobach wymagających leczenia, nieprawidłowych wynikach badań lub sytuacji, gdy jedzenie staje się źródłem lęku i coraz większych ograniczeń."
+          "Czy przy hipoglikemia reaktywna dieta potrzebne są suplementy?",
+          "Tylko gdy wynikają z niedoboru, zaleceń albo jasno określonego celu. Suplement nie powinien zastępować podstaw: posiłków, snu, diagnostyki i leczenia."
+        ],
+        [
+          "Kiedy zgłosić się do specjalisty?",
+          "Gdy pojawiają się czerwone flagi, wyniki badań są nieprawidłowe, przyjmujesz leki, jesteś w ciąży albo jedzenie zaczyna powodować lęk i coraz większe ograniczenia."
         ]
       ],
-      "safety": "Artykuł ma charakter edukacyjny i nie zastępuje diagnozy, leczenia ani indywidualnej konsultacji medycznej lub dietetycznej. Nie odstawiaj leków i nie zmieniaj zaleceń lekarskich na podstawie tekstu."
+      "safety": "Ten artykuł ma charakter edukacyjny. Nie zastępuje diagnozy, leczenia, psychoterapii ani indywidualnej konsultacji medycznej lub dietetycznej. Nie odstawiaj leków i nie zmieniaj zaleceń lekarskich na podstawie tekstu."
     },
     "en": {
-      "lead": "A practical way to build steadier meals, energy and appetite with insulin resistance in mind. This draft organises the topic without treatment promises or perfectionism. The aim is to decide what you can test this week and what needs medical or dietetic support.",
+      "lead": "Reactive hypoglycaemia: building meals without panic needs a practical, safe and sustainable approach. This draft explains how to begin with food in a real week, which signals to monitor and when the topic needs professional support rather than another internet rule.",
       "takeaways": [
-        "Start with a repeatable base: meal rhythm, protein, vegetables or fruit, fluids and sleep.",
-        "Do not treat one food as the single cause or solution; the whole day matters.",
-        "With medical conditions, medication, pregnancy, strong symptoms or abnormal tests, decisions should be discussed with a professional.",
-        "The safest plan is small changes, observation and avoiding extreme eliminations."
+        "For reactive hypoglycaemia, start with one change you can repeat for a week.",
+        "The key levers here are pairing carbohydrates with protein, fibre, post-meal movement and sleep.",
+        "Do not start major eliminations without a reason, reintroduction plan and risk check.",
+        "Alarm symptoms and chronic conditions need consultation, not only an article."
       ],
       "sections": [
         [
-          "Quick answer",
-          "Reactive hypoglycaemia: building meals without panic is best approached practically: fewer ban lists, more repeatable meals and honest symptom tracking. In most cases, a useful starting point is a plate with protein, carbohydrates matched to tolerance, vegetables or fruit, and a moderate amount of fat."
+          "Who this draft is for: reactive hypoglycaemia",
+          "Reactive hypoglycaemia: building meals without panic is for someone who wants to turn a popular nutrition topic into safe food decisions. It is not a treatment plan or a clinical meal plan. It gives a framework for glucose balance, insulin resistance and daily energy: what can be tested, what to monitor and where article-level advice ends."
         ],
         [
-          "What to check first",
-          "Before changing your whole diet, check three things: whether meals are regular enough, whether main meals include protein and fibre, and whether evening eating is compensating for tiredness. A 7-day diary often shows more than another strict rule."
+          "The practical mechanism",
+          "For this topic, the main levers are pairing carbohydrates with protein, fibre, post-meal movement and sleep. Instead of blaming one food, look at the whole day: meal timing, portion size, protein, fibre, drinks, sleep and stress level. For “hipoglikemia reaktywna dieta”, start by tracking one signal: symptoms, energy, meal tolerance or a relevant test result, not everything at once."
         ],
         [
-          "A practical plate",
-          "Adaptable examples include: a simple plate with vegetables, protein and carbohydrates; soup with pulses or meat added; wholegrain bread with vegetables. The portion does not need to be perfect. It is better to stabilise one daily meal than to design a revolution that cannot survive work, family and normal shopping."
+          "The first 7-day plan",
+          "For one week, choose one change related to “reactive hypoglycaemia”: stabilise one meal time, add a protein source, note symptoms or energy after eating and avoid several eliminations at once. After seven days, review whether the change was realistic, not merely ambitious."
         ],
         [
-          "Polish kitchen context",
-          "Useful staples in a Polish kitchen include potatoes, groats, oats, eggs, cottage cheese, natural yoghurt, tofu, frozen vegetables, pulses, canned fish, soups and salads. Choose foods you will actually eat, not only foods that look perfect on a plan."
+          "Meal examples to adapt",
+          "Useful starting points include: porridge with yoghurt and nuts; rye bread with egg, vegetables and olive oil; groats with fish and a raw-vegetable salad. Each example still needs portion, tolerance, medication and goal adjustment. In real life, two or three repeatable meals are often more useful than a long list of meals you will not cook. For Reactive hypoglycaemia: building meals without panic, choose the option closest to the reader's kitchen before adjusting portions, protein or fibre."
         ],
         [
-          "What not to promise",
-          "Diet can support metabolic health, gut comfort, fullness and meal quality, but it does not replace diagnosis or treatment. Be cautious with promises of cures, detoxes, hormone resets, miracle supplements and unnecessary bans on whole food groups."
+          "What to monitor",
+          "For reactive hypoglycaemia, monitor sleepiness after meals, hunger after two hours, blood tests and reactions to different carbohydrate portions. A simple diary works well: meal time, meal composition, symptoms two to four hours later, sleep and stress. The goal is not perfect control, but finding a pattern."
         ],
         [
-          "When to seek support",
-          "Speak with a doctor or dietitian if you have unintentional weight loss, blood in stool, fainting, severe pain, persistent vomiting, anaemia, menstrual disruption, pregnancy, kidney disease, diabetes, medication affecting appetite or glucose, or if you plan a major elimination diet."
+          "What to avoid",
+          "Avoid claims such as “cures”, “resets hormones”, “burns fat” or “replaces medication”. Be careful with internet ban lists. If an approach removes a whole food group, it should have a reason, a reintroduction plan or professional supervision. For “hipoglikemia reaktywna dieta”, be especially careful with advice that ignores medication, test results or the reader's real schedule."
+        ],
+        [
+          "Red flags",
+          "Contact a doctor if you notice recurrent hypoglycaemia, very high glucose, fainting, pregnancy, rapid weight loss or changing medication alone. A dietitian can help organise food, but should not replace diagnosis or treatment when symptoms are strong or new. For “hipoglikemia reaktywna dieta”, the threshold for professional support is lower when symptoms are new, worsening or linked with pregnancy, medication or chronic disease."
+        ],
+        [
+          "How Natalia could personalise this",
+          "In consultation, this draft can become an individual plan by reviewing tests, medication, work rhythm, home cooking, budget and preferences. Only then does reactive hypoglycaemia become a concrete strategy rather than another general tip."
         ]
       ],
       "faq": [
         [
-          "Do I need to change everything at once?",
-          "No. It is usually better to choose one change for 7-14 days, such as a protein-containing breakfast or an earlier dinner, and then review the effect."
+          "Does reactive hypoglycaemia require a perfect diet?",
+          "No. It is usually better to begin with meal rhythm, protein, fibre and response tracking than with a perfect meal plan. Perfection often makes a plan less sustainable."
         ],
         [
-          "Does this topic require supplements?",
-          "Not always. Supplements make sense only when they match a specific goal, deficiency or recommendation. Be cautious with supplement bundles sold as universal solutions."
+          "How soon can I review a change for reactive hypoglycaemia?",
+          "Usually after 7-14 days of one specific change. If symptoms are strong, new or linked to a chronic condition, do not delay professional support."
         ],
         [
-          "When is diet not enough?",
-          "Diet is not enough with alarm symptoms, conditions requiring treatment, abnormal tests or when food becomes a source of fear and increasing restriction."
+          "Are supplements needed for reactive hypoglycaemia?",
+          "Only when they match a deficiency, a recommendation or a clearly defined goal. A supplement should not replace meals, sleep, diagnosis or treatment."
+        ],
+        [
+          "When should I seek professional support?",
+          "Seek support with red flags, abnormal tests, medication use, pregnancy or when food starts creating fear and increasing restriction."
         ]
       ],
-      "safety": "This article is educational and does not replace diagnosis, treatment or an individual medical or nutrition consultation. Do not stop medication or change medical advice based on this text."
+      "safety": "This article is educational. It does not replace diagnosis, treatment, psychotherapy or an individual medical or nutrition consultation. Do not stop medication or change medical advice based on this text."
     }
   },
   "sources": [
     {
-      "title": "NCEZ: Insulinooporność - zacznijmy od podstaw",
-      "url": "https://ncez.pzh.gov.pl/choroba-a-dieta/cukrzyca-i-insulinoopornosc/insulinoopornosc-zacznijmy-od-podstaw/"
+      "title": "NCEZ: Insulinooporność - podstawy",
+      "url": "https://ncez.pzh.gov.pl/choroba-a-dieta/cukrzyca-i-insulinoopornosc/insulinoopornosc-zacznijmy-od-podstaw/",
+      "publisher": "NCEZ / NIZP PZH-PIB"
     },
     {
       "title": "NCEZ: Insulinooporność - zalecenia i jadłospis",
-      "url": "https://ncez.pzh.gov.pl/choroba-a-dieta/cukrzyca-i-insulinoopornosc/insulinoopornosc-zalecenia-i-jadlospis/"
+      "url": "https://ncez.pzh.gov.pl/choroba-a-dieta/cukrzyca-i-insulinoopornosc/insulinoopornosc-zalecenia-i-jadlospis/",
+      "publisher": "NCEZ / NIZP PZH-PIB"
     },
     {
       "title": "Diety NFZ: Cukrzyca",
-      "url": "https://diety.nfz.gov.pl/plany-zywieniowe/cukrzyca"
+      "url": "https://diety.nfz.gov.pl/plany-zywieniowe/cukrzyca",
+      "publisher": "Diety NFZ"
     },
     {
       "title": "NCEZ: Talerz Zdrowego Żywienia",
-      "url": "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/"
+      "url": "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/",
+      "publisher": "NCEZ / NIZP PZH-PIB"
     },
     {
       "title": "WHO: Healthy diet",
-      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "publisher": "World Health Organization"
     },
     {
-      "title": "EFSA: Dietary reference values",
-      "url": "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values"
+      "title": "PubMed search: hipoglikemia reaktywna dieta",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=hipoglikemia%20reaktywna%20dieta%20nutrition%20diet",
+      "publisher": "PubMed"
     }
   ],
   "internal_links": [
     {
+      "url": "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html",
       "title_pl": "Talerz Zdrowego Żywienia: praktyczna baza bez diety idealnej",
       "title_en": "The healthy plate: a practical base without a perfect diet",
-      "url": "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+      "tags": [
+        "general",
+        "practical",
+        "weight"
+      ]
     },
     {
-      "title_pl": "Planowanie posiłków przy braku czasu",
-      "title_en": "Meal planning with little time",
-      "url": "https://nataliacorvo.com/articles/planowanie-posilkow-brak-czasu.html"
+      "url": "https://nataliacorvo.com/articles/bialko-w-diecie.html",
+      "title_pl": "Białko w diecie: ile potrzebujesz i jak je rozłożyć",
+      "title_en": "Protein in the diet: how much you need and how to spread it",
+      "tags": [
+        "protein",
+        "weight",
+        "sport",
+        "menopause"
+      ]
     },
     {
-      "title_pl": "Zdrowe odżywianie bez restrykcji",
-      "title_en": "Healthy eating without restriction",
-      "url": "https://nataliacorvo.com/articles/zdrowe-odzywianie-bez-restrykcji.html"
+      "url": "https://nataliacorvo.com/articles/odchudzanie-bez-efektu-jojo.html",
+      "title_pl": "Odchudzanie bez efektu jojo",
+      "title_en": "Weight loss without the yo-yo effect",
+      "tags": [
+        "weight",
+        "glp1"
+      ]
     }
   ],
   "image": {
     "file": "cover.jpg",
-    "alt_pl": "Kolorowy talerz z warzywami i produktami bazowymi do zdrowego posiłku",
-    "alt_en": "Colourful plate with vegetables and basic foods for a healthy meal",
-    "source_url": "https://commons.wikimedia.org/wiki/File:Good_Food_Display_-_NCI_Visuals_Online.jpg",
-    "license": "Public domain / NCI Visuals Online via Wikimedia Commons",
-    "attribution": "Unknown author, National Cancer Institute Visuals Online, Public domain, via Wikimedia Commons"
+    "title": "Healthy Cafe Food (Unsplash)",
+    "alt_pl": "Zdjęcie ilustrujące temat: Hipoglikemia reaktywna: jak układać posiłki bez paniki",
+    "alt_en": "Photo illustrating the topic: Reactive hypoglycaemia: building meals without panic",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Healthy_Cafe_Food_(Unsplash).jpg",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Healthy_Cafe_Food_%28Unsplash%29.jpg/1280px-Healthy_Cafe_Food_%28Unsplash%29.jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "attribution": "Jade Wulfraat jadew, Healthy Cafe Food (Unsplash), CC0, via Wikimedia Commons",
+    "sha256": "01f565aeca0edba7d6c3508a9464381386975114c8504673983c1d31bc33060b"
   },
-  "safety_note_pl": "Artykuł ma charakter edukacyjny i nie zastępuje diagnozy, leczenia ani indywidualnej konsultacji medycznej lub dietetycznej. Nie odstawiaj leków i nie zmieniaj zaleceń lekarskich na podstawie tekstu.",
-  "safety_note_en": "This article is educational and does not replace diagnosis, treatment or an individual medical or nutrition consultation. Do not stop medication or change medical advice based on this text.",
+  "safety_note_pl": "Ten artykuł ma charakter edukacyjny i wymaga indywidualizacji przed publikacją jako zalecenie dla konkretnej osoby.",
+  "safety_note_en": "This article is educational and must be individualised before being used as personal advice.",
   "claim_avoidance_notes": [
     "No cure claims",
     "No guaranteed weight-loss promises",
-    "No detox/hormone reset language",
-    "No medication changes without clinician"
+    "No detox or hormone reset language",
+    "No medication changes without clinician",
+    "Major elimination requires rationale and reintroduction plan"
   ]
 }
