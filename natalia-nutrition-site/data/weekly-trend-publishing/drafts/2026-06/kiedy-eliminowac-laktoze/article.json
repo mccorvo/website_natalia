@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "slug": "kiedy-eliminowac-laktoze",
+  "status": "draft",
+  "language_mode": "PL-first with complete EN version",
+  "topic": {
+    "pl": "Kiedy eliminować laktozę",
+    "en": "When to eliminate lactose",
+    "category": "nietolerancje",
+    "search_intent": "rozróżnienie nietolerancji laktozy od alergii i od przypadkowych objawów jelitowych"
+  },
+  "seo": {
+    "primary_keyword": "kiedy eliminować laktozę",
+    "secondary_keywords": [
+      "kiedy eliminować laktozę",
+      "kiedy eliminować laktozę praktycznie",
+      "kiedy eliminować laktozę co jeść",
+      "kiedy eliminować laktozę jadłospis",
+      "kiedy eliminować laktozę bezpiecznie",
+      "kiedy eliminować laktozę FAQ"
+    ],
+    "meta_title_pl": "Kiedy eliminować laktozę",
+    "meta_title_en": "When to eliminate lactose",
+    "meta_description_pl": "Praktyczny przewodnik: kiedy eliminować laktozę. Jak zacząć, co sprawdzić na etykiecie lub talerzu, czego nie obiecywać i kiedy szukać pomocy specjalisty.",
+    "meta_description_en": "Practical guide: When to eliminate lactose. What to change first, how to plan meals safely, what not to promise and when to seek professional support.",
+    "h1_pl": "Kiedy eliminować laktozę",
+    "h1_en": "When to eliminate lactose",
+    "search_intent_note": "rozróżnienie nietolerancji laktozy od alergii i od przypadkowych objawów jelitowych"
+  },
+  "content": {
+    "pl": {
+      "lead": "Kiedy eliminować laktozę: praktyczny, spokojny przewodnik dla osób z wzdęciami po nabiale, które nie chcą niepotrzebnie usuwać całej grupy produktów. Celem nie jest perfekcyjny jadłospis, tylko kilka decyzji, które można sprawdzić w realnym tygodniu bez obietnic leczenia i bez skrajnych eliminacji.",
+      "takeaways": [
+        "Najpierw określ kontekst: rozróżnienie nietolerancji laktozy od alergii i od przypadkowych objawów jelitowych.",
+        "Zacznij od małej zmiany: sprawdź reakcję na porcję produktu bez laktozy i porównaj ją z produktem standardowym.",
+        "Praktyczne elementy do rozważenia to: mleko bez laktozy, jogurt, kefir, twarde sery, mniejsze porcje i obserwacja objawów.",
+        "Unikaj skrótów typu: eliminacji całego nabiału bez planu na wapń i białko albo mylenia laktozy z białkiem mleka."
+      ],
+      "sections": [
+        [
+          "Szybka odpowiedź",
+          "Kiedy eliminować laktozę to temat dla osób z wzdęciami po nabiale, które nie chcą niepotrzebnie usuwać całej grupy produktów. Najbezpieczniej podejść do niego jak do korekty codziennych decyzji, nie jak do akcji ratunkowej. Dieta może poprawiać regularność, sytość, jakość produktów i komfort jedzenia, ale nie zastępuje diagnozy ani leczenia."
+        ],
+        [
+          "Co sprawdzić najpierw",
+          "Zanim zmienisz cały jadłospis, sprawdź rytm posiłków, sen, nawodnienie, ilość białka i błonnika oraz to, czy problem pojawia się w konkretnych sytuacjach. W tym temacie pierwszy krok brzmi: sprawdź reakcję na porcję produktu bez laktozy i porównaj ją z produktem standardowym."
+        ],
+        [
+          "Jak może wyglądać praktyczny talerz",
+          "W praktyce pomocne mogą być: mleko bez laktozy, jogurt, kefir, twarde sery, mniejsze porcje i obserwacja objawów. Nie chodzi o idealny jadłospis, tylko o posiłek, który da się powtórzyć w zwykłym tygodniu. Jeśli talerz ma źródło białka, warzywa lub owoce, sensowną porcję węglowodanów i dodatek tłuszczu, zwykle łatwiej ocenić, co naprawdę działa."
+        ],
+        [
+          "Polski kontekst: zakupy i gotowanie",
+          "W polskich sklepach warto korzystać z prostych baz: pieczywa żytniego, kasz, ziemniaków, płatków owsianych, jaj, nabiału, tofu, strączków, ryb, mrożonych warzyw, kiszonek i sezonowych owoców. Wybieraj produkty, które pasują do Twojej kuchni, budżetu i czasu, a nie tylko do internetowej listy idealnych zakupów."
+        ],
+        [
+          "Najczęstsze pułapki",
+          "Największa pułapka to eliminacji całego nabiału bez planu na wapń i białko albo mylenia laktozy z białkiem mleka. Druga to ocenianie pojedynczego produktu bez patrzenia na cały dzień. Trzecia to wprowadzanie wielu zmian naraz, przez co nie wiadomo, która z nich pomogła albo zaszkodziła."
+        ],
+        [
+          "Plan na 7 dni",
+          "Przez najbliższy tydzień wybierz jedną zmianę, zapisz 2-3 obserwacje dziennie i nie poprawiaj planu codziennie od nowa. Dobrymi wskaźnikami są energia, głód, komfort brzucha, sen, regularność posiłków i to, czy plan da się powtórzyć bez napięcia."
+        ],
+        [
+          "Kiedy skonsultować się ze specjalistą",
+          "Skonsultuj się z lekarzem lub dietetykiem, jeśli pojawiają się: pokrzywka, duszność, krew w stolcu, chudnięcie lub objawy u małego dziecka wymagają diagnostyki. Warto też szukać pomocy, gdy jedzenie zaczyna wywoływać lęk, poczucie winy albo coraz dłuższą listę zakazów."
+        ]
+      ],
+      "faq": [
+        [
+          "Czy muszę zmieniać wszystko od razu?",
+          "Nie. Przy takich tematach najczęściej lepiej wybrać jedną zmianę na 7-14 dni i dopiero potem ocenić efekt. Zbyt wiele zmian naraz utrudnia obserwację i zwiększa napięcie wokół jedzenia."
+        ],
+        [
+          "Czy potrzebuję specjalnych produktów?",
+          "Zwykle nie. W większości sytuacji wystarczą proste produkty ze zwykłego sklepu: warzywa, owoce, źródła białka, pełniejsze zboża, płyny i produkty dopasowane do tolerancji."
+        ],
+        [
+          "Kiedy dieta nie wystarczy?",
+          "Dieta nie wystarczy, gdy pojawiają się objawy alarmowe, choroby wymagające leczenia, nieprawidłowe wyniki badań albo sytuacja opisana jako: pokrzywka, duszność, krew w stolcu, chudnięcie lub objawy u małego dziecka wymagają diagnostyki."
+        ]
+      ],
+      "safety": "Artykuł ma charakter edukacyjny i nie zastępuje diagnozy, leczenia ani indywidualnej konsultacji medycznej lub dietetycznej. Nie odstawiaj leków i nie zmieniaj zaleceń lekarskich na podstawie tekstu."
+    },
+    "en": {
+      "lead": "When to eliminate lactose: a practical, calm guide for people with bloating after dairy who do not want to remove foods unnecessarily. The aim is not a perfect meal plan, but a few decisions that can be tested in a real week without treatment promises or extreme elimination.",
+      "takeaways": [
+        "Start with the real context: separating lactose intolerance from milk allergy and random gut symptoms.",
+        "Use one small first step: compare a lactose-free product with a standard product and watch symptoms.",
+        "Useful building blocks include: lactose-free milk, yoghurt, kefir, hard cheeses, smaller portions and symptom observation.",
+        "Avoid shortcuts such as removing all dairy without a calcium and protein plan or confusing lactose with milk protein."
+      ],
+      "sections": [
+        [
+          "Quick answer",
+          "When to eliminate lactose is best handled through ordinary, repeatable food decisions rather than a dramatic reset. Food choices can support meal rhythm, fullness, digestion, product quality and energy, but they do not replace diagnosis, medication or individual care."
+        ],
+        [
+          "What to check first",
+          "Before changing the whole diet, check meal timing, sleep, hydration, stress, protein, fibre and whether the issue appears in specific situations. For this topic, the first useful step is: compare a lactose-free product with a standard product and watch symptoms."
+        ],
+        [
+          "A practical plate",
+          "Practical options may include: lactose-free milk, yoghurt, kefir, hard cheeses, smaller portions and symptom observation. The meal does not need to be perfect. It should be realistic enough to repeat during work, family life, travel, training or a normal shopping week."
+        ],
+        [
+          "Polish kitchen context",
+          "In a Polish kitchen, simple staples often work well: rye bread, groats, potatoes, oats, eggs, dairy, tofu, pulses, fish, frozen vegetables, fermented vegetables and seasonal fruit. Choose foods that match your budget, cooking skills and tolerance."
+        ],
+        [
+          "Common traps",
+          "The main trap is removing all dairy without a calcium and protein plan or confusing lactose with milk protein. Another is judging one food without looking at the whole day. A third is changing many things at once, which makes it difficult to know what actually helped."
+        ],
+        [
+          "A 7-day plan",
+          "Choose one change for the next week, write down two or three observations a day and resist redesigning the plan every morning. Useful signals include energy, hunger, gut comfort, sleep, meal regularity and whether the plan feels repeatable."
+        ],
+        [
+          "When to seek support",
+          "Speak with a doctor or dietitian if you notice hives, breathing problems, blood in stool, weight loss or symptoms in a small child. Support is also important when food starts to create fear, guilt, compensatory behaviour or an ever-growing list of rules."
+        ]
+      ],
+      "faq": [
+        [
+          "Do I need to change everything at once?",
+          "No. It is usually better to choose one change for 7-14 days and then review the effect. Too many changes at once make observation harder and increase tension around food."
+        ],
+        [
+          "Do I need special products?",
+          "Usually not. Most situations can start with simple supermarket foods: vegetables, fruit, protein foods, higher-fibre grains, fluids and products matched to individual tolerance."
+        ],
+        [
+          "When is diet not enough?",
+          "Diet is not enough when alarm symptoms appear, when a condition needs treatment, when test results are abnormal or when the situation includes hives, breathing problems, blood in stool, weight loss or symptoms in a small child."
+        ]
+      ],
+      "safety": "This article is educational and does not replace diagnosis, treatment or an individual medical or nutrition consultation. Do not stop medication or change medical advice based on this text."
+    }
+  },
+  "sources": [
+    {
+      "title": "NCEZ: Dieta low FODMAP - zasady i zastosowanie",
+      "url": "https://ncez.pzh.gov.pl/choroba-a-dieta/dieta-low-fodmap-zasady-i-zastosowanie/"
+    },
+    {
+      "title": "NCEZ: IBS i dieta low FODMAP",
+      "url": "https://ncez.pzh.gov.pl/choroba-a-dieta/choroby-ukladu-pokarmowego/zespol-jelita-nadwrazliwego-ibs-cz-2-zalecenia-zywieniowe-znaczenie-probiotykoterapii-i-diety-low-fodmap/"
+    },
+    {
+      "title": "NICE: Irritable bowel syndrome in adults",
+      "url": "https://www.nice.org.uk/guidance/cg61"
+    },
+    {
+      "title": "NCEZ: Talerz Zdrowego Żywienia",
+      "url": "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/"
+    },
+    {
+      "title": "Pacjent.gov.pl: Jak zdrowo się odżywiać",
+      "url": "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac"
+    },
+    {
+      "title": "EFSA: Dietary reference values",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values"
+    }
+  ],
+  "internal_links": [
+    {
+      "title_pl": "Jelita, mikrobiota i trawienie",
+      "title_en": "Gut, microbiota and digestion",
+      "url": "https://nataliacorvo.com/articles/jelita-mikrobiota-trawienie.html"
+    },
+    {
+      "title_pl": "Dieta low FODMAP przy IBS",
+      "title_en": "Low-FODMAP diet for IBS",
+      "url": "https://nataliacorvo.com/articles/dieta-low-fodmap-ibs.html"
+    },
+    {
+      "title_pl": "Dieta na zaparcia: co jeść",
+      "title_en": "Diet for constipation: what to eat",
+      "url": "https://nataliacorvo.com/articles/dieta-na-zaparcia-co-jesc.html"
+    }
+  ],
+  "image": {
+    "file": "cover.jpg",
+    "alt_pl": "Ilustracja do szkicu: Kiedy eliminować laktozę - prosty talerz i produkty spożywcze",
+    "alt_en": "Illustration for draft: When to eliminate lactose - a simple plate and food products",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Good_Food_Display_-_NCI_Visuals_Online.jpg",
+    "license": "Public domain / NCI Visuals Online via Wikimedia Commons",
+    "attribution": "Unknown author, National Cancer Institute Visuals Online, Public domain, via Wikimedia Commons",
+    "selection_note": "Public-domain fallback reused for draft consistency; topic-specific sources are listed separately."
+  },
+  "safety_note_pl": "Artykuł ma charakter edukacyjny i nie zastępuje diagnozy, leczenia ani indywidualnej konsultacji medycznej lub dietetycznej. Nie odstawiaj leków i nie zmieniaj zaleceń lekarskich na podstawie tekstu.",
+  "safety_note_en": "This article is educational and does not replace diagnosis, treatment or an individual medical or nutrition consultation. Do not stop medication or change medical advice based on this text.",
+  "claim_avoidance_notes": [
+    "No cure claims",
+    "No guaranteed weight-loss promises",
+    "No detox/hormone reset language",
+    "No medication changes without clinician",
+    "No restrictive elimination without a clear reason and support"
+  ]
+}

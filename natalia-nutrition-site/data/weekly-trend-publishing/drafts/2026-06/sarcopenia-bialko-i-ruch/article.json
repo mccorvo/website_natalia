@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "slug": "sarcopenia-bialko-i-ruch",
+  "status": "draft",
+  "language_mode": "PL-first with complete EN version",
+  "topic": {
+    "pl": "Sarcopenia - białko i ruch",
+    "en": "Sarcopenia: protein and movement",
+    "category": "mięśnie i starzenie",
+    "search_intent": "połączenie białka i ćwiczeń oporowych jako praktyczny duet dla mięśni"
+  },
+  "seo": {
+    "primary_keyword": "sarcopenia białko i ruch",
+    "secondary_keywords": [
+      "sarcopenia białko i ruch",
+      "sarcopenia białko i ruch praktycznie",
+      "sarcopenia białko i ruch co jeść",
+      "sarcopenia białko i ruch jadłospis",
+      "sarcopenia białko i ruch bezpiecznie",
+      "sarcopenia białko i ruch FAQ"
+    ],
+    "meta_title_pl": "Sarcopenia - białko i ruch",
+    "meta_title_en": "Sarcopenia: protein and movement",
+    "meta_description_pl": "Praktyczny przewodnik: sarcopenia białko i ruch. Jak zacząć, co sprawdzić na etykiecie lub talerzu, czego nie obiecywać i kiedy szukać pomocy specjalisty.",
+    "meta_description_en": "Practical guide: Sarcopenia: protein and movement. What to change first, how to plan meals safely, what not to promise and when to seek professional support.",
+    "h1_pl": "Sarcopenia - białko i ruch",
+    "h1_en": "Sarcopenia: protein and movement",
+    "search_intent_note": "połączenie białka i ćwiczeń oporowych jako praktyczny duet dla mięśni"
+  },
+  "content": {
+    "pl": {
+      "lead": "Sarcopenia - białko i ruch: praktyczny, spokojny przewodnik dla osób po 50. roku życia lub opiekunów, którzy chcą wspierać sprawność. Celem nie jest perfekcyjny jadłospis, tylko kilka decyzji, które można sprawdzić w realnym tygodniu bez obietnic leczenia i bez skrajnych eliminacji.",
+      "takeaways": [
+        "Najpierw określ kontekst: połączenie białka i ćwiczeń oporowych jako praktyczny duet dla mięśni.",
+        "Zacznij od małej zmiany: ustal z fizjoterapeutą lub trenerem prosty ruch oporowy i dopasuj do niego posiłek z białkiem.",
+        "Praktyczne elementy do rozważenia to: białko w każdym głównym posiłku, trening siłowy dopasowany do możliwości, nabiał, ryby, jaja.",
+        "Unikaj skrótów typu: liczenia tylko gramów białka bez ruchu albo intensywnych ćwiczeń bez oceny bezpieczeństwa."
+      ],
+      "sections": [
+        [
+          "Szybka odpowiedź",
+          "Sarcopenia - białko i ruch to temat dla osób po 50. roku życia lub opiekunów, którzy chcą wspierać sprawność. Najbezpieczniej podejść do niego jak do korekty codziennych decyzji, nie jak do akcji ratunkowej. Dieta może poprawiać regularność, sytość, jakość produktów i komfort jedzenia, ale nie zastępuje diagnozy ani leczenia."
+        ],
+        [
+          "Co sprawdzić najpierw",
+          "Zanim zmienisz cały jadłospis, sprawdź rytm posiłków, sen, nawodnienie, ilość białka i błonnika oraz to, czy problem pojawia się w konkretnych sytuacjach. W tym temacie pierwszy krok brzmi: ustal z fizjoterapeutą lub trenerem prosty ruch oporowy i dopasuj do niego posiłek z białkiem."
+        ],
+        [
+          "Jak może wyglądać praktyczny talerz",
+          "W praktyce pomocne mogą być: białko w każdym głównym posiłku, trening siłowy dopasowany do możliwości, nabiał, ryby, jaja, strączki i mięso. Nie chodzi o idealny jadłospis, tylko o posiłek, który da się powtórzyć w zwykłym tygodniu. Jeśli talerz ma źródło białka, warzywa lub owoce, sensowną porcję węglowodanów i dodatek tłuszczu, zwykle łatwiej ocenić, co naprawdę działa."
+        ],
+        [
+          "Polski kontekst: zakupy i gotowanie",
+          "W polskich sklepach warto korzystać z prostych baz: pieczywa żytniego, kasz, ziemniaków, płatków owsianych, jaj, nabiału, tofu, strączków, ryb, mrożonych warzyw, kiszonek i sezonowych owoców. Wybieraj produkty, które pasują do Twojej kuchni, budżetu i czasu, a nie tylko do internetowej listy idealnych zakupów."
+        ],
+        [
+          "Najczęstsze pułapki",
+          "Największa pułapka to liczenia tylko gramów białka bez ruchu albo intensywnych ćwiczeń bez oceny bezpieczeństwa. Druga to ocenianie pojedynczego produktu bez patrzenia na cały dzień. Trzecia to wprowadzanie wielu zmian naraz, przez co nie wiadomo, która z nich pomogła albo zaszkodziła."
+        ],
+        [
+          "Plan na 7 dni",
+          "Przez najbliższy tydzień wybierz jedną zmianę, zapisz 2-3 obserwacje dziennie i nie poprawiaj planu codziennie od nowa. Dobrymi wskaźnikami są energia, głód, komfort brzucha, sen, regularność posiłków i to, czy plan da się powtórzyć bez napięcia."
+        ],
+        [
+          "Kiedy skonsultować się ze specjalistą",
+          "Skonsultuj się z lekarzem lub dietetykiem, jeśli pojawiają się: upadki, szybkie chudnięcie, choroby nerek lub trudności z połykaniem wymagają indywidualnej opieki. Warto też szukać pomocy, gdy jedzenie zaczyna wywoływać lęk, poczucie winy albo coraz dłuższą listę zakazów."
+        ]
+      ],
+      "faq": [
+        [
+          "Czy muszę zmieniać wszystko od razu?",
+          "Nie. Przy takich tematach najczęściej lepiej wybrać jedną zmianę na 7-14 dni i dopiero potem ocenić efekt. Zbyt wiele zmian naraz utrudnia obserwację i zwiększa napięcie wokół jedzenia."
+        ],
+        [
+          "Czy potrzebuję specjalnych produktów?",
+          "Zwykle nie. W większości sytuacji wystarczą proste produkty ze zwykłego sklepu: warzywa, owoce, źródła białka, pełniejsze zboża, płyny i produkty dopasowane do tolerancji."
+        ],
+        [
+          "Kiedy dieta nie wystarczy?",
+          "Dieta nie wystarczy, gdy pojawiają się objawy alarmowe, choroby wymagające leczenia, nieprawidłowe wyniki badań albo sytuacja opisana jako: upadki, szybkie chudnięcie, choroby nerek lub trudności z połykaniem wymagają indywidualnej opieki."
+        ]
+      ],
+      "safety": "Artykuł ma charakter edukacyjny i nie zastępuje diagnozy, leczenia ani indywidualnej konsultacji medycznej lub dietetycznej. Nie odstawiaj leków i nie zmieniaj zaleceń lekarskich na podstawie tekstu."
+    },
+    "en": {
+      "lead": "Sarcopenia: protein and movement: a practical, calm guide for people over 50 or caregivers who want to support function. The aim is not a perfect meal plan, but a few decisions that can be tested in a real week without treatment promises or extreme elimination.",
+      "takeaways": [
+        "Start with the real context: combining protein and resistance movement as a practical pair for muscles.",
+        "Use one small first step: set a simple resistance routine with support and match it with protein-containing meals.",
+        "Useful building blocks include: protein in main meals, strength work matched to ability, dairy, fish, eggs, legumes and meat.",
+        "Avoid shortcuts such as counting protein grams without movement or exercising intensely without safety assessment."
+      ],
+      "sections": [
+        [
+          "Quick answer",
+          "Sarcopenia: protein and movement is best handled through ordinary, repeatable food decisions rather than a dramatic reset. Food choices can support meal rhythm, fullness, digestion, product quality and energy, but they do not replace diagnosis, medication or individual care."
+        ],
+        [
+          "What to check first",
+          "Before changing the whole diet, check meal timing, sleep, hydration, stress, protein, fibre and whether the issue appears in specific situations. For this topic, the first useful step is: set a simple resistance routine with support and match it with protein-containing meals."
+        ],
+        [
+          "A practical plate",
+          "Practical options may include: protein in main meals, strength work matched to ability, dairy, fish, eggs, legumes and meat. The meal does not need to be perfect. It should be realistic enough to repeat during work, family life, travel, training or a normal shopping week."
+        ],
+        [
+          "Polish kitchen context",
+          "In a Polish kitchen, simple staples often work well: rye bread, groats, potatoes, oats, eggs, dairy, tofu, pulses, fish, frozen vegetables, fermented vegetables and seasonal fruit. Choose foods that match your budget, cooking skills and tolerance."
+        ],
+        [
+          "Common traps",
+          "The main trap is counting protein grams without movement or exercising intensely without safety assessment. Another is judging one food without looking at the whole day. A third is changing many things at once, which makes it difficult to know what actually helped."
+        ],
+        [
+          "A 7-day plan",
+          "Choose one change for the next week, write down two or three observations a day and resist redesigning the plan every morning. Useful signals include energy, hunger, gut comfort, sleep, meal regularity and whether the plan feels repeatable."
+        ],
+        [
+          "When to seek support",
+          "Speak with a doctor or dietitian if you notice falls, rapid weight loss, kidney disease or swallowing problems. Support is also important when food starts to create fear, guilt, compensatory behaviour or an ever-growing list of rules."
+        ]
+      ],
+      "faq": [
+        [
+          "Do I need to change everything at once?",
+          "No. It is usually better to choose one change for 7-14 days and then review the effect. Too many changes at once make observation harder and increase tension around food."
+        ],
+        [
+          "Do I need special products?",
+          "Usually not. Most situations can start with simple supermarket foods: vegetables, fruit, protein foods, higher-fibre grains, fluids and products matched to individual tolerance."
+        ],
+        [
+          "When is diet not enough?",
+          "Diet is not enough when alarm symptoms appear, when a condition needs treatment, when test results are abnormal or when the situation includes falls, rapid weight loss, kidney disease or swallowing problems."
+        ]
+      ],
+      "safety": "This article is educational and does not replace diagnosis, treatment or an individual medical or nutrition consultation. Do not stop medication or change medical advice based on this text."
+    }
+  },
+  "sources": [
+    {
+      "title": "Pacjent.gov.pl: Dieta DASH",
+      "url": "https://pacjent.gov.pl/diety/dieta-dash-kluczem-do-zdrowia-seniorow"
+    },
+    {
+      "title": "NCEZ: Normy żywieniowe 2024",
+      "url": "https://ncez.pzh.gov.pl/abc-zywienia/zasady-zdrowego-zywienia/normy-zywieniowe-2024/"
+    },
+    {
+      "title": "NCEZ: Talerz Zdrowego Żywienia",
+      "url": "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/"
+    },
+    {
+      "title": "WHO: Healthy diet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+    },
+    {
+      "title": "EFSA: Dietary reference values",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values"
+    },
+    {
+      "title": "PubMed search: sarcopenia protein resistance exercise",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=sarcopenia+protein+resistance+exercise"
+    }
+  ],
+  "internal_links": [
+    {
+      "title_pl": "Białko w diecie",
+      "title_en": "Protein in the diet",
+      "url": "https://nataliacorvo.com/articles/bialko-w-diecie.html"
+    },
+    {
+      "title_pl": "Zdrowe śniadania: proste pomysły",
+      "title_en": "Healthy breakfasts: simple ideas",
+      "url": "https://nataliacorvo.com/articles/zdrowe-sniadania-proste-pomysly.html"
+    },
+    {
+      "title_pl": "Talerz Zdrowego Żywienia: praktyczna baza bez diety idealnej",
+      "title_en": "The healthy plate: a practical base without a perfect diet",
+      "url": "https://nataliacorvo.com/articles/talerz-zdrowego-zywienia.html"
+    }
+  ],
+  "image": {
+    "file": "cover.jpg",
+    "alt_pl": "Ilustracja do szkicu: Sarcopenia - białko i ruch - prosty talerz i produkty spożywcze",
+    "alt_en": "Illustration for draft: Sarcopenia: protein and movement - a simple plate and food products",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Good_Food_Display_-_NCI_Visuals_Online.jpg",
+    "license": "Public domain / NCI Visuals Online via Wikimedia Commons",
+    "attribution": "Unknown author, National Cancer Institute Visuals Online, Public domain, via Wikimedia Commons",
+    "selection_note": "Public-domain fallback reused for draft consistency; topic-specific sources are listed separately."
+  },
+  "safety_note_pl": "Artykuł ma charakter edukacyjny i nie zastępuje diagnozy, leczenia ani indywidualnej konsultacji medycznej lub dietetycznej. Nie odstawiaj leków i nie zmieniaj zaleceń lekarskich na podstawie tekstu.",
+  "safety_note_en": "This article is educational and does not replace diagnosis, treatment or an individual medical or nutrition consultation. Do not stop medication or change medical advice based on this text.",
+  "claim_avoidance_notes": [
+    "No cure claims",
+    "No guaranteed weight-loss promises",
+    "No detox/hormone reset language",
+    "No medication changes without clinician",
+    "No restrictive elimination without a clear reason and support"
+  ]
+}

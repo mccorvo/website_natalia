@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "slug": "psyllium-kiedy-ma-sens",
+  "status": "draft",
+  "language_mode": "PL-first with complete EN version",
+  "topic": {
+    "pl": "Psyllium - kiedy ma sens",
+    "en": "Psyllium: when it makes sense",
+    "category": "błonnik i suplementy",
+    "search_intent": "babka płesznik/jajowata jako narzędzie dla wybranych osób, nie uniwersalny obowiązek"
+  },
+  "seo": {
+    "primary_keyword": "psyllium kiedy ma sens",
+    "secondary_keywords": [
+      "psyllium kiedy ma sens",
+      "psyllium kiedy ma sens praktycznie",
+      "psyllium kiedy ma sens co jeść",
+      "psyllium kiedy ma sens jadłospis",
+      "psyllium kiedy ma sens bezpiecznie",
+      "psyllium kiedy ma sens FAQ"
+    ],
+    "meta_title_pl": "Psyllium - kiedy ma sens",
+    "meta_title_en": "Psyllium: when it makes sense",
+    "meta_description_pl": "Praktyczny przewodnik: psyllium kiedy ma sens. Jak zacząć, co sprawdzić na etykiecie lub talerzu, czego nie obiecywać i kiedy szukać pomocy specjalisty.",
+    "meta_description_en": "Practical guide: Psyllium: when it makes sense. What to change first, how to plan meals safely, what not to promise and when to seek professional support.",
+    "h1_pl": "Psyllium - kiedy ma sens",
+    "h1_en": "Psyllium: when it makes sense",
+    "search_intent_note": "babka płesznik/jajowata jako narzędzie dla wybranych osób, nie uniwersalny obowiązek"
+  },
+  "content": {
+    "pl": {
+      "lead": "Psyllium - kiedy ma sens: praktyczny, spokojny przewodnik dla osób z zaparciami, niskim błonnikiem lub podwyższonym LDL rozważających suplement błonnika. Celem nie jest perfekcyjny jadłospis, tylko kilka decyzji, które można sprawdzić w realnym tygodniu bez obietnic leczenia i bez skrajnych eliminacji.",
+      "takeaways": [
+        "Najpierw określ kontekst: babka płesznik/jajowata jako narzędzie dla wybranych osób, nie uniwersalny obowiązek.",
+        "Zacznij od małej zmiany: jeśli nie ma przeciwwskazań, zacznij od małej porcji z dużą ilością wody i obserwuj brzuch.",
+        "Praktyczne elementy do rozważenia to: mała dawka, dużo płynu, odstęp od leków, stopniowe zwiększanie i równoległa praca nad dietą.",
+        "Unikaj skrótów typu: brania suchego proszku, zwiększania dawki zbyt szybko albo używania psyllium zamiast diagnostyki objawów."
+      ],
+      "sections": [
+        [
+          "Szybka odpowiedź",
+          "Psyllium - kiedy ma sens to temat dla osób z zaparciami, niskim błonnikiem lub podwyższonym LDL rozważających suplement błonnika. Najbezpieczniej podejść do niego jak do korekty codziennych decyzji, nie jak do akcji ratunkowej. Dieta może poprawiać regularność, sytość, jakość produktów i komfort jedzenia, ale nie zastępuje diagnozy ani leczenia."
+        ],
+        [
+          "Co sprawdzić najpierw",
+          "Zanim zmienisz cały jadłospis, sprawdź rytm posiłków, sen, nawodnienie, ilość białka i błonnika oraz to, czy problem pojawia się w konkretnych sytuacjach. W tym temacie pierwszy krok brzmi: jeśli nie ma przeciwwskazań, zacznij od małej porcji z dużą ilością wody i obserwuj brzuch."
+        ],
+        [
+          "Jak może wyglądać praktyczny talerz",
+          "W praktyce pomocne mogą być: mała dawka, dużo płynu, odstęp od leków, stopniowe zwiększanie i równoległa praca nad dietą. Nie chodzi o idealny jadłospis, tylko o posiłek, który da się powtórzyć w zwykłym tygodniu. Jeśli talerz ma źródło białka, warzywa lub owoce, sensowną porcję węglowodanów i dodatek tłuszczu, zwykle łatwiej ocenić, co naprawdę działa."
+        ],
+        [
+          "Polski kontekst: zakupy i gotowanie",
+          "W polskich sklepach warto korzystać z prostych baz: pieczywa żytniego, kasz, ziemniaków, płatków owsianych, jaj, nabiału, tofu, strączków, ryb, mrożonych warzyw, kiszonek i sezonowych owoców. Wybieraj produkty, które pasują do Twojej kuchni, budżetu i czasu, a nie tylko do internetowej listy idealnych zakupów."
+        ],
+        [
+          "Najczęstsze pułapki",
+          "Największa pułapka to brania suchego proszku, zwiększania dawki zbyt szybko albo używania psyllium zamiast diagnostyki objawów. Druga to ocenianie pojedynczego produktu bez patrzenia na cały dzień. Trzecia to wprowadzanie wielu zmian naraz, przez co nie wiadomo, która z nich pomogła albo zaszkodziła."
+        ],
+        [
+          "Plan na 7 dni",
+          "Przez najbliższy tydzień wybierz jedną zmianę, zapisz 2-3 obserwacje dziennie i nie poprawiaj planu codziennie od nowa. Dobrymi wskaźnikami są energia, głód, komfort brzucha, sen, regularność posiłków i to, czy plan da się powtórzyć bez napięcia."
+        ],
+        [
+          "Kiedy skonsultować się ze specjalistą",
+          "Skonsultuj się z lekarzem lub dietetykiem, jeśli pojawiają się: trudności z połykaniem, zwężenia przewodu pokarmowego, silny ból brzucha lub leki wymagają konsultacji. Warto też szukać pomocy, gdy jedzenie zaczyna wywoływać lęk, poczucie winy albo coraz dłuższą listę zakazów."
+        ]
+      ],
+      "faq": [
+        [
+          "Czy muszę zmieniać wszystko od razu?",
+          "Nie. Przy takich tematach najczęściej lepiej wybrać jedną zmianę na 7-14 dni i dopiero potem ocenić efekt. Zbyt wiele zmian naraz utrudnia obserwację i zwiększa napięcie wokół jedzenia."
+        ],
+        [
+          "Czy potrzebuję specjalnych produktów?",
+          "Zwykle nie. W większości sytuacji wystarczą proste produkty ze zwykłego sklepu: warzywa, owoce, źródła białka, pełniejsze zboża, płyny i produkty dopasowane do tolerancji."
+        ],
+        [
+          "Kiedy dieta nie wystarczy?",
+          "Dieta nie wystarczy, gdy pojawiają się objawy alarmowe, choroby wymagające leczenia, nieprawidłowe wyniki badań albo sytuacja opisana jako: trudności z połykaniem, zwężenia przewodu pokarmowego, silny ból brzucha lub leki wymagają konsultacji."
+        ]
+      ],
+      "safety": "Artykuł ma charakter edukacyjny i nie zastępuje diagnozy, leczenia ani indywidualnej konsultacji medycznej lub dietetycznej. Nie odstawiaj leków i nie zmieniaj zaleceń lekarskich na podstawie tekstu."
+    },
+    "en": {
+      "lead": "Psyllium: when it makes sense: a practical, calm guide for people with constipation, low fibre intake or higher LDL considering fibre supplementation. The aim is not a perfect meal plan, but a few decisions that can be tested in a real week without treatment promises or extreme elimination.",
+      "takeaways": [
+        "Start with the real context: using psyllium as a tool for selected people, not a universal requirement.",
+        "Use one small first step: start with a small serving in plenty of water if there are no contraindications.",
+        "Useful building blocks include: small dose, plenty of fluid, spacing from medicines, gradual increase and diet work alongside it.",
+        "Avoid shortcuts such as taking dry powder, increasing too fast or using psyllium instead of investigating symptoms."
+      ],
+      "sections": [
+        [
+          "Quick answer",
+          "Psyllium: when it makes sense is best handled through ordinary, repeatable food decisions rather than a dramatic reset. Food choices can support meal rhythm, fullness, digestion, product quality and energy, but they do not replace diagnosis, medication or individual care."
+        ],
+        [
+          "What to check first",
+          "Before changing the whole diet, check meal timing, sleep, hydration, stress, protein, fibre and whether the issue appears in specific situations. For this topic, the first useful step is: start with a small serving in plenty of water if there are no contraindications."
+        ],
+        [
+          "A practical plate",
+          "Practical options may include: small dose, plenty of fluid, spacing from medicines, gradual increase and diet work alongside it. The meal does not need to be perfect. It should be realistic enough to repeat during work, family life, travel, training or a normal shopping week."
+        ],
+        [
+          "Polish kitchen context",
+          "In a Polish kitchen, simple staples often work well: rye bread, groats, potatoes, oats, eggs, dairy, tofu, pulses, fish, frozen vegetables, fermented vegetables and seasonal fruit. Choose foods that match your budget, cooking skills and tolerance."
+        ],
+        [
+          "Common traps",
+          "The main trap is taking dry powder, increasing too fast or using psyllium instead of investigating symptoms. Another is judging one food without looking at the whole day. A third is changing many things at once, which makes it difficult to know what actually helped."
+        ],
+        [
+          "A 7-day plan",
+          "Choose one change for the next week, write down two or three observations a day and resist redesigning the plan every morning. Useful signals include energy, hunger, gut comfort, sleep, meal regularity and whether the plan feels repeatable."
+        ],
+        [
+          "When to seek support",
+          "Speak with a doctor or dietitian if you notice swallowing difficulty, gut narrowing, severe abdominal pain or medication interactions. Support is also important when food starts to create fear, guilt, compensatory behaviour or an ever-growing list of rules."
+        ]
+      ],
+      "faq": [
+        [
+          "Do I need to change everything at once?",
+          "No. It is usually better to choose one change for 7-14 days and then review the effect. Too many changes at once make observation harder and increase tension around food."
+        ],
+        [
+          "Do I need special products?",
+          "Usually not. Most situations can start with simple supermarket foods: vegetables, fruit, protein foods, higher-fibre grains, fluids and products matched to individual tolerance."
+        ],
+        [
+          "When is diet not enough?",
+          "Diet is not enough when alarm symptoms appear, when a condition needs treatment, when test results are abnormal or when the situation includes swallowing difficulty, gut narrowing, severe abdominal pain or medication interactions."
+        ]
+      ],
+      "safety": "This article is educational and does not replace diagnosis, treatment or an individual medical or nutrition consultation. Do not stop medication or change medical advice based on this text."
+    }
+  },
+  "sources": [
+    {
+      "title": "GIS: Suplementy diety",
+      "url": "https://www.gov.pl/web/gis/suplementy-diety"
+    },
+    {
+      "title": "NCEZ: Suplementy diety - co warto wiedzieć",
+      "url": "https://ncez.pzh.gov.pl/abc-zywienia/suplementy-diety-co-warto-o-nich-wiedziec/"
+    },
+    {
+      "title": "EFSA: Dietary reference values",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values"
+    },
+    {
+      "title": "WHO: Healthy diet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+    },
+    {
+      "title": "Pacjent.gov.pl: Jak zdrowo się odżywiać",
+      "url": "https://pacjent.gov.pl/diety/jak-zdrowo-sie-odzywiac"
+    },
+    {
+      "title": "NCEZ: Talerz Zdrowego Żywienia",
+      "url": "https://ncez.pzh.gov.pl/abc-zywienia/talerz-zdrowego-zywienia/"
+    }
+  ],
+  "internal_links": [
+    {
+      "title_pl": "Jelita, mikrobiota i trawienie",
+      "title_en": "Gut, microbiota and digestion",
+      "url": "https://nataliacorvo.com/articles/jelita-mikrobiota-trawienie.html"
+    },
+    {
+      "title_pl": "Dieta low FODMAP przy IBS",
+      "title_en": "Low-FODMAP diet for IBS",
+      "url": "https://nataliacorvo.com/articles/dieta-low-fodmap-ibs.html"
+    },
+    {
+      "title_pl": "Dieta na zaparcia: co jeść",
+      "title_en": "Diet for constipation: what to eat",
+      "url": "https://nataliacorvo.com/articles/dieta-na-zaparcia-co-jesc.html"
+    }
+  ],
+  "image": {
+    "file": "cover.jpg",
+    "alt_pl": "Ilustracja do szkicu: Psyllium - kiedy ma sens - prosty talerz i produkty spożywcze",
+    "alt_en": "Illustration for draft: Psyllium: when it makes sense - a simple plate and food products",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Good_Food_Display_-_NCI_Visuals_Online.jpg",
+    "license": "Public domain / NCI Visuals Online via Wikimedia Commons",
+    "attribution": "Unknown author, National Cancer Institute Visuals Online, Public domain, via Wikimedia Commons",
+    "selection_note": "Public-domain fallback reused for draft consistency; topic-specific sources are listed separately."
+  },
+  "safety_note_pl": "Artykuł ma charakter edukacyjny i nie zastępuje diagnozy, leczenia ani indywidualnej konsultacji medycznej lub dietetycznej. Nie odstawiaj leków i nie zmieniaj zaleceń lekarskich na podstawie tekstu.",
+  "safety_note_en": "This article is educational and does not replace diagnosis, treatment or an individual medical or nutrition consultation. Do not stop medication or change medical advice based on this text.",
+  "claim_avoidance_notes": [
+    "No cure claims",
+    "No guaranteed weight-loss promises",
+    "No detox/hormone reset language",
+    "No medication changes without clinician",
+    "No restrictive elimination without a clear reason and support"
+  ]
+}
