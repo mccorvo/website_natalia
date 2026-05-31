@@ -9,7 +9,6 @@ const articleFiles = readdirSync(path.join(root, "articles"))
 
 const htmlFiles = [
   "index.html",
-  "en/index.html",
   "pl/index.html",
   "book.html",
   "blog.html",
@@ -22,6 +21,7 @@ const htmlFiles = [
 ];
 
 const requiredFiles = [
+  "_redirects",
   ".assetsignore",
   "README.md",
   "4e1fd93f8849388e2322e32b45921a4a.txt",

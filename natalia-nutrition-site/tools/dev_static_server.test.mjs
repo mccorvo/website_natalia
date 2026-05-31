@@ -17,6 +17,18 @@ test("serves the site index from the project root", async (t) => {
   assert.match(await response.text(), /<html/i);
 });
 
+test("redirects the retired English landing page to the canonical homepage", async (t) => {
+  const server = createStaticServer({ root: process.cwd() });
+  await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+  t.after(() => server.close());
+
+  const { port } = server.address();
+  const response = await fetch(`http://127.0.0.1:${port}/en/`, { redirect: "manual" });
+
+  assert.equal(response.status, 301);
+  assert.equal(response.headers.get("location"), "/");
+});
+
 test("does not serve files outside the project root", async (t) => {
   const server = createStaticServer({ root: path.join(process.cwd(), "assets") });
   await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));

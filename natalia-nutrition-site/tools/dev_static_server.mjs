@@ -1,4 +1,4 @@
-import { createReadStream } from "node:fs";
+import { createReadStream, existsSync, readFileSync } from "node:fs";
 import { stat } from "node:fs/promises";
 import http from "node:http";
 import path from "node:path";
@@ -27,6 +27,44 @@ function sendStatus(response, statusCode, message) {
     "x-content-type-options": "nosniff"
   });
   response.end(`${message}\n`);
+}
+
+function loadRedirects(root) {
+  const redirectsPath = path.join(root, "_redirects");
+  if (!existsSync(redirectsPath)) return [];
+
+  return readFileSync(redirectsPath, "utf8")
+    .split(/\r?\n/u)
+    .map((line) => line.trim())
+    .filter((line) => line && !line.startsWith("#"))
+    .map((line) => {
+      const [source, destination, rawCode] = line.split(/\s+/u);
+      const code = Number(rawCode || 302);
+      return { source, destination, code };
+    })
+    .filter((rule) => rule.source && rule.destination && [301, 302, 303, 307, 308].includes(rule.code));
+}
+
+function matchesRedirectSource(source, pathname) {
+  if (source.endsWith("/*")) {
+    const prefix = source.slice(0, -1);
+    return pathname.startsWith(prefix);
+  }
+
+  return pathname === source;
+}
+
+function findRedirect(redirects, requestUrl) {
+  const url = new URL(requestUrl ?? "/", "http://localhost");
+  let pathname;
+
+  try {
+    pathname = decodeURIComponent(url.pathname);
+  } catch {
+    return null;
+  }
+
+  return redirects.find((rule) => matchesRedirectSource(rule.source, pathname)) || null;
 }
 
 function isInsideRoot(root, filePath) {
@@ -73,10 +111,21 @@ async function findStaticFile(root, requestUrl) {
 
 export function createStaticServer({ root = process.cwd() } = {}) {
   const resolvedRoot = path.resolve(root);
+  const redirects = loadRedirects(resolvedRoot);
 
   return http.createServer(async (request, response) => {
     if (request.method !== "GET" && request.method !== "HEAD") {
       sendStatus(response, 405, "Method not allowed");
+      return;
+    }
+
+    const redirect = findRedirect(redirects, request.url);
+    if (redirect) {
+      response.writeHead(redirect.code, {
+        "location": redirect.destination,
+        "x-content-type-options": "nosniff"
+      });
+      response.end();
       return;
     }
 

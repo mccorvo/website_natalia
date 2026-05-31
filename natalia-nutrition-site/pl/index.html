@@ -9,9 +9,6 @@
   <link rel="canonical" href="https://nataliacorvo.com/pl/">
   <link rel="alternate" hreflang="x-default" href="https://nataliacorvo.com/">
   <link rel="alternate" hreflang="pl" href="https://nataliacorvo.com/pl/">
-  <link rel="alternate" hreflang="en" href="https://nataliacorvo.com/en/">
-  <link rel="alternate" hreflang="en-ie" href="https://nataliacorvo.com/en/">
-  <link rel="alternate" hreflang="en-gb" href="https://nataliacorvo.com/en/">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../css/styles.css">
   <meta property="og:title" content="Natalia Corvo | Specjalistka żywienia online: Irlandia, UK, Polska">
@@ -20,8 +17,6 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://nataliacorvo.com/pl/">
   <meta property="og:locale" content="pl_PL">
-  <meta property="og:locale:alternate" content="en_IE">
-  <meta property="og:locale:alternate" content="en_GB">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Natalia Corvo | Specjalistka żywienia online: Irlandia, UK, Polska">
   <meta name="twitter:description" content="Natalia Corvo, specjalistka żywienia online: konsultacje po polsku i angielsku dla Dublina, Irlandii, UK, Polski i online.">
@@ -149,7 +144,7 @@
             <span class="lang-chevron" aria-hidden="true"></span>
           </button>
           <div class="lang-menu" data-static-lang-panel role="listbox" aria-label="Przełącznik języka">
-            <a class="lang-option" href="../en/" role="option" aria-selected="false">EN</a>
+            <a class="lang-option" href="../index.html" role="option" aria-selected="false" data-static-lang-target="en">EN</a>
             <a class="lang-option active" href="../pl/" role="option" aria-selected="true" aria-current="page">PL</a>
           </div>
         </div>
@@ -282,7 +277,7 @@
       <strong>Strony</strong>
       <ul class="footer-links">
         <li><a href="../index.html">Start</a></li>
-        <li><a href="../en/">English page</a></li>
+        <li><a href="../index.html" data-static-lang-target="en">English</a></li>
         <li><a href="../blog.html">Blog</a></li>
         <li><a href="../autotest.html">Autotest</a></li>
         <li><a href="../children-eating-difficulties/">Dzieci</a></li>
@@ -331,6 +326,16 @@
         }
       });
     }
+
+    document.querySelectorAll('[data-static-lang-target]').forEach((link) => {
+      link.addEventListener('click', () => {
+        try {
+          localStorage.setItem('natalia-site-lang', link.dataset.staticLangTarget);
+        } catch (error) {
+          // The main bilingual page will fall back to Polish if storage is unavailable.
+        }
+      });
+    });
   })();
 </script>
 </body>
