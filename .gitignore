@@ -14,6 +14,9 @@
 **/.vercel/
 **/.automation-worktrees/
 
+# The backup root is not an npm package; keep the real site lockfile tracked.
+/package-lock.json
+
 # Logs
 *.log
 npm-debug.log*
