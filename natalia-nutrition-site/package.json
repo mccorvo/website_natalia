@@ -1,12 +1,14 @@
 {
   "scripts": {
     "dev": "node tools/dev_static_server.mjs",
-    "typecheck": "node --check js/main.js && node --check js/autotest-config.mjs && node --check js/autotest.js && node --check js/children-eating-difficulties.js && node --check tools/lib/commons_cover_search.mjs && node --check tools/publish_next_article.mjs && node --check tools/publish_weekly_trend_article.mjs && node --check tools/dev_static_server.mjs",
-    "test": "node --test tools/commons_cover_search.test.mjs tools/dev_static_server.test.mjs",
+    "typecheck": "node --check js/main.js && node --check js/autotest-config.mjs && node --check js/autotest.js && node --check js/children-eating-difficulties.js && node --check tools/lib/commons_cover_search.mjs && node --check tools/lib/reviewed_daily_publisher.mjs && node --check tools/publish_next_article.mjs && node --check tools/publish_weekly_trend_article.mjs && node --check tools/publish_reviewed_daily_article.mjs && node --check tools/dev_static_server.mjs",
+    "test": "node --test tools/commons_cover_search.test.mjs tools/dev_static_server.test.mjs tools/reviewed_daily_publisher.test.mjs",
     "lint": "node tools/validate_static_site.mjs",
     "build": "node tools/validate_static_site.mjs",
     "prepublish-check": "node tools/verify_publish_ready.mjs",
-    "deploy": "wrangler deploy"
+    "deploy": "wrangler deploy",
+    "reviewed-daily:dry-run": "node tools/publish_reviewed_daily_article.mjs --dry-run",
+    "reviewed-daily:publish": "node tools/publish_reviewed_daily_article.mjs --publish"
   },
   "devDependencies": {
     "wrangler": "^4.0.0"

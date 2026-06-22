@@ -1,0 +1,125 @@
+name: Daily reviewed nutrition publisher
+
+on:
+  schedule:
+    - cron: "0 8,9 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode"
+        required: true
+        default: "dry-run"
+        type: choice
+        options:
+          - dry-run
+          - publish
+      force_slug:
+        description: "Optional queued slug to force through normal gates"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-reviewed-nutrition-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: natalia-nutrition-site
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Fetch draft branch
+        run: git fetch origin main codex/draft-50-more-polish-nutrition-articles --prune
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: natalia-nutrition-site/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run reviewed publisher
+        id: publish
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5.5' }}
+        run: |
+          MODE="${{ github.event_name == 'workflow_dispatch' && inputs.mode || 'publish' }}"
+          FORCE="${{ github.event_name == 'workflow_dispatch' && inputs.force_slug || '' }}"
+          if [ "$MODE" = "dry-run" ]; then
+            if [ -n "$FORCE" ]; then
+              node tools/publish_reviewed_daily_article.mjs --dry-run --force-slug="$FORCE"
+            else
+              node tools/publish_reviewed_daily_article.mjs --dry-run
+            fi
+          else
+            if [ -n "$FORCE" ]; then
+              node tools/publish_reviewed_daily_article.mjs --publish --force-slug="$FORCE"
+            else
+              node tools/publish_reviewed_daily_article.mjs --publish
+            fi
+          fi
+
+      - name: Show changed files
+        if: steps.publish.outputs.changed == 'true'
+        run: git diff --name-status
+
+      - name: Assert safe changed files
+        if: steps.publish.outputs.changed == 'true'
+        run: |
+          node --input-type=module <<'NODE'
+          import { execFileSync } from "node:child_process";
+          import { assertSafeChangedFiles } from "./tools/lib/reviewed_daily_publisher.mjs";
+          const files = execFileSync("git", ["diff", "--name-only"], { encoding: "utf8" })
+            .split(/\r?\n/u)
+            .filter(Boolean);
+          assertSafeChangedFiles(files);
+          NODE
+
+      - name: Verify site
+        if: steps.publish.outputs.changed == 'true'
+        run: |
+          npm run typecheck
+          npm run test
+          npm run lint
+          npm run build
+
+      - name: Commit changed state or article
+        if: steps.publish.outputs.changed == 'true'
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add blog.html sitemap.xml articles assets/images/blog data/weekly-trend-publishing/automation-state.json
+          git commit -m "feat: automate daily reviewed nutrition article publishing"
+          echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Record publication commit
+        if: steps.publish.outputs.published == 'true'
+        run: |
+          node tools/publish_reviewed_daily_article.mjs --record-commit="${{ steps.commit.outputs.commit }}" --slug="${{ steps.publish.outputs.slug }}"
+          git add data/weekly-trend-publishing/automation-state.json
+          git commit -m "chore: record daily publisher commit"
+
+      - name: Push changes
+        if: steps.publish.outputs.changed == 'true'
+        run: git push origin HEAD:main
+
+      - name: Deploy published article
+        if: steps.publish.outputs.published == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npm run deploy
