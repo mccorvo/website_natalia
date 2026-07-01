@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: daily-article-publisher-main
+  group: nataliacorvo-publisher-main
   cancel-in-progress: false
 
 defaults:
@@ -149,13 +149,33 @@ jobs:
           git add "articles/${PUBLISHED_SLUG}.html" "assets/images/blog/${PUBLISHED_SLUG}-cover."* blog.html sitemap.xml data/article-publishing/state.json
           git commit -m "Publish article: ${PUBLISHED_SLUG}"
 
+      - name: Rebase publish commit onto latest main
+        if: steps.diff.outputs.has_changes == 'true'
+        run: |
+          git fetch origin main --prune
+          git rebase origin/main
+
       - name: Run prepublish check
         if: steps.diff.outputs.has_changes == 'true'
         run: npm run prepublish-check
 
       - name: Push to main
         if: steps.diff.outputs.has_changes == 'true'
-        run: git push origin HEAD:main
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            if [ "$attempt" = "3" ]; then
+              echo "Push failed after 3 attempts."
+              exit 1
+            fi
+            echo "Push failed; rebasing onto latest origin/main before retry $((attempt + 1))."
+            git fetch origin main --prune
+            git rebase origin/main
+            npm run prepublish-check
+          done
 
       - name: Deploy to Cloudflare
         if: steps.diff.outputs.has_changes == 'true' && steps.deploy_secrets.outputs.cloudflare_available == 'true'

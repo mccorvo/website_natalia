@@ -6,6 +6,18 @@ Static bilingual website for Natalia Corvo, a Polish nutrition professional in D
 
 The live site at `https://nataliacorvo.com/` and the synced `origin/main` commit are the clean baseline for all future work. For Codex or any automated edits, follow `AGENTS.md` and `DEPLOY_LOCK.md` before committing, pushing or deploying.
 
+Canonical project:
+
+- Production repository: `mccorvo/website_natalia`
+- Site directory: `natalia-nutrition-site`
+- Cloudflare Worker: `nataliacorvo`
+- Legacy/non-production duplicate: `mccorvo/nataliacorvo`
+
+Only the root `.github/workflows/` directory is active for GitHub Actions. Do not
+restore nested workflow copies under `natalia-nutrition-site/.github/workflows/`.
+The weekly trend publisher needs `OPENAI_API_KEY`; keep that workflow disabled
+until the secret is intentionally added to `mccorvo/website_natalia`.
+
 Current approved live baseline:
 
 - latest verified deploy: `9dda1dc1-d2cb-4223-b89f-de74663a363c`
